@@ -1,0 +1,541 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>BitDevs Map — Kyra Labs</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet" />
+<style>
+/* ============================================================
+   KYRA LABS — tokens (dark mode subset)
+   ============================================================ */
+:root{
+  --kyra-orange:#E36F46;
+  --orange-400:#EA8A66;
+  --orange-600:#C5572F;
+  --kyra-red:#9E2023;
+  --kyra-cyan:#00ADD8;
+
+  --ink-000:#FFFFFF;
+  --ink-100:#ECECEE;
+  --ink-200:#D7D8DB;
+  --ink-300:#B5B7BC;
+  --ink-400:#888B92;
+  --ink-500:#5E6168;
+  --ink-600:#404349;
+  --ink-700:#2B2D31;
+  --ink-800:#1B1C1F;
+  --ink-900:#0E0F11;
+  --ink-950:#060607;
+
+  --bg:var(--ink-950);
+  --surface:#101113;
+  --surface-2:#16171a;
+  --border:#26282c;
+  --border-strong:#34373c;
+
+  --text-strong:#F4F4F5;
+  --text-body:var(--ink-300);
+  --text-muted:var(--ink-400);
+  --text-faint:#6a6d74;
+
+  --land-dot:rgba(156,161,170,0.55);
+
+  --mono:'JetBrains Mono',ui-monospace,SFMono-Regular,Menlo,monospace;
+  --sans:'Helvetica Neue',Helvetica,Arial,sans-serif;
+
+  --maxw:1240px;
+  --ease:cubic-bezier(0.2,0,0,1);
+}
+
+*{box-sizing:border-box}
+html,body{margin:0}
+body{
+  background:var(--bg);
+  color:var(--text-body);
+  font-family:var(--sans);
+  -webkit-font-smoothing:antialiased;
+  text-rendering:optimizeLegibility;
+  line-height:1.55;
+  min-height:100vh;
+}
+a{color:inherit}
+
+.wrap{max-width:var(--maxw);margin:0 auto;padding:0 32px}
+
+/* ---- eyebrow / labels ---- */
+.eyebrow{
+  font-family:var(--mono);
+  font-size:11.5px;
+  font-weight:500;
+  letter-spacing:.26em;
+  text-transform:uppercase;
+  color:var(--kyra-orange);
+  margin:0;
+}
+.mono{font-family:var(--mono)}
+
+/* ============================================================
+   HEADER
+   ============================================================ */
+.topbar{
+  border-bottom:1px solid var(--border);
+  position:sticky;top:0;z-index:40;
+  background:rgba(6,6,7,.82);
+  backdrop-filter:blur(8px);
+  -webkit-backdrop-filter:blur(8px);
+}
+.topbar .wrap{display:flex;align-items:center;justify-content:space-between;height:64px}
+.brand{display:flex;align-items:center;gap:11px;text-decoration:none}
+.brand .mark{width:22px;height:22px;display:block}
+.brand .bmark{width:24px;height:24px;border-radius:50%;background:var(--kyra-orange);display:grid;place-items:center;flex:none;box-shadow:0 1px 6px rgba(0,0,0,.4)}
+.brand .bmark span{color:#fff;font:700 15px/1 var(--sans);transform:rotate(12deg)}
+.brand .name{font-size:14px;font-weight:700;color:var(--text-strong);letter-spacing:-0.01em}
+.brand .name b{color:var(--kyra-orange);font-weight:700}
+.topbar nav{display:flex;align-items:center;gap:26px}
+.topbar nav a{
+  font-family:var(--mono);font-size:12px;letter-spacing:.04em;
+  text-decoration:none;color:var(--text-muted);transition:color .18s var(--ease);
+}
+.topbar nav a:hover{color:var(--text-strong)}
+.topbar .ext{color:var(--kyra-orange)}
+
+/* ============================================================
+   HERO
+   ============================================================ */
+.hero{padding:74px 0 30px}
+.hero-head{max-width:760px}
+.hero h1{
+  font-family:var(--sans);
+  font-weight:700;
+  font-size:clamp(40px,6vw,68px);
+  line-height:1.02;
+  letter-spacing:-0.025em;
+  color:var(--text-strong);
+  margin:18px 0 0;
+}
+.hero h1 .accent{color:var(--kyra-orange)}
+.hero p.lede{
+  font-size:clamp(16px,1.5vw,19px);
+  color:var(--text-body);
+  margin:20px 0 0;
+  max-width:620px;
+  text-wrap:pretty;
+}
+
+/* ---- meta strip ---- */
+.metastrip{
+  display:flex;flex-wrap:wrap;align-items:center;gap:14px 26px;
+  margin-top:30px;
+  font-family:var(--mono);font-size:12.5px;color:var(--text-muted);
+}
+.metastrip .stat{display:flex;align-items:baseline;gap:8px}
+.metastrip .stat b{color:var(--text-strong);font-size:15px;font-weight:700}
+.metastrip .legend{display:flex;align-items:center;gap:9px}
+.metastrip .legend .swatch{
+  width:11px;height:11px;border-radius:50%;background:var(--kyra-orange);
+  box-shadow:0 0 0 4px rgba(227,111,70,.16);
+}
+.metastrip .sep{width:1px;height:16px;background:var(--border-strong)}
+
+/* ============================================================
+   MAP
+   ============================================================ */
+.mapsection{padding:26px 0 8px}
+.map-frame{
+  position:relative;
+  border:1px solid var(--border);
+  border-radius:6px;
+  background:
+    radial-gradient(120% 120% at 50% 0%, #15171b 0%, #0a0b0d 72%);
+  overflow:hidden;
+}
+.map-frame::before{
+  /* faint corner ticks / brand grid feel */
+  content:"";position:absolute;inset:0;pointer-events:none;
+  background-image:
+    linear-gradient(var(--border) 1px,transparent 1px),
+    linear-gradient(90deg,var(--border) 1px,transparent 1px);
+  background-size:64px 64px;
+  opacity:.20;
+  mask-image:radial-gradient(120% 90% at 50% 35%,#000 30%,transparent 78%);
+  -webkit-mask-image:radial-gradient(120% 90% at 50% 35%,#000 30%,transparent 78%);
+}
+.map-stage{
+  position:relative;
+  width:100%;
+  aspect-ratio:1600 / 815;
+}
+#dots{position:absolute;inset:0;width:100%;height:100%;display:block}
+
+.map-loading{
+  position:absolute;inset:0;display:flex;align-items:center;justify-content:center;
+  font-family:var(--mono);font-size:12px;letter-spacing:.18em;text-transform:uppercase;
+  color:var(--text-faint);
+  transition:opacity .4s var(--ease);
+}
+
+/* ---- markers ---- */
+.marker{
+  position:absolute;
+  width:0;height:0;
+  transform:translate(-50%,-50%);
+  z-index:5;
+  text-decoration:none;
+  outline:none;
+}
+.marker .dot{
+  position:absolute;left:0;top:0;transform:translate(-50%,-50%);
+  width:13px;height:13px;border-radius:50%;
+  background:var(--kyra-orange);
+  border:2px solid #1b0f0a;
+  box-shadow:0 0 0 4px rgba(227,111,70,.14), 0 1px 6px rgba(0,0,0,.5);
+  transition:transform .2s var(--ease),box-shadow .2s var(--ease);
+}
+.marker .ring{
+  position:absolute;left:0;top:0;transform:translate(-50%,-50%);
+  width:13px;height:13px;border-radius:50%;
+  border:1.5px solid var(--kyra-orange);
+  opacity:0;
+}
+@media (prefers-reduced-motion:no-preference){
+  .marker .ring{animation:ping 2.8s var(--ease) infinite}
+  .marker:nth-of-type(2) .ring{animation-delay:.9s}
+  .marker:nth-of-type(3) .ring{animation-delay:1.8s}
+}
+@keyframes ping{
+  0%{opacity:.55;transform:translate(-50%,-50%) scale(1)}
+  70%,100%{opacity:0;transform:translate(-50%,-50%) scale(3.6)}
+}
+.marker:hover .dot,.marker:focus-visible .dot,.marker.is-active .dot{
+  transform:translate(-50%,-50%) scale(1.28);
+  box-shadow:0 0 0 5px rgba(227,111,70,.22), 0 2px 10px rgba(0,0,0,.6);
+}
+
+/* ---- tooltip ---- */
+.marker .tip{
+  position:absolute;left:0;top:0;
+  transform:translate(-50%,calc(-100% - 16px));
+  background:var(--ink-000);
+  color:var(--ink-900);
+  padding:7px 11px 8px;
+  border-radius:5px;
+  white-space:nowrap;
+  font-size:13px;font-weight:700;letter-spacing:-0.01em;
+  line-height:1.15;
+  box-shadow:0 6px 22px rgba(0,0,0,.5);
+  opacity:0;pointer-events:none;
+  transition:opacity .16s var(--ease),transform .16s var(--ease);
+}
+.marker .tip i{
+  display:block;font-style:normal;font-weight:500;
+  font-family:var(--mono);font-size:10.5px;letter-spacing:.06em;
+  color:var(--ink-500);margin-top:2px;text-transform:uppercase;
+}
+.marker .tip::after{
+  content:"";position:absolute;left:50%;bottom:-5px;transform:translateX(-50%) rotate(45deg);
+  width:9px;height:9px;background:var(--ink-000);border-radius:1px;
+}
+.marker:hover .tip,.marker:focus-visible .tip,.marker.is-active .tip{
+  opacity:1;transform:translate(-50%,calc(-100% - 11px));
+}
+
+.map-foot{
+  display:flex;flex-wrap:wrap;justify-content:space-between;gap:10px 20px;
+  margin-top:14px;
+  font-family:var(--mono);font-size:11.5px;letter-spacing:.04em;color:var(--text-faint);
+}
+.map-foot .k{color:var(--text-muted)}
+
+/* ============================================================
+   CITY INDEX
+   ============================================================ */
+.cities{padding:54px 0 70px}
+.cities-head{display:flex;align-items:baseline;justify-content:space-between;gap:20px;margin-bottom:22px}
+.cities-head h2{
+  font-family:var(--sans);font-weight:700;font-size:22px;letter-spacing:-0.02em;
+  color:var(--text-strong);margin:0;
+}
+.cities-head .count{font-family:var(--mono);font-size:12.5px;color:var(--text-muted)}
+.city-grid{
+  display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:14px;
+}
+.city-card{
+  display:flex;align-items:center;justify-content:space-between;gap:14px;
+  padding:18px 18px;
+  background:var(--surface);
+  border:1px solid var(--border);
+  border-radius:6px;
+  text-decoration:none;
+  transition:border-color .2s var(--ease),background .2s var(--ease),transform .2s var(--ease);
+}
+.city-card:hover,.city-card:focus-visible{
+  border-color:var(--orange-600);
+  background:var(--surface-2);
+  outline:none;
+}
+.city-card .info{display:flex;align-items:center;gap:13px;min-width:0}
+.city-card .pin{
+  flex:none;width:9px;height:9px;border-radius:50%;background:var(--kyra-orange);
+  box-shadow:0 0 0 3px rgba(227,111,70,.16);
+}
+.city-card .txt{min-width:0}
+.city-card .cy{display:block;font-size:16px;font-weight:700;color:var(--text-strong);letter-spacing:-0.01em}
+.city-card .co{
+  display:block;font-family:var(--mono);font-size:11px;letter-spacing:.08em;text-transform:uppercase;
+  color:var(--text-muted);margin-top:3px;
+}
+.city-card .go{
+  flex:none;font-family:var(--mono);font-size:11px;letter-spacing:.06em;color:var(--text-faint);
+  display:flex;align-items:center;gap:6px;transition:color .2s var(--ease)
+}
+.city-card:hover .go,.city-card:focus-visible .go{color:var(--kyra-orange)}
+.city-card .go svg{width:13px;height:13px}
+
+/* ============================================================
+   FOOTER
+   ============================================================ */
+footer{border-top:1px solid var(--border);background:#08090a}
+footer .wrap{
+  padding:30px 32px 32px;
+  display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:28px;
+}
+.foot-left{display:flex;align-items:center;gap:20px}
+.foot-left img{width:42px;height:auto;display:block;filter:drop-shadow(0 4px 14px rgba(0,0,0,.4))}
+.foot-left .ftxt .l1{font-size:14px;font-weight:700;color:var(--text-strong)}
+.foot-left .ftxt .l1 b{color:var(--kyra-orange)}
+.foot-left .ftxt .l2{font-family:var(--mono);font-size:11.5px;letter-spacing:.04em;color:var(--text-faint);margin-top:5px}
+.foot-right{max-width:360px}
+.foot-right .pr{
+  font-size:13.5px;color:var(--text-body);line-height:1.6;text-wrap:pretty;
+}
+.foot-right .pr a{color:var(--kyra-orange);text-decoration:none;border-bottom:1px solid rgba(227,111,70,.4)}
+.foot-right .pr a:hover{border-bottom-color:var(--kyra-orange)}
+.foot-right .tag{
+  display:inline-block;margin-top:14px;
+  font-family:var(--mono);font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--text-faint);
+}
+
+@media (max-width:680px){
+  .wrap{padding:0 20px}
+  .topbar nav a:not(.ext){display:none}
+  .hero{padding:48px 0 18px}
+  footer .wrap{flex-direction:column;align-items:flex-start;gap:22px;padding:28px 20px 30px}
+}
+</style>
+</head>
+<body>
+
+<!-- ============================================================
+     HEADER
+     ============================================================ -->
+<header class="topbar">
+  <div class="wrap">
+    <a class="brand" href="#mapa">
+      <span class="bmark" aria-hidden="true"><span>₿</span></span>
+      <span class="name">BitDevs <b>Map</b></span>
+    </a>
+    <nav>
+      <a href="#mapa">Map</a>
+      <a href="#ciudades">Cities</a>
+      <a class="ext" href="https://bitdevs.org/about" target="_blank" rel="noopener">What is BitDevs? ↗</a>
+    </nav>
+  </div>
+</header>
+
+<!-- ============================================================
+     HERO
+     ============================================================ -->
+<section class="hero" id="mapa">
+  <div class="wrap">
+    <div class="hero-head">
+      <p class="eyebrow">Global community map</p>
+      <h1>BitDevs around <br /><span class="accent">the world</span></h1>
+      <p class="lede">Socratic seminars where developers gather to discuss changes to the Bitcoin protocol and the technologies around it. Find your city on the map.</p>
+    </div>
+
+    <div class="metastrip">
+      <span class="stat"><b id="city-count">3</b> active cities</span>
+      <span class="sep"></span>
+      <span class="legend"><span class="swatch"></span> City with BitDevs</span>
+      <span class="sep"></span>
+      <span>Natural Earth projection</span>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     MAP
+     ============================================================ -->
+<section class="mapsection">
+  <div class="wrap">
+    <div class="map-frame">
+      <div class="map-stage">
+        <canvas id="dots"></canvas>
+        <div class="map-loading" id="map-loading">Loading map…</div>
+        <!-- markers injected here -->
+      </div>
+    </div>
+    <div class="map-foot">
+      <span><span class="k">Interaction</span> &nbsp;·&nbsp; hover to see the city, click to open the site</span>
+      <span class="k">datos · bitdevs-map · open source</span>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     CITY INDEX
+     ============================================================ -->
+<section class="cities" id="ciudades">
+  <div class="wrap">
+    <div class="cities-head">
+      <h2>Cities with BitDevs</h2>
+      <span class="count" id="city-count-2">03 / growing</span>
+    </div>
+    <div class="city-grid" id="city-grid"><!-- injected --></div>
+  </div>
+</section>
+
+<!-- ============================================================
+     FOOTER
+     ============================================================ -->
+<footer>
+  <div class="wrap">
+    <div class="foot-left">
+      <img src="assets/kyra-sticker.png" alt="Kyra Labs" />
+    </div>
+    <div class="foot-right">
+      <p class="pr">Your city isn't on the map yet? Add it with a Pull Request — include the city, its coordinates and the BitDevs link in <a href="#ciudades">the city list</a>.</p>
+    </div>
+  </div>
+</footer>
+
+<!-- ============================================================
+     DATA + MAP ENGINE
+     ============================================================ -->
+<script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/topojson-client@3.1.0/dist/topojson-client.min.js"></script>
+<script>
+/* ============================================================
+   BITDEVS — edit this list to add your city.
+   { city, country, lat, lng, url }
+   Coordinates are decimal degrees (lat, lng). Open a PR!
+   ============================================================ */
+const BITDEVS = [
+  { city: "Buenos Aires", country: "Argentina", lat: -34.6037, lng: -58.3816, url: "https://www.bitdevsba.org" },
+  { city: "Córdoba",      country: "Argentina", lat: -31.4201, lng: -64.1888, url: "https://bitdevscordoba.org" },
+  { city: "Santiago",     country: "Chile",     lat: -33.4489, lng: -70.6693, url: "https://santiagobitdevs.org" }
+];
+
+const W = 1600, H = 815;
+const projection = d3.geoNaturalEarth1();
+
+const stage   = document.querySelector('.map-stage');
+const canvas  = document.getElementById('dots');
+const loading = document.getElementById('map-loading');
+
+function draw(land){
+  // fit projection to the land features within the internal box
+  projection.fitExtent([[26,26],[W-26,H-26]], land);
+
+  // 1) rasterize land to an offscreen canvas for fast point-in-land tests
+  const off = document.createElement('canvas');
+  off.width = W; off.height = H;
+  const octx = off.getContext('2d');
+  const path = d3.geoPath(projection, octx);
+  octx.fillStyle = '#fff';
+  octx.beginPath(); path(land); octx.fill();
+  const data = octx.getImageData(0, 0, W, H).data;
+  const isLand = (x, y) => data[((y|0) * W + (x|0)) * 4 + 3] > 130;
+
+  // 2) draw the dotted land on the visible (retina) canvas
+  const dpr = Math.min(window.devicePixelRatio || 1, 2);
+  canvas.width = W * dpr; canvas.height = H * dpr;
+  const ctx = canvas.getContext('2d');
+  ctx.scale(dpr, dpr);
+  ctx.fillStyle = getComputedStyle(document.documentElement).getPropertyValue('--land-dot').trim() || 'rgba(140,143,151,.3)';
+
+  const gap = 9, r = 1.6;
+  let row = 0;
+  for (let y = gap; y < H; y += gap * 0.9) {
+    const xoff = (row % 2) ? gap / 2 : 0;
+    for (let x = gap + xoff; x < W; x += gap) {
+      if (isLand(x, y)) {
+        ctx.beginPath();
+        ctx.arc(x, y, r, 0, Math.PI * 2);
+        ctx.fill();
+      }
+    }
+    row++;
+  }
+
+  // 3) place orange markers + build city index, then wire mutual highlight
+  const markers = {};
+  BITDEVS.forEach((d, i) => {
+    const p = projection([d.lng, d.lat]);
+    if (!p) return;
+    const a = document.createElement('a');
+    a.className = 'marker';
+    a.href = d.url; a.target = '_blank'; a.rel = 'noopener';
+    a.style.left = (p[0] / W * 100) + '%';
+    a.style.top  = (p[1] / H * 100) + '%';
+    a.setAttribute('aria-label', d.city + ', ' + d.country + ' — open site');
+    a.innerHTML =
+      '<span class="ring"></span><span class="dot"></span>' +
+      '<span class="tip">' + d.city + '<i>' + d.country + '</i></span>';
+    stage.appendChild(a);
+    markers[i] = a;
+  });
+
+  buildCityIndex(markers);
+  loading.style.opacity = '0';
+  setTimeout(() => loading.remove(), 450);
+}
+
+function buildCityIndex(markers){
+  const grid = document.getElementById('city-grid');
+  const arrow = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7"/><path d="M8 7h9v9"/></svg>';
+  BITDEVS.forEach((d, i) => {
+    const a = document.createElement('a');
+    a.className = 'city-card';
+    a.href = d.url; a.target = '_blank'; a.rel = 'noopener';
+    a.innerHTML =
+      '<span class="info"><span class="pin"></span><span class="txt">' +
+        '<span class="cy">' + d.city + '</span>' +
+        '<span class="co">' + d.country + '</span>' +
+      '</span></span>' +
+      '<span class="go">visit ' + arrow + '</span>';
+    const m = markers[i];
+    if (m) {
+      const on  = () => m.classList.add('is-active');
+      const off = () => m.classList.remove('is-active');
+      a.addEventListener('mouseenter', on);
+      a.addEventListener('mouseleave', off);
+      a.addEventListener('focus', on);
+      a.addEventListener('blur', off);
+    }
+    grid.appendChild(a);
+  });
+
+  const n = BITDEVS.length;
+  document.getElementById('city-count').textContent = n;
+  document.getElementById('city-count-2').textContent =
+    String(n).padStart(2, '0') + ' / growing';
+}
+
+(async function init(){
+  try{
+    const res = await fetch('https://cdn.jsdelivr.net/npm/world-atlas@2.0.2/land-110m.json');
+    const topo = await res.json();
+    const land = topojson.feature(topo, topo.objects.land);
+    draw(land);
+  }catch(err){
+    console.error('No se pudo cargar el mapa base:', err);
+    if (loading) loading.textContent = 'Could not load base map';
+  }
+})();
+</script>
+</body>
+</html>
