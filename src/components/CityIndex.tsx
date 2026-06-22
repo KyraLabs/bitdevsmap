@@ -34,7 +34,7 @@ export default function CityIndex({ cities, activeIndex, onHover }: Props) {
   const visible = expanded || !canCollapse ? cities : cities.slice(0, COLLAPSED_COUNT)
 
   return (
-    <section className="pt-[54px] pb-[70px]" id="ciudades">
+    <section className="pt-[54px] pb-[70px]" id="cities">
       <div className="wrap">
         <div className="mb-[22px] flex items-baseline justify-between gap-5">
           <h2 className="m-0 font-sans text-[22px] font-bold tracking-[-0.02em] text-strong">

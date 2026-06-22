@@ -30,7 +30,7 @@ export default function App() {
               <span className="text-muted">Interaction</span> &nbsp;·&nbsp; hover
               to see the city, click to open the site
             </span>
-            <span className="text-muted">datos · bitdevs-map · open source</span>
+            <span className="text-muted">data · bitdevs-map · open source</span>
           </div>
         </div>
       </section>

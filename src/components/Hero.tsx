@@ -1,6 +1,6 @@
 export default function Hero({ count }: { count: number }) {
   return (
-    <section className="pt-[74px] pb-[30px]" id="mapa">
+    <section className="pt-[74px] pb-[30px]" id="map">
       <div className="wrap">
         <div className="max-w-[760px]">
           <p className="m-0 font-mono text-[11.5px] font-medium uppercase tracking-[0.26em] text-kyra-orange">

@@ -24,7 +24,7 @@ export default function Footer() {
             Your city isn't on the map yet? Add it with a Pull Request — include the
             city, its coordinates and the BitDevs link in{' '}
             <a
-              href="#ciudades"
+              href="#cities"
               className="border-b border-b-[rgba(227,111,70,0.4)] text-kyra-orange no-underline hover:border-b-kyra-orange"
             >
               the city list
