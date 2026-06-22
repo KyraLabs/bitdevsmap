@@ -21,15 +21,16 @@ export default function Footer() {
         </div>
         <div className="flex max-w-[360px] flex-col items-start gap-4">
           <p className="text-[13.5px] leading-[1.6] text-pretty text-body">
-            Your city isn't on the map yet? Add it with a Pull Request — include the
-            city, its coordinates and the BitDevs link in{' '}
+            Your city isn't on the map yet? Open a Pull Request on{' '}
             <a
-              href="#cities"
+              href="https://github.com/KyraLabs/bitdevsmap"
+              target="_blank"
+              rel="noopener"
               className="border-b border-b-[rgba(227,111,70,0.4)] text-kyra-orange no-underline hover:border-b-kyra-orange"
             >
-              the city list
-            </a>
-            .
+              the repository
+            </a>{' '}
+            with the city, its coordinates and the BitDevs link.
           </p>
           <a
             href="https://github.com/KyraLabs/bitdevsmap"
