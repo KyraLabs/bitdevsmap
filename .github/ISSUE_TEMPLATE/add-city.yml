@@ -1,0 +1,50 @@
+name: Add a BitDevs city
+description: Suggest a city with an active BitDevs group to add to the map
+title: "[City]: "
+labels: ["new city"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping the map grow! Fill in the details below and a maintainer
+        will add your city. Prefer to do it yourself? You can also open a pull
+        request editing `src/data/bitdevs.json` — see the README.
+  - type: input
+    id: city
+    attributes:
+      label: City
+      placeholder: Buenos Aires
+    validations:
+      required: true
+  - type: input
+    id: country
+    attributes:
+      label: Country
+      placeholder: Argentina
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: Group link
+      description: Public website, Meetup, X/Twitter or GitHub of the local group.
+      placeholder: https://www.bitdevsba.org/
+    validations:
+      required: true
+  - type: input
+    id: coordinates
+    attributes:
+      label: Coordinates (optional)
+      description: >-
+        City center as decimal degrees "lat, lng". If you don't know them, leave
+        this blank and we'll look them up.
+      placeholder: "-34.6037, -58.3816"
+    validations:
+      required: false
+  - type: checkboxes
+    id: confirm
+    attributes:
+      label: Confirmation
+      options:
+        - label: The group is active and the link works.
+          required: true
