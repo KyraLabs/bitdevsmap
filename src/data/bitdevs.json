@@ -2,6 +2,7 @@
   { "city": "Abuja", "country": "Nigeria", "lat": 9.0765, "lng": 7.4863, "url": "https://bitdevsabuja.org/" },
   { "city": "Accra", "country": "Ghana", "lat": 5.55, "lng": -0.2, "url": "https://bitdevsaccra.org/" },
   { "city": "Amsterdam", "country": "Netherlands", "lat": 52.3676, "lng": 4.9041, "url": "https://bitdevsamsterdam.org/" },
+  { "city": "Asunción", "country": "Paraguay", "lat": -25.2637, "lng": -57.5759, "url": "https://asuncionbitdevs.org/" },
   { "city": "Athens", "country": "Greece", "lat": 37.9838, "lng": 23.7275, "url": "https://bitdevs-athens.com/" },
   { "city": "Atlanta", "country": "USA", "lat": 33.749, "lng": -84.388, "url": "https://atlbit.dev/" },
   { "city": "Austin", "country": "USA", "lat": 30.2672, "lng": -97.7431, "url": "https://austinbitdevs.com/" },
