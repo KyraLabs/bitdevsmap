@@ -37,6 +37,7 @@
   { "city": "Minneapolis", "country": "USA", "lat": 44.9778, "lng": -93.265, "url": "https://bitdevsmpls.org" },
   { "city": "Nairobi", "country": "Kenya", "lat": -1.2921, "lng": 36.8219, "url": "https://www.bitdevsnbo.org/" },
   { "city": "Nashville", "country": "USA", "lat": 36.1627, "lng": -86.7816, "url": "https://nashbitdevs.org" },
+  { "city": "New York", "country": "USA", "lat": 40.7128, "lng": -74.006, "url": "https://bitdevs.org/" },
   { "city": "Paris", "country": "France", "lat": 48.8566, "lng": 2.3522, "url": "https://twitter.com/bitdevsfr" },
   { "city": "Perth", "country": "Australia", "lat": -31.9523, "lng": 115.8613, "url": "https://github.com/PerthBitDevs/PerthBitDevs" },
   { "city": "Portland", "country": "USA", "lat": 45.5152, "lng": -122.6784, "url": "https://www.meetup.com/portlandbitdevs/" },
