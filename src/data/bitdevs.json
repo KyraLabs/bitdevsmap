@@ -31,6 +31,7 @@
   { "city": "London", "country": "UK", "lat": 51.5074, "lng": -0.1278, "url": "https://londonbitdevs.org/" },
   { "city": "Los Angeles", "country": "USA", "lat": 34.0522, "lng": -118.2437, "url": "https://bitdevsla.org/" },
   { "city": "Louisville", "country": "USA", "lat": 38.2527, "lng": -85.7585, "url": "https://loubitdevs.org/" },
+  { "city": "Lusaka", "country": "Zambia", "lat": -15.4067, "lng": 28.2871, "url": "https://bitdevs.bitcoinzambia.org/" },
   { "city": "Mauritius", "country": "Mauritius", "lat": -20.1609, "lng": 57.5012, "url": "https://bitdevsmauritius.org/" },
   { "city": "Melbourne", "country": "Australia", "lat": -37.8136, "lng": 144.9631, "url": "https://melb.bitdevs.com.au/" },
   { "city": "Mexico City", "country": "Mexico", "lat": 19.4326, "lng": -99.1332, "url": "https://cdmxbitdevs.org" },
