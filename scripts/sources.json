@@ -1,0 +1,5 @@
+{
+  "brisbane": { "adapter": "github-issues", "repo": "BneBitDevs/Meetup" },
+  "perth": { "adapter": "github-issues", "repo": "PerthBitDevs/PerthBitDevs" },
+  "seattle": { "adapter": "github-issues", "repo": "reardencode/seattle_bitdevs" }
+}

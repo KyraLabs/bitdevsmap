@@ -25,6 +25,12 @@ export default function TopBar() {
           </a>
           <a
             className={`${navLink} text-muted hover:text-strong max-[680px]:hidden`}
+            href="#topics"
+          >
+            Topics
+          </a>
+          <a
+            className={`${navLink} text-muted hover:text-strong max-[680px]:hidden`}
             href="#cities"
           >
             Cities

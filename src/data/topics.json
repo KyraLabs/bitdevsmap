@@ -1,0 +1,98 @@
+{
+  "brisbane": {
+    "id": "brisbane",
+    "source": "github-issues",
+    "fetchedAt": "2026-07-07T01:46:29.336Z",
+    "topics": [
+      {
+        "title": "Meetup #13, July 2026 - Theme: Mining",
+        "url": "https://github.com/BneBitDevs/Meetup/issues/13",
+        "date": "2026-07-06T11:44:39Z"
+      },
+      {
+        "title": "Meetup #12, June 2026 - Theme: Chaumian E-Cash",
+        "url": "https://github.com/BneBitDevs/Meetup/issues/12",
+        "date": "2026-06-21T12:53:41Z"
+      },
+      {
+        "title": "Meetup #10, March 2026 - Theme: Multi-Sig",
+        "url": "https://github.com/BneBitDevs/Meetup/issues/10",
+        "date": "2026-04-26T08:51:55Z"
+      },
+      {
+        "title": "Meetup #11, April 2026 - Theme: NOSTR",
+        "url": "https://github.com/BneBitDevs/Meetup/issues/11",
+        "date": "2026-04-26T08:51:40Z"
+      },
+      {
+        "title": "Meetup #9, February 2026 - Theme: Covenants",
+        "url": "https://github.com/BneBitDevs/Meetup/issues/9",
+        "date": "2026-02-24T10:30:24Z"
+      }
+    ]
+  },
+  "perth": {
+    "id": "perth",
+    "source": "github-issues",
+    "fetchedAt": "2026-07-07T01:46:29.336Z",
+    "topics": [
+      {
+        "title": "July 2026 Perth BitDevs",
+        "url": "https://github.com/PerthBitDevs/PerthBitDevs/issues/37",
+        "date": "2026-07-02T09:50:50Z"
+      },
+      {
+        "title": "June 2026 Perth BitDevs",
+        "url": "https://github.com/PerthBitDevs/PerthBitDevs/issues/36",
+        "date": "2026-07-02T03:20:03Z"
+      },
+      {
+        "title": "May 2026 Perth BitDevs",
+        "url": "https://github.com/PerthBitDevs/PerthBitDevs/issues/35",
+        "date": "2026-07-02T03:20:02Z"
+      },
+      {
+        "title": "April bit devs",
+        "url": "https://github.com/PerthBitDevs/PerthBitDevs/issues/34",
+        "date": "2026-06-06T04:46:31Z"
+      },
+      {
+        "title": "March 2026 Perth BitDevs",
+        "url": "https://github.com/PerthBitDevs/PerthBitDevs/issues/32",
+        "date": "2026-06-06T04:46:30Z"
+      }
+    ]
+  },
+  "seattle": {
+    "id": "seattle",
+    "source": "github-issues",
+    "fetchedAt": "2026-07-07T01:46:29.336Z",
+    "topics": [
+      {
+        "title": "Arké wallet, first true normie friendly self custodial wallet?",
+        "url": "https://github.com/reardencode/seattle_bitdevs/issues/15",
+        "date": "2026-06-25T18:19:51Z"
+      },
+      {
+        "title": "202403 - Bitcoin Core Snap Package",
+        "url": "https://github.com/reardencode/seattle_bitdevs/issues/6",
+        "date": "2026-06-25T18:17:35Z"
+      },
+      {
+        "title": "review Surge Credit",
+        "url": "https://github.com/reardencode/seattle_bitdevs/issues/14",
+        "date": "2026-06-25T18:17:23Z"
+      },
+      {
+        "title": "Idea for 2/27/26 - SatSwap",
+        "url": "https://github.com/reardencode/seattle_bitdevs/issues/12",
+        "date": "2026-02-26T23:31:01Z"
+      },
+      {
+        "title": "Review CTV versus template hash",
+        "url": "https://github.com/reardencode/seattle_bitdevs/issues/10",
+        "date": "2026-02-26T23:17:02Z"
+      }
+    ]
+  }
+}
