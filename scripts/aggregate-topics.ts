@@ -35,6 +35,15 @@ const SKIP_HOSTS = [
   'x.com', 'twitter.com', 'mobile.twitter.com', 'nitter.net',
   'meetup.com', 'github.com', 't.me', 'discord.gg', 'discord.com',
 ]
+/** Link hosts that are navigation/social/dashboards, never a discussion topic.
+ * (Code hosts like github.com are intentionally absent — PRs are real topics.) */
+const BAD_LINK_HOSTS = [
+  'x.com', 'twitter.com', 'mobile.twitter.com', 'nitter.net', 'bsky.app', 'nostr.com',
+  't.me', 'telegram.org', 'youtube.com', 'youtu.be', 'meetup.com', 'lu.ma', 'eventbrite.com',
+  'mempool.space', 'clarkmoody.com', 'dashboard.clarkmoody.com', 'bitnodes.io', 'bitnod.es',
+  'wikipedia.org', 'chathamhouse.org', 'discord.gg', 'discord.com', 'linkedin.com',
+  'facebook.com', 'instagram.com', 'docs.google.com', 'forms.gle',
+]
 const UA = 'bitdevsmap-aggregator'
 
 // --- generic helpers -------------------------------------------------------
@@ -234,6 +243,11 @@ const isNoise = (t: string) =>
   t.length > 200 ||
   /^https?:\/\//i.test(t) ||
   /:\s*$/.test(t) ||
+  /^(npub1|nsec1|[0-9a-f]{40,})/i.test(t) || // nostr keys / hashes
+  /^(jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec)\w*\.?\s+\d{1,2}$/i.test(t) || // "May 28"
+  /^\d{2,6}\s+\w.*\b(blvd|ave|avenue|st|street|road|rd|suite|ste|dr|drive|way|lane|ln)\b/i.test(t) || // street address
+  (!t.includes(' ') && /^[\w.-]+\.[a-z]{2,6}(\/\S*)?$/i.test(t)) || // bare domain "delvingbitcoin.org"
+  (!t.includes(' ') && /^[\w.-]+\/[\w.@#-]+$/i.test(t)) || // repo path "owner/repo#99"
   BOILERPLATE.test(t) ||
   (!t.includes(' ') && !/\d/.test(t) && t.length < 10)
 
@@ -252,10 +266,46 @@ function fromHeadingTopics(content: string, entryLink: string): RawTopic[] {
   return topics.length >= 3 ? topics : []
 }
 
+const hostOfUrl = (url: string): string => {
+  try {
+    return new URL(url).host.replace(/^www\./, '')
+  } catch {
+    return ''
+  }
+}
+const isBadLinkHost = (host: string) =>
+  !host || BAD_LINK_HOSTS.some((h) => host === h || host.endsWith(`.${h}`))
+
+/** Pattern 3: the discussion topics are the linked list items themselves — a
+ * bitcoin-dev thread, a Delving post, a PR. Used for the many communities whose
+ * seminar notes group links under category headings ("Mailing Lists", etc.).
+ * Keeps only descriptive titles pointing at real content (not social/dashboards
+ * or the community's own site). */
+function fromContentLinks(content: string, entryLink: string): RawTopic[] {
+  const selfHost = hostOfUrl(entryLink)
+  const topics: RawTopic[] = []
+  const liRe = /<li[^>]*>([\s\S]*?)<\/li>/gi
+  for (let m; (m = liRe.exec(content)); ) {
+    const anchor = m[1].match(/<a[^>]*href=["']([^"']+)["'][^>]*>([\s\S]*?)<\/a>/i)
+    if (!anchor) continue
+    const title = stripTags(anchor[2])
+    if (isNoise(title) || !isSpecific(title)) continue
+    const url = absolute(anchor[1], entryLink)
+    const host = hostOfUrl(url)
+    if (host === selfHost || isBadLinkHost(host)) continue
+    topics.push({ title, url })
+  }
+  return topics
+}
+
 /** Extract discussion topics from one seminar's HTML content. */
 function extractTopics(content: string, entryLink: string): RawTopic[] {
-  const explicit = fromTopicsSection(content, entryLink)
-  const raw = explicit.length > 0 ? explicit : fromHeadingTopics(content, entryLink)
+  const byPriority = [
+    fromTopicsSection(content, entryLink),
+    fromHeadingTopics(content, entryLink),
+    fromContentLinks(content, entryLink),
+  ]
+  const raw = byPriority.find((c) => c.length >= 3) ?? byPriority.find((c) => c.length > 0) ?? []
 
   const seen = new Set<string>()
   const topics = raw.filter((t) => {

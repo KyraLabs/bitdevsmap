@@ -53,23 +53,37 @@ function ArrowIcon() {
 
 export default function TopicsPage({ cities, topics }: Props) {
   const feed = useMemo<FeedItem[]>(() => {
-    const items: FeedItem[] = []
-    for (const city of cities) {
-      const community = topics[city.id]
-      if (!community) continue
-      for (const topic of community.topics) {
-        items.push({
+    // Group topics per community, then interleave (round-robin) so the global
+    // feed leads with a topic from each community — most recent seminars first —
+    // instead of a few recent communities filling every slot.
+    const groups = cities
+      .map((city) => {
+        const community = topics[city.id]
+        if (!community || community.topics.length === 0) return null
+        const items: FeedItem[] = community.topics.map((topic) => ({
           city: city.city,
           country: city.country,
           siteUrl: city.url,
           title: topic.title,
           url: topic.url,
           date: topic.date,
-        })
+        }))
+        return { latest: community.topics[0].date ?? '', items }
+      })
+      .filter((g): g is { latest: string; items: FeedItem[] } => g !== null)
+      .sort((a, b) => b.latest.localeCompare(a.latest))
+
+    const feed: FeedItem[] = []
+    const depth = Math.max(...groups.map((g) => g.items.length), 0)
+    for (let round = 0; round < depth && feed.length < MAX_FEED; round++) {
+      for (const g of groups) {
+        if (g.items[round]) {
+          feed.push(g.items[round])
+          if (feed.length >= MAX_FEED) break
+        }
       }
     }
-    items.sort((a, b) => (b.date ?? '').localeCompare(a.date ?? ''))
-    return items.slice(0, MAX_FEED)
+    return feed
   }, [cities, topics])
 
   const communityCount = new Set(
@@ -88,7 +102,7 @@ export default function TopicsPage({ cities, topics }: Props) {
           </h1>
           <p className="mt-5 max-w-[620px] text-[clamp(15px,1.4vw,18px)] text-pretty text-body">
             Recent Socratic seminar topics aggregated from BitDevs communities
-            around the world, newest first.
+            around the world, most active first.
           </p>
         </div>
 
