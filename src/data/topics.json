@@ -1,0 +1,4090 @@
+{
+  "asuncion": {
+    "id": "asuncion",
+    "source": "rss",
+    "fetchedAt": "2026-07-07T20:13:42.500Z",
+    "topics": [
+      {
+        "title": "Bitcoin (Core, protocol, wallets)",
+        "url": "https://asuncionbitdevs.org/2026-06-19-socratic-seminar-015#bitcoin-core-protocol-wallets",
+        "date": "2026-06-19T00:00:00.000Z"
+      },
+      {
+        "title": "Lightning and L2",
+        "url": "https://asuncionbitdevs.org/2026-06-19-socratic-seminar-015#lightning-and-l2",
+        "date": "2026-06-19T00:00:00.000Z"
+      },
+      {
+        "title": "Privacy / Cryptography / Research / Security",
+        "url": "https://asuncionbitdevs.org/2026-06-19-socratic-seminar-015#privacy--cryptography--research--security",
+        "date": "2026-06-19T00:00:00.000Z"
+      }
+    ]
+  },
+  "athens": {
+    "id": "athens",
+    "source": "rss",
+    "fetchedAt": "2026-07-07T20:13:42.500Z",
+    "topics": [
+      {
+        "title": "Review of technical Bitcoin news",
+        "url": "https://bitdevs-athens.com/2025-03-27-bitdevs-13",
+        "date": "2025-03-27T00:00:00.000Z"
+      },
+      {
+        "title": "ARK Protocol",
+        "url": "https://bitdevs-athens.com/2025-03-27-bitdevs-13",
+        "date": "2025-03-27T00:00:00.000Z"
+      },
+      {
+        "title": "Bitcoin Blockchain indexing and wallet address handling",
+        "url": "https://bitdevs-athens.com/2025-03-27-bitdevs-13",
+        "date": "2025-03-27T00:00:00.000Z"
+      },
+      {
+        "title": "One-page introduction",
+        "url": "https://docs.second.tech/protocol/intro/",
+        "date": "2025-03-27T00:00:00.000Z"
+      },
+      {
+        "title": "One-page introduction plus deeper developer documentation",
+        "url": "https://arkdev.info/docs/learn/concepts",
+        "date": "2025-03-27T00:00:00.000Z"
+      },
+      {
+        "title": "75-minute podcast with Stephan Livera",
+        "url": "https://www.youtube.com/watch?v=1VSNArCC9yw",
+        "date": "2025-03-27T00:00:00.000Z"
+      },
+      {
+        "title": "Primers on UTXOs and P2PKH, P2SH, P2WPKH, P2WSH & P2TR transaction templates",
+        "url": "https://learnmeabitcoin.com/technical/transaction/utxo",
+        "date": "2025-03-27T00:00:00.000Z"
+      },
+      {
+        "title": "4-minute read",
+        "url": "https://bitcoin.stackexchange.com/questions/107619/why-does-bitcoin-core-support-a-transaction-index-but-not-an-address-index",
+        "date": "2025-03-27T00:00:00.000Z"
+      },
+      {
+        "title": "3-minute read",
+        "url": "https://bitcoin.stackexchange.com/questions/89008/how-do-i-extract-the-address-from-a-scriptpubkey",
+        "date": "2025-03-27T00:00:00.000Z"
+      },
+      {
+        "title": "Clark Moody Dashboard",
+        "url": "https://dashboard.clarkmoody.com/",
+        "date": "2025-03-27T00:00:00.000Z"
+      },
+      {
+        "title": "MEVpool: A Private Mempool Marketplace Standard",
+        "url": "https://github.com/mevpool/mevpool/blob/main/mevpool-marketplace.md",
+        "date": "2025-03-27T00:00:00.000Z"
+      },
+      {
+        "title": "LND: Excessive Failback Exploit",
+        "url": "https://morehouse.github.io/lightning/lnd-excessive-failback-exploit/",
+        "date": "2025-03-27T00:00:00.000Z"
+      },
+      {
+        "title": "The Bitcoin Ecosystem Report 2025",
+        "url": "https://epochvc.io/pdf/Epoch-Bitcoin-Ecosystem-Report-2024.pdf",
+        "date": "2025-03-27T00:00:00.000Z"
+      },
+      {
+        "title": "River Research Report 2025",
+        "url": "https://river.com/learn/files/river-bitcoin-adoption-report-2025.pdf",
+        "date": "2025-03-27T00:00:00.000Z"
+      },
+      {
+        "title": "OP_NEXT conference April 11-12 by Microstrategy",
+        "url": "https://opnext.dev/",
+        "date": "2025-03-27T00:00:00.000Z"
+      },
+      {
+        "title": "TROPIC01 secure element samples available",
+        "url": "https://www.cnx-software.com/2025/03/01/tropic-square-tropic01-is-an-auditable-open-architecture-tamper-proof-risc-v-secure-element-se-for-iot-and-microcontrollers/",
+        "date": "2025-03-27T00:00:00.000Z"
+      },
+      {
+        "title": "Rethinking bitcoin’s energy use through sustainable digital business models and resources monetization: A multiple case study analysis",
+        "url": "https://www.sciencedirect.com/science/article/pii/S2666954425000092",
+        "date": "2025-03-27T00:00:00.000Z"
+      },
+      {
+        "title": "BitVM: How to bridge using 1-of-N trust assumptions",
+        "url": "https://storopoli.com/blog/bitvm/",
+        "date": "2025-03-27T00:00:00.000Z"
+      },
+      {
+        "title": "ESSPI: ECDSA/Schnorr Signed Program Input for BitVMX",
+        "url": "https://bitvmx.org/files/esspi-ecdsa-input-bitvmx.pdf",
+        "date": "2025-03-27T00:00:00.000Z"
+      },
+      {
+        "title": "DIW: Bitcoin is not the new gold",
+        "url": "https://www.diw.de/documents/publikationen/73/diw_01.c.938867.de/dwr-25-09-1.pdf",
+        "date": "2025-03-27T00:00:00.000Z"
+      },
+      {
+        "title": "Bitcoin as Tool for Financial Inclusion in El Salvador: The Perils of Authoritarian Governance",
+        "url": "https://journals.sagepub.com/doi/full/10.1177/1866802X251316902",
+        "date": "2025-03-27T00:00:00.000Z"
+      },
+      {
+        "title": "On the Atomicity and Efficiency of Blockchain Payment Channels",
+        "url": "https://eprint.iacr.org/2025/180",
+        "date": "2025-03-27T00:00:00.000Z"
+      },
+      {
+        "title": "VITARIT: Paying for Threshold Services on Bitcoin and Friends",
+        "url": "https://eprint.iacr.org/2025/174",
+        "date": "2025-03-27T00:00:00.000Z"
+      },
+      {
+        "title": "Bark launches on signet",
+        "url": "https://blog.second.tech/try-ark-on-signet/",
+        "date": "2025-03-27T00:00:00.000Z"
+      },
+      {
+        "title": "TROPIC01 Source-available secure element announced",
+        "url": "https://tropicsquare.com/tropic01",
+        "date": "2025-03-27T00:00:00.000Z"
+      },
+      {
+        "title": "US to release Russian Alexander Vinnik as part of exchange that freed Fogel",
+        "url": "https://www.reuters.com/world/us/us-release-russian-alexander-vinnik-part-exchange-that-freed-fogel-new-york-2025-02-12/",
+        "date": "2025-03-27T00:00:00.000Z"
+      },
+      {
+        "title": "Instant Bitcoin dev environment in browser by kanzure",
+        "url": "https://x.com/kanzure/status/1886849902245736693",
+        "date": "2025-03-27T00:00:00.000Z"
+      },
+      {
+        "title": "Establishment of the Strategic Bitcoin Reserve",
+        "url": "https://www.whitehouse.gov/presidential-actions/2025/03/establishment-of-the-strategic-bitcoin-reserveand-united-states-digital-asset-stockpile/",
+        "date": "2025-03-27T00:00:00.000Z"
+      },
+      {
+        "title": "Jeremy Rubin endorses OP_CTV and CSFS",
+        "url": "https://x.com/JeremyRubin/status/1895676912401252588",
+        "date": "2025-03-27T00:00:00.000Z"
+      },
+      {
+        "title": "BTC++ Floripa Hackathon Projects",
+        "url": "https://bitcoinplusplus.devpost.com/project-gallery?page=1",
+        "date": "2025-03-27T00:00:00.000Z"
+      },
+      {
+        "title": "Custodial solutions are not solutions",
+        "url": "https://spiralbtc.substack.com/p/custodial-solutions-are-not-solutions",
+        "date": "2025-03-27T00:00:00.000Z"
+      },
+      {
+        "title": "Prosecuting Privacy Report",
+        "url": "https://www.defieducationfund.org/_files/ugd/84ba66_87dfb370e81a4766811bf16e5293c6da.pdf",
+        "date": "2025-03-27T00:00:00.000Z"
+      },
+      {
+        "title": "Summer of Bitcoin 2025",
+        "url": "https://www.summerofbitcoin.org/",
+        "date": "2025-03-27T00:00:00.000Z"
+      },
+      {
+        "title": "cbip32",
+        "url": "https://github.com/jamesob/cbip32",
+        "date": "2025-03-27T00:00:00.000Z"
+      },
+      {
+        "title": "A Treatise on Bitcoin Block Space Economics",
+        "url": "https://blog.lopp.net/treatise-bitcoin-block-space-economics/",
+        "date": "2025-03-27T00:00:00.000Z"
+      },
+      {
+        "title": "Rebooting P2Pool For Bitcoin",
+        "url": "https://blog.opdup.com/2025/02/04/rebooting-p2pool-for-bitcoin.html",
+        "date": "2025-03-27T00:00:00.000Z"
+      },
+      {
+        "title": "Stats on orphanage overflows",
+        "url": "https://delvingbitcoin.org/t/stats-on-orphanage-overflows/1421",
+        "date": "2025-03-27T00:00:00.000Z"
+      },
+      {
+        "title": "Bitcoin node P2P traffic analysis",
+        "url": "https://delvingbitcoin.org/t/bitcoin-node-p2p-traffic-analysis/1490",
+        "date": "2025-03-27T00:00:00.000Z"
+      },
+      {
+        "title": "P2QRH / BIP-360 Update",
+        "url": "https://groups.google.com/g/bitcoindev/c/oQKezDOc4us",
+        "date": "2025-03-27T00:00:00.000Z"
+      },
+      {
+        "title": "“Recursive covenant” with CTV and CSFS",
+        "url": "https://groups.google.com/g/bitcoindev/c/Tu7mr419jWQ",
+        "date": "2025-03-27T00:00:00.000Z"
+      },
+      {
+        "title": "Antoine Poinsot on Bitcoin Core’s Priorities",
+        "url": "https://delvingbitcoin.org/t/antoine-poinsot-on-bitcoin-cores-priorities/1470",
+        "date": "2025-03-27T00:00:00.000Z"
+      },
+      {
+        "title": "Bitcoin Forking Guide",
+        "url": "https://delvingbitcoin.org/t/bitcoin-forking-guide/1451",
+        "date": "2025-03-27T00:00:00.000Z"
+      },
+      {
+        "title": "Discussion of LND’s dynamic feerate adjustment system",
+        "url": "https://delvingbitcoin.org/t/lnds-deadline-aware-budget-sweeper/1512",
+        "date": "2025-03-27T00:00:00.000Z"
+      },
+      {
+        "title": "BIP3: Updated BIP Process #1712",
+        "url": "https://github.com/bitcoin/bips/pull/1712",
+        "date": "2025-03-27T00:00:00.000Z"
+      },
+      {
+        "title": "Update a node’s behavior to never fail an HTLC upstream if the node knows the preimage",
+        "url": "https://github.com/lightning/bolts/issues/1233",
+        "date": "2025-03-27T00:00:00.000Z"
+      },
+      {
+        "title": "Bitcoin Core 29.0rc2",
+        "url": "https://bitcoincore.org/bin/bitcoin-core-29.0",
+        "date": "2025-03-27T00:00:00.000Z"
+      },
+      {
+        "title": "Remove all checkpoint logic #31649",
+        "url": "https://github.com/bitcoin/bitcoin/issues/31649",
+        "date": "2025-03-27T00:00:00.000Z"
+      },
+      {
+        "title": "Introduce a new waitNext() #31283",
+        "url": "https://github.com/bitcoin/bitcoin/issues/31283",
+        "date": "2025-03-27T00:00:00.000Z"
+      },
+      {
+        "title": "Fix -norpcwhitelist, -norpcallowip, and similar corner case behavior #30529",
+        "url": "https://github.com/bitcoin/bitcoin/pull/30529",
+        "date": "2025-03-27T00:00:00.000Z"
+      },
+      {
+        "title": "contrib: add tool to convert compact-serialized UTXO set to SQLite database #27432",
+        "url": "https://github.com/bitcoin/bitcoin/pull/27432",
+        "date": "2025-03-27T00:00:00.000Z"
+      }
+    ]
+  },
+  "austin": {
+    "id": "austin",
+    "source": "rss",
+    "fetchedAt": "2026-07-07T20:13:42.500Z",
+    "topics": [
+      {
+        "title": "ProductionReady Launches",
+        "url": "https://productionready.org/blog/productionready-launches",
+        "date": "2026-04-16T00:00:00.000Z"
+      },
+      {
+        "title": "Lexe Wallet Public Release on App Store and Google Play",
+        "url": "https://blog.lexe.app/public-launch/",
+        "date": "2026-04-16T00:00:00.000Z"
+      },
+      {
+        "title": "Policy: Report Debug Message Why Inputs Are Non-Standard",
+        "url": "https://github.com/bitcoin/bitcoin/pull/29060",
+        "date": "2026-04-16T00:00:00.000Z"
+      },
+      {
+        "title": "Remove Taproot BIP 9 Deployment",
+        "url": "https://github.com/bitcoin/bitcoin/pull/26201",
+        "date": "2026-04-16T00:00:00.000Z"
+      },
+      {
+        "title": "Wallet Fingerprinting and Payjoin Privacy",
+        "url": "https://payjoin.org/blog/2026/03/25/wallet-fingerprints-payjoin-privacy",
+        "date": "2026-04-16T00:00:00.000Z"
+      },
+      {
+        "title": "A Decade of Workarounds",
+        "url": "https://spiralbtc.substack.com/p/a-decade-of-workarounds",
+        "date": "2026-04-16T00:00:00.000Z"
+      },
+      {
+        "title": "Bitcoin v31",
+        "url": "https://github.com/bitcoin/bitcoin/blob/e9f1466155849d886faaf89b2ccf1a0a46b9b1fe/doc/release-notes.md",
+        "date": "2026-04-16T00:00:00.000Z"
+      },
+      {
+        "title": "BIP440/BIP441: Varops Budget and Script Restoration",
+        "url": "https://github.com/bitcoin/bips/pull/2118",
+        "date": "2026-04-16T00:00:00.000Z"
+      },
+      {
+        "title": "Project Eleven Quantum Paper",
+        "url": "https://x.com/projecteleven/status/2038821373103984850",
+        "date": "2026-04-16T00:00:00.000Z"
+      },
+      {
+        "title": "Quantum-Safe Bitcoin w/o Softforks",
+        "url": "https://github.com/avihu28/Quantum-Safe-Bitcoin-Transactions/blob/main/paper/QSB.pdf",
+        "date": "2026-04-16T00:00:00.000Z"
+      },
+      {
+        "title": "Post-Quantum BIP-86 Recovery via zk-STARK Proof of BIP-32 Seed Knowledge",
+        "url": "https://groups.google.com/g/bitcoindev/c/Q06piCEJhkI?pli=1",
+        "date": "2026-04-16T00:00:00.000Z"
+      },
+      {
+        "title": "PQC Precommitment Migration via Tapscript",
+        "url": "https://github.com/csuwildcat/pqc-precommitment-migration",
+        "date": "2026-04-16T00:00:00.000Z"
+      },
+      {
+        "title": "In Defense of a PQ Output Type",
+        "url": "https://groups.google.com/g/bitcoindev/c/JA3kDl8AmQg",
+        "date": "2026-04-16T00:00:00.000Z"
+      },
+      {
+        "title": "Brink Funding Fabian for CISA Research",
+        "url": "https://x.com/bitschmidty/status/2041143804883788115?s=20",
+        "date": "2026-04-16T00:00:00.000Z"
+      },
+      {
+        "title": "Hornet Node: Executable Bitcoin Consensus Spec",
+        "url": "https://x.com/bitcoindudebro/status/2044553522470146298",
+        "date": "2026-04-16T00:00:00.000Z"
+      },
+      {
+        "title": "BIP-322: Clarify Motivation, Add Prefix, Describe PSBT Signing",
+        "url": "https://github.com/bitcoin/bips/pull/2141",
+        "date": "2026-04-16T00:00:00.000Z"
+      },
+      {
+        "title": "Two Block Reorg at Height 941880",
+        "url": "https://bnoc.xyz/t/two-block-reorg-at-height-941880/97",
+        "date": "2026-04-16T00:00:00.000Z"
+      }
+    ]
+  },
+  "barcelona": {
+    "id": "barcelona",
+    "source": "rss",
+    "fetchedAt": "2026-07-07T20:13:42.500Z",
+    "topics": [
+      {
+        "title": "Pots obrir una issue al repo de GitHub",
+        "url": "https://github.com/Bit-Devs-Barcelona/bit-devs-barcelona.github.io/issues",
+        "date": "2026-06-30T00:00:00.000Z"
+      },
+      {
+        "title": "Rented Hash Mining data",
+        "url": "https://pablohere.contrapeso.xyz/writings/10-million-sats-into-mining.html",
+        "date": "2026-06-30T00:00:00.000Z"
+      },
+      {
+        "title": "Stratum V2",
+        "url": "https://stratumprotocol.org/specification/00-abstract/",
+        "date": "2026-06-30T00:00:00.000Z"
+      },
+      {
+        "title": "BIP95 Testnet5",
+        "url": "https://github.com/bitcoin/bips/pull/2196",
+        "date": "2026-06-30T00:00:00.000Z"
+      }
+    ]
+  },
+  "belo-horizonte": {
+    "id": "belo-horizonte",
+    "source": "rss",
+    "fetchedAt": "2026-07-07T20:13:42.500Z",
+    "topics": [
+      {
+        "title": "Escola de engenharia da UFMG",
+        "url": "https://www.eng.ufmg.br/portal/",
+        "date": "2026-06-26T00:00:00.000Z"
+      },
+      {
+        "title": "Electrum protocol 1.7 Proposal",
+        "url": "https://xcancel.com/Erik17192799/status/2059694531293958486",
+        "date": "2026-06-26T00:00:00.000Z"
+      },
+      {
+        "title": "ECDSA.fail - A benchmark arena for cracking ECDSA",
+        "url": "https://www.ecdsa.fail/",
+        "date": "2026-06-26T00:00:00.000Z"
+      },
+      {
+        "title": "floresta-joinstr: coinjoin on mobile app using utreexo (floresta)",
+        "url": "https://xcancel.com/1440000bytes/status/2066800243648434588",
+        "date": "2026-06-26T00:00:00.000Z"
+      },
+      {
+        "title": "Testnet 5",
+        "url": "https://groups.google.com/g/bitcoindev/c/kGUMTxOvdJA",
+        "date": "2026-06-26T00:00:00.000Z"
+      },
+      {
+        "title": "Prohibit Merkle Internal Node Preimages That Encode Minimal 64-Byte Transactions",
+        "url": "https://groups.google.com/g/bitcoindev/c/ZVDEzxG6Sq8",
+        "date": "2026-06-26T00:00:00.000Z"
+      },
+      {
+        "title": "BIP Proposal - Informational BIP on Low-R Signature Grinding",
+        "url": "https://groups.google.com/g/bitcoindev/c/boEZRlqczvw",
+        "date": "2026-06-26T00:00:00.000Z"
+      },
+      {
+        "title": "Fountain Codes: a way to reduce blockchain storage costs",
+        "url": "https://lucasdbr05.com/posts/fountain-codes/",
+        "date": "2026-06-26T00:00:00.000Z"
+      },
+      {
+        "title": "A Bitcoin Core-compatible full node in Rust",
+        "url": "https://github.com/epochbtc/satd",
+        "date": "2026-06-26T00:00:00.000Z"
+      },
+      {
+        "title": "Post Quantum Lightning: Layer by Layer",
+        "url": "https://delvingbitcoin.org/t/post-quantum-lightning-layer-by-layer/2479",
+        "date": "2026-06-26T00:00:00.000Z"
+      },
+      {
+        "title": "O Ark que não mexe com shitcoins live na mainnet (Bark)",
+        "url": "https://blog.second.tech/bark-now-on-bitcoin-mainnet/",
+        "date": "2026-06-26T00:00:00.000Z"
+      }
+    ]
+  },
+  "berlin": {
+    "id": "berlin",
+    "source": "rss",
+    "fetchedAt": "2026-07-07T20:13:42.500Z",
+    "topics": [
+      {
+        "title": "TwoStepDemocracy: Prototyping of self-evolving, democratic, and decentralized systems",
+        "url": "https://arxiv.org/abs/2606.25559",
+        "date": "2026-07-08T00:00:00.000Z"
+      },
+      {
+        "title": "HOWLR: A Client-Driven Approach to BGP Hijack Detection",
+        "url": "https://arxiv.org/abs/2606.21845",
+        "date": "2026-07-08T00:00:00.000Z"
+      },
+      {
+        "title": "LND Gossip Nil-Map Panic on Zero-Timestamp Messages",
+        "url": "https://lightning.community/SI/2026/06/18/lnd-zero-timestamp-gossip-dos.html",
+        "date": "2026-07-08T00:00:00.000Z"
+      },
+      {
+        "title": "Announcing the Monetization Gateway: charge for any resource behind Cloudflare via x402",
+        "url": "https://blog.cloudflare.com/monetization-gateway/",
+        "date": "2026-07-08T00:00:00.000Z"
+      },
+      {
+        "title": "Dog Park - Privacy in Bark",
+        "url": "https://sovrandy.com/2026/04/19/dog-park-privacy-in-bark.html",
+        "date": "2026-07-08T00:00:00.000Z"
+      },
+      {
+        "title": "Reverse Engineering Canaan Avalon Nano3S",
+        "url": "https://github.com/CryptoIceMLH/Nano3S",
+        "date": "2026-07-08T00:00:00.000Z"
+      },
+      {
+        "title": "Rusty leaving Blockstream and core-lightning",
+        "url": "https://blog.blockstream.com/rusty-russell-eleven-years-of-lightning-at-blockstream/",
+        "date": "2026-07-08T00:00:00.000Z"
+      },
+      {
+        "title": "Aligning privacy incentives in P2MR",
+        "url": "https://groups.google.com/g/bitcoindev/c/p8AVEmAtWdA",
+        "date": "2026-07-08T00:00:00.000Z"
+      },
+      {
+        "title": "Giving teeth to expected EC disabling: P2XX(-T)(-ML)",
+        "url": "https://groups.google.com/g/bitcoindev/c/aWYtPLVPZ3U/m/htpzI5r3AgAJ",
+        "date": "2026-07-08T00:00:00.000Z"
+      },
+      {
+        "title": "Public key recovery for EC leaves in P2MR (BIP-360)",
+        "url": "https://delvingbitcoin.org/t/public-key-recovery-for-ec-leaves-in-p2mr-bip-360/2603",
+        "date": "2026-07-08T00:00:00.000Z"
+      },
+      {
+        "title": "Bird of Prey 2: non-malleable Schnorr + PQ signatures",
+        "url": "https://delvingbitcoin.org/t/bird-of-prey-2-non-malleable-schnorr-pq-signatures/2514",
+        "date": "2026-07-08T00:00:00.000Z"
+      },
+      {
+        "title": "BIP95: Testnet 5 #2196",
+        "url": "https://github.com/bitcoin/bips/pull/2196",
+        "date": "2026-07-08T00:00:00.000Z"
+      },
+      {
+        "title": "BIP448 Collected Work + Tools",
+        "url": "https://github.com/bip448",
+        "date": "2026-07-08T00:00:00.000Z"
+      },
+      {
+        "title": "BIP 434 Support: Peer feature negotiation #35221",
+        "url": "https://github.com/bitcoin/bitcoin/pull/35221",
+        "date": "2026-07-08T00:00:00.000Z"
+      },
+      {
+        "title": "Replace libevent with our own HTTP and socket-handling implementation #35182",
+        "url": "https://github.com/bitcoin/bitcoin/pull/35182",
+        "date": "2026-07-08T00:00:00.000Z"
+      },
+      {
+        "title": "Full Libevent removal #34411",
+        "url": "https://github.com/bitcoin/bitcoin/pull/34411",
+        "date": "2026-07-08T00:00:00.000Z"
+      },
+      {
+        "title": "rpc, wallet: add an option to not load the wallet after migrating #35266",
+        "url": "https://github.com/bitcoin/bitcoin/pull/35266",
+        "date": "2026-07-08T00:00:00.000Z"
+      },
+      {
+        "title": "lnwallet+walletrpc: add WalletKit.SubmitPackage for v3 CPFP package relay #10900",
+        "url": "https://github.com/lightningnetwork/lnd/pull/10900",
+        "date": "2026-07-08T00:00:00.000Z"
+      },
+      {
+        "title": "bolt12+lnwire: add codec foundation with Offer message #10789",
+        "url": "https://github.com/lightningnetwork/lnd/pull/10789",
+        "date": "2026-07-08T00:00:00.000Z"
+      }
+    ]
+  },
+  "brasilia": {
+    "id": "brasilia",
+    "source": "rss",
+    "fetchedAt": "2026-07-07T20:13:42.500Z",
+    "topics": [
+      {
+        "title": "Livro - 101 Perguntas sobre Bitcoin",
+        "url": "https://bitcoin101.site/",
+        "date": "2026-06-18T00:00:00.000Z"
+      },
+      {
+        "title": "Bitcoin Optech Newsletter #408 (Jun 5, 2026)",
+        "url": "https://bitcoinops.org/en/newsletters/2026/06/05/",
+        "date": "2026-06-18T00:00:00.000Z"
+      },
+      {
+        "title": "OpenAuspex: Bitcoin-anchored warrant canaries for Nostr",
+        "url": "https://www.openauspex.dev/",
+        "date": "2026-06-18T00:00:00.000Z"
+      },
+      {
+        "title": "Floresta x BTCPayServer: plugin integrando node Floresta ao BTCPayServer",
+        "url": "https://github.com/thgO-O/btcpayserver-plugin-floresta",
+        "date": "2026-06-18T00:00:00.000Z"
+      },
+      {
+        "title": "The Chaincode BOSS Challenge: projetos de portfólio e highlights",
+        "url": "https://bosschallenge.xyz/portfolioprojects",
+        "date": "2026-06-18T00:00:00.000Z"
+      },
+      {
+        "title": "Bitcoin Core v31.0 Release",
+        "url": "https://bitcoincore.org/en/releases/31.0/",
+        "date": "2026-06-18T00:00:00.000Z"
+      },
+      {
+        "title": "Bitcoin Core 31.0: Cluster Mempool Implementation",
+        "url": "https://bitcoincore.org/en/releases/31.0/#mempool",
+        "date": "2026-06-18T00:00:00.000Z"
+      },
+      {
+        "title": "Embedded ASMAP in Bitcoin Core 31.0",
+        "url": "https://bitcoincore.org/en/releases/31.0/#p2p-and-network-changes",
+        "date": "2026-06-18T00:00:00.000Z"
+      },
+      {
+        "title": "MuSig2 PSBT Signing Fix in Bitcoin Core",
+        "url": "https://bitcoinops.org/en/newsletters/2026/06/05/#bitcoin-core-35269",
+        "date": "2026-06-18T00:00:00.000Z"
+      },
+      {
+        "title": "CTV-Only Vault Proof of Concept (MCCV)",
+        "url": "https://delvingbitcoin.org/t/ctv-only-vault-concept-v0-1-0-release/2539",
+        "date": "2026-06-18T00:00:00.000Z"
+      },
+      {
+        "title": "BIP54 Discussion: 64-Byte Transactions and Legitimate Uses",
+        "url": "https://groups.google.com/g/bitcoindev/c/iCuq6bFKt5Y/m/MCATyQ4zAAAJ",
+        "date": "2026-06-18T00:00:00.000Z"
+      },
+      {
+        "title": "The Second Ark reaches mainnet",
+        "url": "https://blog.second.tech/bark-now-on-bitcoin-mainnet/",
+        "date": "2026-06-18T00:00:00.000Z"
+      },
+      {
+        "title": "Core Lightning 26.06 Release",
+        "url": "https://github.com/ElementsProject/lightning/releases/tag/v26.06",
+        "date": "2026-06-18T00:00:00.000Z"
+      },
+      {
+        "title": "BOLT Updates: Channel Ready for Coinbase Funding and Onion Errors",
+        "url": "https://bitcoinops.org/en/newsletters/2026/06/05/#notable-code-and-documentation-changes",
+        "date": "2026-06-18T00:00:00.000Z"
+      },
+      {
+        "title": "BOLTs #1326",
+        "url": "https://github.com/lightning/bolts/pull/1326",
+        "date": "2026-06-18T00:00:00.000Z"
+      },
+      {
+        "title": "LND and LDK Recent Activity (Tor v2 Deprecation, etc.)",
+        "url": "https://bitcoinops.org/en/newsletters/2026/06/05/",
+        "date": "2026-06-18T00:00:00.000Z"
+      },
+      {
+        "title": "Post-Quantum Lightning Layer-by-Layer Discussion",
+        "url": "https://delvingbitcoin.org/t/post-quantum-lightning-layer-by-layer/2479",
+        "date": "2026-06-18T00:00:00.000Z"
+      },
+      {
+        "title": "QR-Based Signing Payloads for Miniscript Wallets",
+        "url": "https://delvingbitcoin.org/t/qr-based-signing-flow-payloads-in-miniscript-context/2464",
+        "date": "2026-06-18T00:00:00.000Z"
+      },
+      {
+        "title": "Quantum Attack Game Theory by Jameson Lopp",
+        "url": "https://blog.lopp.net/quantum-attack-game-theory/",
+        "date": "2026-06-18T00:00:00.000Z"
+      },
+      {
+        "title": "Analysis of Quantum-Vulnerable UTXOs",
+        "url": "https://chainquery.com/reports/quantum-exposure",
+        "date": "2026-06-18T00:00:00.000Z"
+      },
+      {
+        "title": "Post-Quantum Path for BIP324 P2P Transport Encryption",
+        "url": "https://bitcoinops.org/en/newsletters/2026/06/05/#a-post-quantum-path-for-bip324",
+        "date": "2026-06-18T00:00:00.000Z"
+      }
+    ]
+  },
+  "brisbane": {
+    "id": "brisbane",
+    "source": "github-issues",
+    "fetchedAt": "2026-07-07T20:13:42.500Z",
+    "topics": [
+      {
+        "title": "Meetup #13, July 2026 - Theme: Mining",
+        "url": "https://github.com/BneBitDevs/Meetup/issues/13",
+        "date": "2026-07-06T11:44:39Z"
+      },
+      {
+        "title": "Meetup #12, June 2026 - Theme: Chaumian E-Cash",
+        "url": "https://github.com/BneBitDevs/Meetup/issues/12",
+        "date": "2026-06-21T12:53:41Z"
+      },
+      {
+        "title": "Meetup #10, March 2026 - Theme: Multi-Sig",
+        "url": "https://github.com/BneBitDevs/Meetup/issues/10",
+        "date": "2026-04-26T08:51:55Z"
+      },
+      {
+        "title": "Meetup #11, April 2026 - Theme: NOSTR",
+        "url": "https://github.com/BneBitDevs/Meetup/issues/11",
+        "date": "2026-04-26T08:51:40Z"
+      },
+      {
+        "title": "Meetup #9, February 2026 - Theme: Covenants",
+        "url": "https://github.com/BneBitDevs/Meetup/issues/9",
+        "date": "2026-02-24T10:30:24Z"
+      },
+      {
+        "title": "Meetup #8, January 2026 - Theme: Quantum",
+        "url": "https://github.com/BneBitDevs/Meetup/issues/8",
+        "date": "2026-02-24T10:29:56Z"
+      },
+      {
+        "title": "Meetup #7, November 2025",
+        "url": "https://github.com/BneBitDevs/Meetup/issues/7",
+        "date": "2025-11-27T11:27:02Z"
+      },
+      {
+        "title": "Meetup #6, October 2025",
+        "url": "https://github.com/BneBitDevs/Meetup/issues/6",
+        "date": "2025-11-08T11:16:02Z"
+      },
+      {
+        "title": "Meetup #5, September 2025",
+        "url": "https://github.com/BneBitDevs/Meetup/issues/5",
+        "date": "2025-10-29T11:17:11Z"
+      },
+      {
+        "title": "Meetup #4, August 2025",
+        "url": "https://github.com/BneBitDevs/Meetup/issues/4",
+        "date": "2025-09-27T04:14:01Z"
+      },
+      {
+        "title": "Meetup #3, June 2025",
+        "url": "https://github.com/BneBitDevs/Meetup/issues/3",
+        "date": "2025-07-08T11:56:24Z"
+      },
+      {
+        "title": "Meetup #2, May 2024",
+        "url": "https://github.com/BneBitDevs/Meetup/issues/2",
+        "date": "2025-05-22T06:58:27Z"
+      },
+      {
+        "title": "Meetup #1, Apr 2024",
+        "url": "https://github.com/BneBitDevs/Meetup/issues/1",
+        "date": "2025-04-30T10:25:35Z"
+      }
+    ]
+  },
+  "buenos-aires": {
+    "id": "buenos-aires",
+    "source": "rss",
+    "fetchedAt": "2026-07-07T20:13:42.500Z",
+    "topics": [
+      {
+        "title": "B4OS",
+        "url": "https://b4os.dev/",
+        "date": "2026-06-24T00:00:00.000Z"
+      },
+      {
+        "title": "non standard txs dataset",
+        "url": "https://bitcoin-data.github.io/non-standard-transactions/",
+        "date": "2026-06-24T00:00:00.000Z"
+      },
+      {
+        "title": "Surveillance Is Not Safety — Statement on the UK's Latest Threat to Privacy (Signal)",
+        "url": "https://signal.org/blog/pdfs/2026-06-08-uk-surveillance-is-not-safety.pdf",
+        "date": "2026-06-24T00:00:00.000Z"
+      },
+      {
+        "title": "Polish \"Blik\" payment system gets a bitcoin bridge",
+        "url": "https://bitblik.app/",
+        "date": "2026-06-24T00:00:00.000Z"
+      },
+      {
+        "title": "Brainstorming: What data to collect and monitor during the BIP-110 & BIP-300 forks in August 2026",
+        "url": "https://bnoc.xyz/t/brainstorming-what-data-to-collect-and-monitor-during-the-bip-110-bip-300-forks-in-august-2026",
+        "date": "2026-06-24T00:00:00.000Z"
+      },
+      {
+        "title": "(BIP Proposal) Removal of BIP 125 RBF signalling in wallet transactions",
+        "url": "https://groups.google.com/g/bitcoindev/c/C7zNIk8llew",
+        "date": "2026-06-24T00:00:00.000Z"
+      },
+      {
+        "title": "(BIP Draft) Testnet 5",
+        "url": "https://groups.google.com/g/bitcoindev/c/kGUMTxOvdJA",
+        "date": "2026-06-24T00:00:00.000Z"
+      },
+      {
+        "title": "coinselection: Optimize BnB exploration (#32150)",
+        "url": "https://github.com/bitcoin/bitcoin/pull/32150",
+        "date": "2026-06-24T00:00:00.000Z"
+      },
+      {
+        "title": "BIP 434 Support: Peer feature negotiation (#35221)",
+        "url": "https://github.com/bitcoin/bitcoin/pull/35221",
+        "date": "2026-06-24T00:00:00.000Z"
+      },
+      {
+        "title": "Vulnerability Disclosure: Assertion DoS in Core Lightning",
+        "url": "https://delvingbitcoin.org/t/vulnerability-disclosure-assertion-dos-in-core-lightning/2507",
+        "date": "2026-06-24T00:00:00.000Z"
+      },
+      {
+        "title": "Disclosure: PrivateBroadcast IP Address Leak (Bitcoin Core)",
+        "url": "https://bitcoincore.org/en/2026/06/06/privatebroadcast-ip-leak/",
+        "date": "2026-06-24T00:00:00.000Z"
+      },
+      {
+        "title": "Disclosure: CVE-2024-52911 (Bitcoin Core)",
+        "url": "https://bitcoincore.org/en/2026/05/05/disclose-cve-2024-52911/",
+        "date": "2026-06-24T00:00:00.000Z"
+      },
+      {
+        "title": "A post-quantum path for BIP324",
+        "url": "https://groups.google.com/g/bitcoindev/c/n_5WuKVYqwI",
+        "date": "2026-06-24T00:00:00.000Z"
+      },
+      {
+        "title": "Post-Quantum Lightning, Layer by Layer",
+        "url": "https://delvingbitcoin.org/t/post-quantum-lightning-layer-by-layer/2479",
+        "date": "2026-06-24T00:00:00.000Z"
+      },
+      {
+        "title": "Quantum Attack Game Theory",
+        "url": "https://delvingbitcoin.org/t/quantum-attack-game-theory/2524",
+        "date": "2026-06-24T00:00:00.000Z"
+      },
+      {
+        "title": "P2WOTS: Post Quantum UTXO Winternitz Signatures",
+        "url": "https://delvingbitcoin.org/t/p2wots-post-quantum-utxo-winternitz-signatures",
+        "date": "2026-06-24T00:00:00.000Z"
+      },
+      {
+        "title": "PQC: Google's result on improving Shor's algorithm reconstructed",
+        "url": "https://delvingbitcoin.org/t/pqc-googles-result-on-improving-shors-algorithm-reconstructed",
+        "date": "2026-06-24T00:00:00.000Z"
+      },
+      {
+        "title": "Public key recovery for EC leaves in P2MR (BIP-360)",
+        "url": "https://delvingbitcoin.org/t/public-key-recovery-for-ec-leaves-in-p2mr-bip-360",
+        "date": "2026-06-24T00:00:00.000Z"
+      },
+      {
+        "title": "QCAP: A Bitcoin-Native Quantum Canary Alert",
+        "url": "https://delvingbitcoin.org/t/qcap-a-bitcoin-native-quantum-canary-alert",
+        "date": "2026-06-24T00:00:00.000Z"
+      },
+      {
+        "title": "BIP54 64-byte transactions and potential legitimate uses",
+        "url": "https://groups.google.com/g/bitcoindev/c/iCuq6bFKt5Y",
+        "date": "2026-06-24T00:00:00.000Z"
+      },
+      {
+        "title": "Mapping the design space of sibling-aware covenants",
+        "url": "https://groups.google.com/g/bitcoindev/c/uyRpzE6IFOQ",
+        "date": "2026-06-24T00:00:00.000Z"
+      },
+      {
+        "title": "LND 0.21.0-beta",
+        "url": "https://github.com/lightningnetwork/lnd/releases/tag/v0.21.0-beta",
+        "date": "2026-06-24T00:00:00.000Z"
+      },
+      {
+        "title": "Core Lightning 26.06",
+        "url": "https://github.com/ElementsProject/lightning/releases/tag/v26.06",
+        "date": "2026-06-24T00:00:00.000Z"
+      },
+      {
+        "title": "blip-0042: Bolt 12 Contacts",
+        "url": "https://github.com/lightning/blips/pull/42",
+        "date": "2026-06-24T00:00:00.000Z"
+      },
+      {
+        "title": "CTV-only Vault Concept v0.1.0 release (MCCV)",
+        "url": "https://delvingbitcoin.org/t/ctv-only-vault-concept-v0-1-0-release/2539",
+        "date": "2026-06-24T00:00:00.000Z"
+      },
+      {
+        "title": "Cashu inventor proposes \"unruggable mints\"",
+        "url": "https://xcancel.com/i/status/2063322203450384753",
+        "date": "2026-06-24T00:00:00.000Z"
+      },
+      {
+        "title": "Bark now on Bitcoin mainnet",
+        "url": "https://blog.second.tech/bark-now-on-bitcoin-mainnet/",
+        "date": "2026-06-24T00:00:00.000Z"
+      },
+      {
+        "title": "Transport v2 — NIP-44 Direct Messaging (Mostro Protocol v2)",
+        "url": "https://github.com/MostroP2P/mostro/blob/main/docs/TRANSPORT_V2_SPEC.md",
+        "date": "2026-06-24T00:00:00.000Z"
+      },
+      {
+        "title": "BitVM3",
+        "url": "https://eprint.iacr.org/2026/933",
+        "date": "2026-06-24T00:00:00.000Z"
+      },
+      {
+        "title": "Introducing Mosaic: Glock's final piece",
+        "url": "https://www.alpenlabs.io/blog/introducing-mosaic-glocks-final-piece",
+        "date": "2026-06-24T00:00:00.000Z"
+      },
+      {
+        "title": "BIP 323: reserve version bits 5-28 as extra nonce space (#34779)",
+        "url": "https://github.com/bitcoin/bitcoin/pull/34779",
+        "date": "2026-06-24T00:00:00.000Z"
+      },
+      {
+        "title": "Matching Hashes: Reproducing the Guix-built Bitcoin Core release binary with Nix",
+        "url": "https://b10c.me/projects/027-bitcoind-gunix-match/",
+        "date": "2026-06-24T00:00:00.000Z"
+      }
+    ]
+  },
+  "chicago": {
+    "id": "chicago",
+    "source": "rss",
+    "fetchedAt": "2026-07-07T20:13:42.500Z",
+    "topics": [
+      {
+        "title": "Bitcoin Core version 31.1rc1",
+        "url": "http://chibitdevs.org/2026-07-09-socratic-seminar-79#bitcoin-core-version-311rc1",
+        "date": "2026-07-09T00:00:00.000Z"
+      },
+      {
+        "title": "Mined in America Act",
+        "url": "http://chibitdevs.org/2026-07-09-socratic-seminar-79#mined-in-america-act",
+        "date": "2026-07-09T00:00:00.000Z"
+      },
+      {
+        "title": "Silent Payments Harvest-Now-Decrypt-Later Attack",
+        "url": "http://chibitdevs.org/2026-07-09-socratic-seminar-79#silent-payments-harvest-now-decrypt-later-attack",
+        "date": "2026-07-09T00:00:00.000Z"
+      },
+      {
+        "title": "First Stratum V2 Block Mined",
+        "url": "http://chibitdevs.org/2026-07-09-socratic-seminar-79#first-stratum-v2-block-mined",
+        "date": "2026-07-09T00:00:00.000Z"
+      },
+      {
+        "title": "Secp256k1 Maintainer Steps Down",
+        "url": "http://chibitdevs.org/2026-07-09-socratic-seminar-79#secp256k1-maintainer-steps-down",
+        "date": "2026-07-09T00:00:00.000Z"
+      },
+      {
+        "title": "Marmot Encrypted Group Messaging",
+        "url": "http://chibitdevs.org/2026-07-09-socratic-seminar-79#marmot-encrypted-group-messaging",
+        "date": "2026-07-09T00:00:00.000Z"
+      },
+      {
+        "title": "Libevent Dependency removed from Bitcoin Core",
+        "url": "http://chibitdevs.org/2026-07-09-socratic-seminar-79#libevent-dependency-removed-from-bitcoin-core",
+        "date": "2026-07-09T00:00:00.000Z"
+      },
+      {
+        "title": "BIP95: Testnet 5 Merged",
+        "url": "http://chibitdevs.org/2026-07-09-socratic-seminar-79#bip95-testnet-5-merged",
+        "date": "2026-07-09T00:00:00.000Z"
+      },
+      {
+        "title": "Blockstream Lattice-based Signatures Post",
+        "url": "http://chibitdevs.org/2026-07-09-socratic-seminar-79#blockstream-lattice-based-signatures-post",
+        "date": "2026-07-09T00:00:00.000Z"
+      },
+      {
+        "title": "BIP448 - Taproot-native (Re)bindable Transactions Resources Posted",
+        "url": "http://chibitdevs.org/2026-07-09-socratic-seminar-79#bip448---taproot-native-rebindable-transactions-resources-posted",
+        "date": "2026-07-09T00:00:00.000Z"
+      },
+      {
+        "title": "IP -> AS lookups fully in the browser",
+        "url": "http://chibitdevs.org/2026-07-09-socratic-seminar-79#ip---as-lookups-fully-in-the-browser",
+        "date": "2026-07-09T00:00:00.000Z"
+      },
+      {
+        "title": "Bird of Prey 2: non-malleable Schnorr + PQ signatures",
+        "url": "http://chibitdevs.org/2026-07-09-socratic-seminar-79#bird-of-prey-2-non-malleable-schnorr--pq-signatures",
+        "date": "2026-07-09T00:00:00.000Z"
+      }
+    ]
+  },
+  "cordoba": {
+    "id": "cordoba",
+    "source": "rss",
+    "fetchedAt": "2026-07-07T20:13:42.500Z",
+    "topics": [
+      {
+        "title": "PSBTv2 support merged in bitcoin core",
+        "url": "https://github.com/bitcoin/bitcoin/pull/21283",
+        "date": "2026-05-27T00:00:00.000Z"
+      },
+      {
+        "title": "Sparrow Wallet launched v2.5.0 with silent payments support",
+        "url": "https://xcancel.com/SparrowWallet/status/2057417425801351433#m",
+        "date": "2026-05-27T00:00:00.000Z"
+      }
+    ]
+  },
+  "cotonou": {
+    "id": "cotonou",
+    "source": "rss",
+    "fetchedAt": "2026-07-07T20:13:42.500Z",
+    "topics": [
+      {
+        "title": "bitcoin/bitcoin #32359 Remove arbitrary limits on OP_Return",
+        "url": "https://x.com/wk057/status/1917235710781690171",
+        "date": "2025-05-10T00:00:00.000Z"
+      },
+      {
+        "title": "Bitcoin Optech newsletter #351 & #352",
+        "url": "https://x.com/bitcoinoptech/status/1915722446037983484",
+        "date": "2025-05-10T00:00:00.000Z"
+      },
+      {
+        "title": "Bitcoin transaction with Decoding Bitcoin",
+        "url": "https://bitcoindevs.xyz/decoding",
+        "date": "2025-05-10T00:00:00.000Z"
+      },
+      {
+        "title": "Next Meetups and Annoucements",
+        "url": "http://bitdevscotonou.org/en/2025-05-10-socratic-seminar-3",
+        "date": "2025-05-10T00:00:00.000Z"
+      }
+    ]
+  },
+  "curitiba": {
+    "id": "curitiba",
+    "source": "rss",
+    "fetchedAt": "2026-07-07T20:13:42.500Z",
+    "topics": [
+      {
+        "title": "issues do GitHub do grupo",
+        "url": "https://github.com/curitibabitdevs/curitibabitdevs.org/issues",
+        "date": "2026-06-19T00:00:00.000Z"
+      },
+      {
+        "title": "Mysterious trader burns $8 million as market crashes",
+        "url": "https://www.thestreet.com/crypto/markets/mysterious-trader-burns-8-million-as-market-crashes",
+        "date": "2026-06-19T00:00:00.000Z"
+      },
+      {
+        "title": "Dormant Wallet have moved after 15 years, weakening the claim that silence equals abandonment",
+        "url": "https://www.thestreet.com/crypto/markets/satoshi-era-bitcoin-moves-after-15-years-of-no-movement",
+        "date": "2026-06-19T00:00:00.000Z"
+      },
+      {
+        "title": "Bitcoin Core: disallow P2Pv1 connection on IPv4 and IPv6 peers",
+        "url": "https://github.com/bitcoin/bitcoin/pull/30951",
+        "date": "2026-06-19T00:00:00.000Z"
+      },
+      {
+        "title": "Edil fixes BIP352 spec",
+        "url": "https://github.com/bitcoin/bips/pull/2153",
+        "date": "2026-06-19T00:00:00.000Z"
+      },
+      {
+        "title": "Bark Brings Ark Self-Custody To Mainnet",
+        "url": "https://blog.second.tech/bark-now-on-bitcoin-mainnet/",
+        "date": "2026-06-19T00:00:00.000Z"
+      },
+      {
+        "title": "Zcash Bug Exposes The Privacy Coin Tradeoff",
+        "url": "https://atlas21.com/zcash-critical-vulnerability-allows-unlimited-minting-of-fake-zec/",
+        "date": "2026-06-19T00:00:00.000Z"
+      },
+      {
+        "title": "Meet Loupe: AI-Powered Vulnerability Scanning for Open-Source Bitcoin",
+        "url": "https://spiralbtc.substack.com/p/meet-loupe-ai-powered-vulnerability",
+        "date": "2026-06-19T00:00:00.000Z"
+      },
+      {
+        "title": "Ibis wallet new release (100% AI coded with a lot of features)",
+        "url": "https://github.com/aeonBTC/IbisWallet",
+        "date": "2026-06-19T00:00:00.000Z"
+      },
+      {
+        "title": "Core lightning v26.06",
+        "url": "https://github.com/ElementsProject/lightning/releases/tag/v26.06",
+        "date": "2026-06-19T00:00:00.000Z"
+      },
+      {
+        "title": "Tether vai minerar Bitcoin no Brasil",
+        "url": "https://portaldobitcoin.uol.com.br/tether-vai-comecar-a-minerar-bitcoin-no-brasil-em-parceria-com-a-adecoagro/",
+        "date": "2026-06-19T00:00:00.000Z"
+      },
+      {
+        "title": "Bitcoin mining difficulty drops 10%",
+        "url": "https://cointelegraph.com/news/bitcoin-mining-difficulty-drops-10-in-11th-largest-downward-adjustment",
+        "date": "2026-06-19T00:00:00.000Z"
+      },
+      {
+        "title": "Random - Polymarket Brazil",
+        "url": "https://polymarket.com/teams/fifwc/brazil",
+        "date": "2026-06-19T00:00:00.000Z"
+      },
+      {
+        "title": "Plugin integrando node Floresta ao BTCPayServer",
+        "url": "https://github.com/thgO-O/btcpayserver-plugin-floresta",
+        "date": "2026-06-19T00:00:00.000Z"
+      }
+    ]
+  },
+  "florianopolis": {
+    "id": "florianopolis",
+    "source": "rss",
+    "fetchedAt": "2026-07-07T20:13:42.500Z",
+    "topics": [
+      {
+        "title": "Bitcoiner Chad Brasileiro desenvolve mapa para reunir bitdevs do Brasil",
+        "url": "https://jaoleal.github.io/BitdevsBrasilMapa/",
+        "date": "2026-06-11T00:00:00.000Z"
+      },
+      {
+        "title": "Influência dos devs do Bitcoin (Orange Dev Network)",
+        "url": "https://sorukumar.github.io/orange-dev-network/network.html",
+        "date": "2026-06-11T00:00:00.000Z"
+      },
+      {
+        "title": "Sparrow 2.5.0",
+        "url": "https://github.com/sparrowwallet/sparrow/releases",
+        "date": "2026-06-11T00:00:00.000Z"
+      },
+      {
+        "title": "Tradução PT-BR para o site Learn Me a Bitcoin",
+        "url": "https://meaprendeumbitcoin.com.br/",
+        "date": "2026-06-11T00:00:00.000Z"
+      },
+      {
+        "title": "bitcoin-cli getmempoolcluster: Bitcoin Core v31 na prática",
+        "url": "https://blog.areabitcoin.com.br/bitcoin-core-v31-na-pratica/",
+        "date": "2026-06-11T00:00:00.000Z"
+      },
+      {
+        "title": "Bitcoin Core: disallow P2Pv1 connection on IPv4 and IPv6 peers",
+        "url": "https://github.com/bitcoin/bitcoin/pull/30951",
+        "date": "2026-06-11T00:00:00.000Z"
+      },
+      {
+        "title": "IPC-based tracing interface on Core?",
+        "url": "https://github.com/bitcoin/bitcoin/issues/35142",
+        "date": "2026-06-11T00:00:00.000Z"
+      },
+      {
+        "title": "Formosa becomes officially BIP450",
+        "url": "https://github.com/bitcoin/bips/pull/2108",
+        "date": "2026-06-11T00:00:00.000Z"
+      },
+      {
+        "title": "BIP proposal for UTXO set sharing over P2P network",
+        "url": "https://groups.google.com/g/bitcoindev/c/rThmyI8ZN3Q",
+        "date": "2026-06-11T00:00:00.000Z"
+      },
+      {
+        "title": "TCP hole punching for Bitcoin nodes behind NATs",
+        "url": "https://delvingbitcoin.org/t/tcp-hole-punching-for-bitcoin-nodes-behind-home-nats/2497",
+        "date": "2026-06-11T00:00:00.000Z"
+      },
+      {
+        "title": "Bisq Protocol Exploit, 11 BTC stolen",
+        "url": "https://xcancel.com/bisq_network/status/2050917431699460231",
+        "date": "2026-06-11T00:00:00.000Z"
+      },
+      {
+        "title": "Meet Loupe: AI-Powered Vulnerability Scanning for Open-Source Bitcoin",
+        "url": "https://spiralbtc.substack.com/p/meet-loupe-ai-powered-vulnerability",
+        "date": "2026-06-11T00:00:00.000Z"
+      },
+      {
+        "title": "Trezor’s TROPIC01 chip vulnerability disclosure",
+        "url": "https://trezor.io/blog/news/Trezor-response-TROPIC01-chip-disclosure-no-impact-to-your-funds",
+        "date": "2026-06-11T00:00:00.000Z"
+      },
+      {
+        "title": "Rug the mints (full disclosure)",
+        "url": "https://uncensoredtech.substack.com/p/rug-the-mints",
+        "date": "2026-06-11T00:00:00.000Z"
+      },
+      {
+        "title": "Cashu now accepts Onchain Bitcoin payments (next release)",
+        "url": "https://github.com/cashubtc/nuts/blob/main/30.md",
+        "date": "2026-06-11T00:00:00.000Z"
+      },
+      {
+        "title": "Zcash e os perigos da opacificação na camada base (money printer go brrr)",
+        "url": "https://gizmodo.com/zcash-bug-could-have-let-attackers-print-cryptocurrency-out-of-thin-air-2000767790",
+        "date": "2026-06-11T00:00:00.000Z"
+      },
+      {
+        "title": "Introducing Mosaic: Glock’s final piece",
+        "url": "https://www.alpenlabs.io/blog/introducing-mosaic-glocks-final-piece",
+        "date": "2026-06-11T00:00:00.000Z"
+      },
+      {
+        "title": "BitVM3",
+        "url": "https://eprint.iacr.org/2026/933",
+        "date": "2026-06-11T00:00:00.000Z"
+      },
+      {
+        "title": "Cube: Ark + ZK",
+        "url": "https://medium.com/cube-bitcoin/introducing-cube-8b3702e470a5",
+        "date": "2026-06-11T00:00:00.000Z"
+      },
+      {
+        "title": "Bark now on Bitcoin mainnet",
+        "url": "https://blog.second.tech/bark-now-on-bitcoin-mainnet/",
+        "date": "2026-06-11T00:00:00.000Z"
+      }
+    ]
+  },
+  "goma": {
+    "id": "goma",
+    "source": "rss",
+    "fetchedAt": "2026-07-07T20:13:42.500Z",
+    "topics": [
+      {
+        "title": "Qu’est-ce que le Lightning Network et pourquoi il a été créé",
+        "url": "https://bitdevsgoma.org/2026-06-26-socratic-seminar-13",
+        "date": "2026-06-26T00:00:00.000Z"
+      },
+      {
+        "title": "Différence entre transactions en chaîne et paiements hors chaîne",
+        "url": "https://bitdevsgoma.org/2026-06-26-socratic-seminar-13",
+        "date": "2026-06-26T00:00:00.000Z"
+      },
+      {
+        "title": "Notion de canaux de paiement et réseau de routage",
+        "url": "https://bitdevsgoma.org/2026-06-26-socratic-seminar-13",
+        "date": "2026-06-26T00:00:00.000Z"
+      },
+      {
+        "title": "Avantages : rapidité, faible coût, évolutivité",
+        "url": "https://bitdevsgoma.org/2026-06-26-socratic-seminar-13",
+        "date": "2026-06-26T00:00:00.000Z"
+      },
+      {
+        "title": "Interaction entre Bitcoin L1 et Lightning L2",
+        "url": "https://bitdevsgoma.org/2026-06-26-socratic-seminar-13",
+        "date": "2026-06-26T00:00:00.000Z"
+      },
+      {
+        "title": "Rôle des Nœuds Foudre",
+        "url": "https://bitdevsgoma.org/2026-06-26-socratic-seminar-13",
+        "date": "2026-06-26T00:00:00.000Z"
+      },
+      {
+        "title": "Canaux, liquidité et routage des paiements",
+        "url": "https://bitdevsgoma.org/2026-06-26-socratic-seminar-13",
+        "date": "2026-06-26T00:00:00.000Z"
+      },
+      {
+        "title": "Notions de base : HTLC (Hash Time-Locked Contracts)",
+        "url": "https://bitdevsgoma.org/2026-06-26-socratic-seminar-13",
+        "date": "2026-06-26T00:00:00.000Z"
+      },
+      {
+        "title": "Paiements instantanés en e-commerce",
+        "url": "https://bitdevsgoma.org/2026-06-26-socratic-seminar-13",
+        "date": "2026-06-26T00:00:00.000Z"
+      },
+      {
+        "title": "Applications mobiles de micro-paiements",
+        "url": "https://bitdevsgoma.org/2026-06-26-socratic-seminar-13",
+        "date": "2026-06-26T00:00:00.000Z"
+      },
+      {
+        "title": "Jeux, API payantes, systèmes IoT",
+        "url": "https://bitdevsgoma.org/2026-06-26-socratic-seminar-13",
+        "date": "2026-06-26T00:00:00.000Z"
+      },
+      {
+        "title": "14h20 – 14h45 : Wallets Lightning, paiements et logique interne",
+        "url": "https://bitdevsgoma.org/2026-06-26-socratic-seminar-13",
+        "date": "2026-06-26T00:00:00.000Z"
+      },
+      {
+        "title": "Création et gestion de portefeuilles compatibles Lightning",
+        "url": "https://bitdevsgoma.org/2026-06-26-socratic-seminar-13",
+        "date": "2026-06-26T00:00:00.000Z"
+      },
+      {
+        "title": "Ouverture et fermeture de canaux",
+        "url": "https://bitdevsgoma.org/2026-06-26-socratic-seminar-13",
+        "date": "2026-06-26T00:00:00.000Z"
+      },
+      {
+        "title": "Gestion de la liquidité entrante/sortante",
+        "url": "https://bitdevsgoma.org/2026-06-26-socratic-seminar-13",
+        "date": "2026-06-26T00:00:00.000Z"
+      },
+      {
+        "title": "Observation des ventes on-chain vs off-chain",
+        "url": "https://bitdevsgoma.org/2026-06-26-socratic-seminar-13",
+        "date": "2026-06-26T00:00:00.000Z"
+      },
+      {
+        "title": "Création de factures Lightning",
+        "url": "https://bitdevsgoma.org/2026-06-26-socratic-seminar-13",
+        "date": "2026-06-26T00:00:00.000Z"
+      },
+      {
+        "title": "Envoi et réception de paiements instantanés",
+        "url": "https://bitdevsgoma.org/2026-06-26-socratic-seminar-13",
+        "date": "2026-06-26T00:00:00.000Z"
+      },
+      {
+        "title": "Routage des paiements dans le réseau",
+        "url": "https://bitdevsgoma.org/2026-06-26-socratic-seminar-13",
+        "date": "2026-06-26T00:00:00.000Z"
+      },
+      {
+        "title": "estion des frais Lightning",
+        "url": "https://bitdevsgoma.org/2026-06-26-socratic-seminar-13",
+        "date": "2026-06-26T00:00:00.000Z"
+      },
+      {
+        "title": "utilisation d’un environnement regtest / testnet Lightning",
+        "url": "https://bitdevsgoma.org/2026-06-26-socratic-seminar-13",
+        "date": "2026-06-26T00:00:00.000Z"
+      },
+      {
+        "title": "création de nœuds locaux",
+        "url": "https://bitdevsgoma.org/2026-06-26-socratic-seminar-13",
+        "date": "2026-06-26T00:00:00.000Z"
+      },
+      {
+        "title": "simulation de paiements multi-nœuds",
+        "url": "https://bitdevsgoma.org/2026-06-26-socratic-seminar-13",
+        "date": "2026-06-26T00:00:00.000Z"
+      },
+      {
+        "title": "observation des états de canaux",
+        "url": "https://bitdevsgoma.org/2026-06-26-socratic-seminar-13",
+        "date": "2026-06-26T00:00:00.000Z"
+      },
+      {
+        "title": "Interface mobile : React Native",
+        "url": "https://bitdevsgoma.org/2026-06-26-socratic-seminar-13",
+        "date": "2026-06-26T00:00:00.000Z"
+      },
+      {
+        "title": "Côté serveur : Node.js / TypeScript",
+        "url": "https://bitdevsgoma.org/2026-06-26-socratic-seminar-13",
+        "date": "2026-06-26T00:00:00.000Z"
+      },
+      {
+        "title": "Interface API : Next.js (routes API ou actions serveur)",
+        "url": "https://bitdevsgoma.org/2026-06-26-socratic-seminar-13",
+        "date": "2026-06-26T00:00:00.000Z"
+      },
+      {
+        "title": "configuration du projet mobile React Native",
+        "url": "https://bitdevsgoma.org/2026-06-26-socratic-seminar-13",
+        "date": "2026-06-26T00:00:00.000Z"
+      },
+      {
+        "title": "mise en place du backend TypeScript",
+        "url": "https://bitdevsgoma.org/2026-06-26-socratic-seminar-13",
+        "date": "2026-06-26T00:00:00.000Z"
+      },
+      {
+        "title": "intégration d’un nœud Lightning (local ou testnet)",
+        "url": "https://bitdevsgoma.org/2026-06-26-socratic-seminar-13",
+        "date": "2026-06-26T00:00:00.000Z"
+      },
+      {
+        "title": "backend API de connexion ↔ portefeuille Lightning",
+        "url": "https://bitdevsgoma.org/2026-06-26-socratic-seminar-13",
+        "date": "2026-06-26T00:00:00.000Z"
+      },
+      {
+        "title": "génération d’une facture depuis le backend",
+        "url": "https://bitdevsgoma.org/2026-06-26-socratic-seminar-13",
+        "date": "2026-06-26T00:00:00.000Z"
+      },
+      {
+        "title": "affichage dans l’app mobile",
+        "url": "https://bitdevsgoma.org/2026-06-26-socratic-seminar-13",
+        "date": "2026-06-26T00:00:00.000Z"
+      },
+      {
+        "title": "Scannez le code QR pour payer",
+        "url": "https://bitdevsgoma.org/2026-06-26-socratic-seminar-13",
+        "date": "2026-06-26T00:00:00.000Z"
+      },
+      {
+        "title": "suivi du statut de transaction",
+        "url": "https://bitdevsgoma.org/2026-06-26-socratic-seminar-13",
+        "date": "2026-06-26T00:00:00.000Z"
+      },
+      {
+        "title": "création d’une facture côté backend",
+        "url": "https://bitdevsgoma.org/2026-06-26-socratic-seminar-13",
+        "date": "2026-06-26T00:00:00.000Z"
+      },
+      {
+        "title": "affichage et scan côté mobile",
+        "url": "https://bitdevsgoma.org/2026-06-26-socratic-seminar-13",
+        "date": "2026-06-26T00:00:00.000Z"
+      },
+      {
+        "title": "exécution du paiement via nœud Lightning",
+        "url": "https://bitdevsgoma.org/2026-06-26-socratic-seminar-13",
+        "date": "2026-06-26T00:00:00.000Z"
+      },
+      {
+        "title": "confirmation instantanée côté application",
+        "url": "https://bitdevsgoma.org/2026-06-26-socratic-seminar-13",
+        "date": "2026-06-26T00:00:00.000Z"
+      },
+      {
+        "title": "API de gestion des paiements",
+        "url": "https://bitdevsgoma.org/2026-06-26-socratic-seminar-13",
+        "date": "2026-06-26T00:00:00.000Z"
+      },
+      {
+        "title": "confirmation du webhook",
+        "url": "https://bitdevsgoma.org/2026-06-26-socratic-seminar-13",
+        "date": "2026-06-26T00:00:00.000Z"
+      },
+      {
+        "title": "synchronisation temps réel avec l’application mobile",
+        "url": "https://bitdevsgoma.org/2026-06-26-socratic-seminar-13",
+        "date": "2026-06-26T00:00:00.000Z"
+      },
+      {
+        "title": "gestion des erreurs réseau et logique de nouvelle tentative",
+        "url": "https://bitdevsgoma.org/2026-06-26-socratic-seminar-13",
+        "date": "2026-06-26T00:00:00.000Z"
+      },
+      {
+        "title": "compréhension du cycle complet : app → backend → Lightning node → réseau",
+        "url": "https://bitdevsgoma.org/2026-06-26-socratic-seminar-13",
+        "date": "2026-06-26T00:00:00.000Z"
+      },
+      {
+        "title": "surveillance des transactions",
+        "url": "https://bitdevsgoma.org/2026-06-26-socratic-seminar-13",
+        "date": "2026-06-26T00:00:00.000Z"
+      },
+      {
+        "title": "gestion de la fiabilité et de la latence",
+        "url": "https://bitdevsgoma.org/2026-06-26-socratic-seminar-13",
+        "date": "2026-06-26T00:00:00.000Z"
+      },
+      {
+        "title": "bonnes pratiques pour les applications financières mobiles",
+        "url": "https://bitdevsgoma.org/2026-06-26-socratic-seminar-13",
+        "date": "2026-06-26T00:00:00.000Z"
+      }
+    ]
+  },
+  "guadalajara": {
+    "id": "guadalajara",
+    "source": "rss",
+    "fetchedAt": "2026-07-07T20:13:42.500Z",
+    "topics": [
+      {
+        "title": "Onion Message Jamming in the Lightning Network",
+        "url": "https://delvingbitcoin.org/t/onion-message-jamming-in-the-lightning-network/2414",
+        "date": "2026-05-19T00:00:00.000Z"
+      },
+      {
+        "title": "Bitcoin Knots integrará BIP-110 para filtrar datos arbitrarios en la red",
+        "url": "https://github.com/bitcoinknots/bitcoin/releases/tag/v29.3.knots20260508",
+        "date": "2026-05-19T00:00:00.000Z"
+      },
+      {
+        "title": "cli: rework -addrinfo cli to use addresses which aren’t filtered for quality/recency",
+        "url": "https://github.com/bitcoin/bitcoin/pull/26988",
+        "date": "2026-05-19T00:00:00.000Z"
+      },
+      {
+        "title": "wallet, rpc: add include_change parameter to listtransactions",
+        "url": "https://github.com/bitcoin/bitcoin/pull/35009",
+        "date": "2026-05-19T00:00:00.000Z"
+      },
+      {
+        "title": "The ordinals BIP pull request was closed on March 4th, 2026",
+        "url": "https://github.com/bitcoin/bips/pull/1408",
+        "date": "2026-05-19T00:00:00.000Z"
+      },
+      {
+        "title": "Core Lightning 26.04: “Negative Routing Fees”",
+        "url": "https://blog.blockstream.com/core-lightning-26-04-negative-routing-fees/",
+        "date": "2026-05-19T00:00:00.000Z"
+      },
+      {
+        "title": "BOLT 12: clarify that offer_amount must be greater than zero",
+        "url": "https://github.com/lightning/bolts/pull/1316",
+        "date": "2026-05-19T00:00:00.000Z"
+      },
+      {
+        "title": "Channel Splicing (feature 62/63)",
+        "url": "https://github.com/lightning/bolts/pull/1160",
+        "date": "2026-05-19T00:00:00.000Z"
+      },
+      {
+        "title": "[RFC] Add BOLT 12 payer proof primitives",
+        "url": "https://github.com/lightningdevkit/rust-lightning/pull/4297",
+        "date": "2026-05-19T00:00:00.000Z"
+      },
+      {
+        "title": "Add support for resolving BIP 353 Human-Readable Names",
+        "url": "https://github.com/lightningdevkit/ldk-node/pull/630",
+        "date": "2026-05-19T00:00:00.000Z"
+      },
+      {
+        "title": "Add splice RBF support",
+        "url": "https://github.com/lightningdevkit/ldk-node/pull/888",
+        "date": "2026-05-19T00:00:00.000Z"
+      },
+      {
+        "title": "extension-bolt: simple taproot channels (feature 80/81)",
+        "url": "https://github.com/lightning/bolts/pull/995",
+        "date": "2026-05-19T00:00:00.000Z"
+      },
+      {
+        "title": "Why Lexe Wallet Uses A Lightning Meganode Architecture And Intel SGX Secure Enclaves",
+        "url": "https://lightning.news/lexe-wallet-intel-sgx-secure-enclaves/",
+        "date": "2026-05-19T00:00:00.000Z"
+      },
+      {
+        "title": "Silent Payment Output Script Descriptors",
+        "url": "https://github.com/bitcoin/bips/blob/master/bip-0392.mediawiki",
+        "date": "2026-05-19T00:00:00.000Z"
+      },
+      {
+        "title": "Spending Silent Payment outputs with PSBTs",
+        "url": "https://github.com/bitcoin/bips/blob/master/bip-0376.mediawiki",
+        "date": "2026-05-19T00:00:00.000Z"
+      },
+      {
+        "title": "OP_CHECKSHRINCS: A Hash-Based Signature Opcode for Post-Quantum Bitcoin",
+        "url": "https://blog.blockstream.com/op_checkshrincs-a-hash-based-signature-opcode-for-post-quantum-bitcoin/",
+        "date": "2026-05-19T00:00:00.000Z"
+      },
+      {
+        "title": "A SHA-256 hash as a valid signature",
+        "url": "https://github.com/RobinLinus/sha2-ecdsa",
+        "date": "2026-05-19T00:00:00.000Z"
+      },
+      {
+        "title": "What if we let Quantum Hunters get Bitcoin rewards?",
+        "url": "https://groups.google.com/g/bitcoindev/c/pyWy3eTrpQo/m/uUN8Lpo5AgAJ?pli=1",
+        "date": "2026-05-19T00:00:00.000Z"
+      },
+      {
+        "title": "BIP451: Dust UTXO Disposal Protocol",
+        "url": "https://github.com/bitcoin/bips/pull/2150",
+        "date": "2026-05-19T00:00:00.000Z"
+      },
+      {
+        "title": "A lightweight Bitcoin validator node for Android",
+        "url": "https://github.com/jvsena42/mandacaru",
+        "date": "2026-05-19T00:00:00.000Z"
+      },
+      {
+        "title": "The Mempool Open Source Project® v3.3.0",
+        "url": "https://github.com/mempool/mempool/releases/tag/v3.3.0",
+        "date": "2026-05-19T00:00:00.000Z"
+      },
+      {
+        "title": "txray: Understand Bitcoin transactions beyond the block explorer view",
+        "url": "https://github.com/keshav0479/txray",
+        "date": "2026-05-19T00:00:00.000Z"
+      }
+    ]
+  },
+  "kaduna": {
+    "id": "kaduna",
+    "source": "rss",
+    "fetchedAt": "2026-07-07T20:13:42.500Z",
+    "topics": [
+      {
+        "title": "Understanding Open source",
+        "url": "https://bitdevskaduna.org/socratic-seminar-4/",
+        "date": "2026-01-31T00:00:00.000Z"
+      },
+      {
+        "title": "Architecture of Sabi Wallet",
+        "url": "https://bitdevskaduna.org/socratic-seminar-4/",
+        "date": "2026-01-31T00:00:00.000Z"
+      },
+      {
+        "title": "Networking session",
+        "url": "https://bitdevskaduna.org/socratic-seminar-4/",
+        "date": "2026-01-31T00:00:00.000Z"
+      },
+      {
+        "title": "Bitcoin Optech Newsletter Updates",
+        "url": "https://bitcoinops.org/en/newsletters/2026/01/30/",
+        "date": "2026-01-31T00:00:00.000Z"
+      },
+      {
+        "title": "Adopting Bitcoin Conferences Cafe town",
+        "url": "https://za26.adoptingbitcoin.org/",
+        "date": "2026-01-31T00:00:00.000Z"
+      }
+    ]
+  },
+  "kampala": {
+    "id": "kampala",
+    "source": "rss",
+    "fetchedAt": "2026-07-07T20:13:42.500Z",
+    "topics": [
+      {
+        "title": "Lightning project building sessions",
+        "url": "http://bitdevskla.org/2026-03-27-socratic-seminar-8",
+        "date": "2026-03-27T00:00:00.000Z"
+      },
+      {
+        "title": "Project demos from bootcamp participants",
+        "url": "http://bitdevskla.org/2026-03-27-socratic-seminar-8",
+        "date": "2026-03-27T00:00:00.000Z"
+      },
+      {
+        "title": "Awarding of winning projects and closing remarks",
+        "url": "http://bitdevskla.org/2026-03-27-socratic-seminar-8",
+        "date": "2026-03-27T00:00:00.000Z"
+      }
+    ]
+  },
+  "lagos": {
+    "id": "lagos",
+    "source": "rss",
+    "fetchedAt": "2026-07-07T20:13:42.500Z",
+    "topics": [
+      {
+        "title": "Purpose: Nodegaze helps node operators monitor the health and activity of their Lightning Network node.",
+        "url": "https://www.bitdevslagos.org/socratic-seminar-14/",
+        "date": "2025-10-25T00:00:00.000Z"
+      },
+      {
+        "title": "Core Goal: To leverage Bitcoin technology to enhance the transparency and accountability of cooperative finance administrators and operations.",
+        "url": "https://www.bitdevslagos.org/socratic-seminar-14/",
+        "date": "2025-10-25T00:00:00.000Z"
+      },
+      {
+        "title": "Function: Minmo acts as a decentralized aggregator , connecting individuals who offer on-ramping and off-ramping services for Bitcoin using the Lightning Network .",
+        "url": "https://www.bitdevslagos.org/socratic-seminar-14/",
+        "date": "2025-10-25T00:00:00.000Z"
+      }
+    ]
+  },
+  "london": {
+    "id": "london",
+    "source": "rss",
+    "fetchedAt": "2026-07-07T20:13:42.500Z",
+    "topics": [
+      {
+        "title": "Bitcoin Core PR Review Club",
+        "url": "https://bitcoincore.reviews/",
+        "date": "2026-06-24T00:00:00.000Z"
+      },
+      {
+        "title": "Consensus Cleanup: demo of slow blocks on Signet",
+        "url": "https://delvingbitcoin.org/t/consensus-cleanup-demo-of-slow-blocks-on-signet/2367",
+        "date": "2026-06-24T00:00:00.000Z"
+      },
+      {
+        "title": "Public key recovery for EC leaves in P2MR (BIP-360)",
+        "url": "https://delvingbitcoin.org/t/public-key-recovery-for-ec-leaves-in-p2mr-bip-360/2603",
+        "date": "2026-06-24T00:00:00.000Z"
+      },
+      {
+        "title": "TCP hole punching for Bitcoin nodes behind home NATs?",
+        "url": "https://delvingbitcoin.org/t/tcp-hole-punching-for-bitcoin-nodes-behind-home-nats/2497",
+        "date": "2026-06-24T00:00:00.000Z"
+      },
+      {
+        "title": "Onion Message Jamming in the Lightning Network",
+        "url": "https://delvingbitcoin.org/t/onion-message-jamming-in-the-lightning-network/2414",
+        "date": "2026-06-24T00:00:00.000Z"
+      },
+      {
+        "title": "Fountain Codes: a way to reduce blockchain storage costs",
+        "url": "https://delvingbitcoin.org/t/fountain-codes-a-way-to-reduce-blockchain-storage-costs/2624",
+        "date": "2026-06-24T00:00:00.000Z"
+      },
+      {
+        "title": "Bird of Prey 2: non-malleable Schnorr + PQ signatures",
+        "url": "https://delvingbitcoin.org/t/bird-of-prey-2-non-malleable-schnorr-pq-signatures/2514",
+        "date": "2026-06-24T00:00:00.000Z"
+      },
+      {
+        "title": "SHRIMPS: 2.5 KB post-quantum signatures across multiple stateful devices",
+        "url": "https://delvingbitcoin.org/t/shrimps-2-5-kb-post-quantum-signatures-across-multiple-stateful-devices/2355",
+        "date": "2026-06-24T00:00:00.000Z"
+      },
+      {
+        "title": "How wallet fingerprints damage Payjoin privacy",
+        "url": "https://delvingbitcoin.org/t/how-wallet-fingerprints-damage-payjoin-privacy/2354",
+        "date": "2026-06-24T00:00:00.000Z"
+      },
+      {
+        "title": "Fingerprinting nodes: Possible Solutions",
+        "url": "https://delvingbitcoin.org/t/fingerprinting-nodes-possible-solutions/2466",
+        "date": "2026-06-24T00:00:00.000Z"
+      },
+      {
+        "title": "QR-based signing flow payloads in Miniscript context",
+        "url": "https://delvingbitcoin.org/t/qr-based-signing-flow-payloads-in-miniscript-context/2464",
+        "date": "2026-06-24T00:00:00.000Z"
+      },
+      {
+        "title": "Towards A K-of-N Lightning Network Node",
+        "url": "https://delvingbitcoin.org/t/towards-a-k-of-n-lightning-network-node/2395",
+        "date": "2026-06-24T00:00:00.000Z"
+      },
+      {
+        "title": "BIP39 native-language display wordlists mapped to canonical English",
+        "url": "https://delvingbitcoin.org/t/bip39-native-language-display-wordlists-mapped-to-canonical-english/2637",
+        "date": "2026-06-24T00:00:00.000Z"
+      },
+      {
+        "title": "PQC: Lattice-based signatures",
+        "url": "https://delvingbitcoin.org/t/pqc-lattice-based-signatures/2522",
+        "date": "2026-06-24T00:00:00.000Z"
+      },
+      {
+        "title": "Eltoo State Chain on Signet: Three Rounds, Six Transactions (APO + CTV)",
+        "url": "https://delvingbitcoin.org/t/eltoo-state-chain-on-signet-three-rounds-six-transactions-apo-ctv/2413",
+        "date": "2026-06-24T00:00:00.000Z"
+      },
+      {
+        "title": "In defense of a PQ output type",
+        "url": "https://gnusha.org/pi/bitcoindev/0vqF88LoOnY4GiUB4vf-MdeZpTAtR70tokS3cLwt2DX0e6_fD1X_wyhPwWEdIdm6R88AULObIU08CWsb5QfeoaM5c4yXPqN5wHyCrqMCtfQ=@protonmail.com/",
+        "date": "2026-06-24T00:00:00.000Z"
+      },
+      {
+        "title": "PQC - What is our Goal, Even?",
+        "url": "https://gnusha.org/pi/bitcoindev/05E6D06B-1F72-48F6-B4F3-0225675BCC1F@mattcorallo.com/",
+        "date": "2026-06-24T00:00:00.000Z"
+      },
+      {
+        "title": "Prohibit Merkle Internal Node Preimages That Encode Minimal 64-Byte Transactions",
+        "url": "https://gnusha.org/pi/bitcoindev/f97afcc5-54ba-4284-8e9b-e8c35c7101f6n@googlegroups.com/",
+        "date": "2026-06-24T00:00:00.000Z"
+      },
+      {
+        "title": "Aligning privacy incentives in P2MR",
+        "url": "https://gnusha.org/pi/bitcoindev/Q8YTY1ArMzia7tRvcZ5v769WPxCMxAl_0rUy-byOBjBcTd4HXj7IB7Yt4gxLbKqk7EXFWy-PuGB6QtI28qRjE5Vob-l44UmBH6L8aXInoSk=@proton.me/",
+        "date": "2026-06-24T00:00:00.000Z"
+      },
+      {
+        "title": "[BIP Draft] Testnet 5",
+        "url": "https://gnusha.org/pi/bitcoindev/BrgqDZiNhpEz32-Z9ZX2rrPDE9EUIb62SKT2WsTo-yZtd3gLMLVk6TkO6kLIR96-87TumXqi92l_m1j3xlJr1tcJwG_I3UVDk2NZgXZL8fw=@protonmail.com/",
+        "date": "2026-06-24T00:00:00.000Z"
+      },
+      {
+        "title": "[BIP-0054] 64-Byte Transactions and Potential Legitimate Uses",
+        "url": "https://gnusha.org/pi/bitcoindev/123e5545-2eda-4eca-9532-4f4cea2b83ecn@googlegroups.com/",
+        "date": "2026-06-24T00:00:00.000Z"
+      },
+      {
+        "title": "[BIP Draft] Dust UTXO Disposal Protocol",
+        "url": "https://gnusha.org/pi/bitcoindev/3b3328b8-bba4-4858-b53a-0e9b631044ffn@googlegroups.com/",
+        "date": "2026-06-24T00:00:00.000Z"
+      },
+      {
+        "title": "Weak Quantum Bounty Ceremony",
+        "url": "https://gnusha.org/pi/bitcoindev/CAJowKgJVwmm=h6AsO4zeGTmfdK-RUQiDsMJkMRd6WZSo5FjeZg@mail.gmail.com/",
+        "date": "2026-06-24T00:00:00.000Z"
+      },
+      {
+        "title": "Hornet Update: A declarative executable specification of Bitcoin consensus rules",
+        "url": "https://gnusha.org/pi/bitcoindev/4cd864f3-96dd-4058-bfcd-b1bbf6cfa269n@googlegroups.com/",
+        "date": "2026-06-24T00:00:00.000Z"
+      },
+      {
+        "title": "[bitcoin-dev] Proposal discussion: BIP39 native-language display wordlists",
+        "url": "https://gnusha.org/pi/bitcoindev/e4ee1a70-aa70-4dbe-9f6c-27c26c5d17e0n@googlegroups.com/",
+        "date": "2026-06-24T00:00:00.000Z"
+      },
+      {
+        "title": "[BIP Proposal] Removal of BIP 125 RBF signalling in wallet transactions",
+        "url": "https://gnusha.org/pi/bitcoindev/212d5db3-7521-4afd-a551-fda8a6ef09c9n@googlegroups.com/",
+        "date": "2026-06-24T00:00:00.000Z"
+      },
+      {
+        "title": "BIP 3 and issues on BIPs",
+        "url": "https://gnusha.org/pi/bitcoindev/ahZOIkGfmJBbCffy@erisian.com.au/",
+        "date": "2026-06-24T00:00:00.000Z"
+      },
+      {
+        "title": "A Post-Quantum Path for BIP 324",
+        "url": "https://gnusha.org/pi/bitcoindev/CAO3Pvs9U3prZJiDs0Ns7LSA07R8hM-GQou_FcTZZz-JUQpUYHw@mail.gmail.com/",
+        "date": "2026-06-24T00:00:00.000Z"
+      },
+      {
+        "title": "A “Quantum-Agile” Bitcoin address proposal",
+        "url": "https://gnusha.org/pi/bitcoindev/8d22c782-6da1-46f3-aa12-f686d5e1746dn@googlegroups.com/",
+        "date": "2026-06-24T00:00:00.000Z"
+      },
+      {
+        "title": "RFC: Two years of BIP Editing, time for some new faces?",
+        "url": "https://gnusha.org/pi/bitcoindev/SoWAToywcwdV53iRUabwyoAc2Zli8up12ofKsvbGFk_zONpq9U8hlmG9PzIsd0Fv4bZQZaVCEQ-EC7SLxMqHYEMmYkAo3evOjIrotmlst80=@protonmail.com/",
+        "date": "2026-06-24T00:00:00.000Z"
+      },
+      {
+        "title": "A look at SHRINCS",
+        "url": "https://gnusha.org/pi/bitcoindev/CAOWv0+Ux1AiLbUagF8eWsmvMQ-xvu438WsOJ+r0MzsqbHWerOQ@mail.gmail.com/",
+        "date": "2026-06-24T00:00:00.000Z"
+      },
+      {
+        "title": "One Time Signatures as an Advantage?",
+        "url": "https://gnusha.org/pi/bitcoindev/d3648bd4-03d3-4b98-92bf-d845302be349n@googlegroups.com/",
+        "date": "2026-06-24T00:00:00.000Z"
+      },
+      {
+        "title": "Simple Setup for SPHINCS+ Bitcoin-style Address (proof-of-concept)",
+        "url": "https://gnusha.org/pi/bitcoindev/Z-5YrpxXl7xqYc-R3WBlTHkr5kVE5sIC4rU3W5H1AzGvrHfOcegWUj11nJZBaLJJV8En14lPAB2x7S9eQmocJDYNHAKdr6hRC-qgqyeTMwo=@protonmail.com/",
+        "date": "2026-06-24T00:00:00.000Z"
+      },
+      {
+        "title": "[BIP] P2WOTS: 64 Slot Winternitz UTXO’s (witness version three)",
+        "url": "https://gnusha.org/pi/bitcoindev/LB_O7FqGG5kTYN96-MClXIl7retn-UyDlPQbVhVOnxlMO5i-h1Oq1NDhAkaZUqx--yeNW38X8p90IulPeSDLJzhJd5UwHYvFEzc8YhVWvtU=@proton.me/",
+        "date": "2026-06-24T00:00:00.000Z"
+      },
+      {
+        "title": "[BIP Proposal] Hybrid SPHINCS+ / secp256k1 Key Derivation for Quantum-Resistant Paper Wallets",
+        "url": "https://gnusha.org/pi/bitcoindev/bpSypbIuSoDinhE-Y4CrVI5LGHrJ_I79xYUzpYswA5JGkbASwibq94UozeR2jsu48vH6FZLdEBPpWHgIuVtSpUNy-tRpnGfe1hce2ti8k5w=@protonmail.com/",
+        "date": "2026-06-24T00:00:00.000Z"
+      },
+      {
+        "title": "Knowledge Gathering: SPV Proof Applications In the Wild and Proposed",
+        "url": "https://gnusha.org/pi/bitcoindev/a3049fd5-e001-4d3a-9c99-d5629f47dfd8n@googlegroups.com/",
+        "date": "2026-06-24T00:00:00.000Z"
+      },
+      {
+        "title": "[BIP Draft] P2P UTXO Set Sharing",
+        "url": "https://gnusha.org/pi/bitcoindev/CmNC-9nAajMwaJi6dHTdlpgjzLZazPlMjGAxNT8DJXAnyw2sUKCygJJU4BLqaF8OYw3carG_pt1Rriqu66OG3wQ8u2itVlJCFo1AhI3V4es=@protonmail.com/",
+        "date": "2026-06-24T00:00:00.000Z"
+      },
+      {
+        "title": "Bitcoin PR Review Club",
+        "url": "https://bitcoincore.reviews/",
+        "date": "2026-06-24T00:00:00.000Z"
+      },
+      {
+        "title": "Newsletter #398",
+        "url": "https://bitcoinops.org/en/newsletters/2026/03/27/",
+        "date": "2026-06-24T00:00:00.000Z"
+      },
+      {
+        "title": "Newsletter #399",
+        "url": "https://bitcoinops.org/en/newsletters/2026/04/03/",
+        "date": "2026-06-24T00:00:00.000Z"
+      },
+      {
+        "title": "Newsletter #400",
+        "url": "https://bitcoinops.org/en/newsletters/2026/04/10/",
+        "date": "2026-06-24T00:00:00.000Z"
+      },
+      {
+        "title": "Newsletter #401",
+        "url": "https://bitcoinops.org/en/newsletters/2026/04/17/",
+        "date": "2026-06-24T00:00:00.000Z"
+      },
+      {
+        "title": "Newsletter #402",
+        "url": "https://bitcoinops.org/en/newsletters/2026/04/24/",
+        "date": "2026-06-24T00:00:00.000Z"
+      },
+      {
+        "title": "Newsletter #403",
+        "url": "https://bitcoinops.org/en/newsletters/2026/05/01/",
+        "date": "2026-06-24T00:00:00.000Z"
+      },
+      {
+        "title": "Newsletter #404",
+        "url": "https://bitcoinops.org/en/newsletters/2026/05/08/",
+        "date": "2026-06-24T00:00:00.000Z"
+      },
+      {
+        "title": "Newsletter #405",
+        "url": "https://bitcoinops.org/en/newsletters/2026/05/15/",
+        "date": "2026-06-24T00:00:00.000Z"
+      },
+      {
+        "title": "Newsletter #406",
+        "url": "https://bitcoinops.org/en/newsletters/2026/05/22/",
+        "date": "2026-06-24T00:00:00.000Z"
+      },
+      {
+        "title": "Newsletter #407",
+        "url": "https://bitcoinops.org/en/newsletters/2026/05/29/",
+        "date": "2026-06-24T00:00:00.000Z"
+      },
+      {
+        "title": "Newsletter #408",
+        "url": "https://bitcoinops.org/en/newsletters/2026/06/05/",
+        "date": "2026-06-24T00:00:00.000Z"
+      },
+      {
+        "title": "Newsletter #409",
+        "url": "https://bitcoinops.org/en/newsletters/2026/06/12/",
+        "date": "2026-06-24T00:00:00.000Z"
+      }
+    ]
+  },
+  "los-angeles": {
+    "id": "los-angeles",
+    "source": "rss",
+    "fetchedAt": "2026-07-07T20:13:42.500Z",
+    "topics": [
+      {
+        "title": "TABConf Speakers, Talks, and Workshops are coming out each week. If you still want to submit a speaking idea, you better be fast",
+        "url": "https://github.com/orgs/TABConf/projects/1/views/3",
+        "date": "2023-07-27T00:00:00.000Z"
+      },
+      {
+        "title": "Binance and Lightning Network",
+        "url": "https://www.binance.com/en/support/announcement/binance-completes-integration-of-bitcoin-btc-on-lightning-network-opens-deposits-and-withdrawals-eefbfae2c0ae472d9e1e36f1a30bf340",
+        "date": "2023-07-27T00:00:00.000Z"
+      },
+      {
+        "title": "New channel closing proposal",
+        "url": "https://lists.linuxfoundation.org/pipermail/lightning-dev/2023-July/004013.html",
+        "date": "2023-07-27T00:00:00.000Z"
+      },
+      {
+        "title": "Primal is the first nostr-only company to receive vc-backed funding",
+        "url": "https://www.forbes.com/sites/digital-assets/2023/07/12/primal-secures-1-million-seed-round-to-fuel-bitcoin-infused-nostr-apps/?sh=406efdad4959",
+        "date": "2023-07-27T00:00:00.000Z"
+      },
+      {
+        "title": "Fiatjaf shares vision for zbd social + development",
+        "url": "https://fiatjaf.com/d36862b9.html",
+        "date": "2023-07-27T00:00:00.000Z"
+      },
+      {
+        "title": "Primal open sources their entire stack",
+        "url": "https://primal.net/e/note1xrwe0srr2xlfsaz7dqh2x92qxksrfgqj8r8d73tjahvl3jvhdnxsa39xnd",
+        "date": "2023-07-27T00:00:00.000Z"
+      },
+      {
+        "title": "Streamer gets featured on front page of twitch and 92k unique viewers",
+        "url": "https://imgur.com/2aiA6NO",
+        "date": "2023-07-27T00:00:00.000Z"
+      },
+      {
+        "title": "Show own outputs on PSBT signing window",
+        "url": "https://github.com/bitcoin-core/gui/pull/740",
+        "date": "2023-07-27T00:00:00.000Z"
+      },
+      {
+        "title": "p2p: Restrict self-advertisements with privacy networks to avoid fingerprinting",
+        "url": "https://github.com/bitcoin/bitcoin/pull/27411",
+        "date": "2023-07-27T00:00:00.000Z"
+      },
+      {
+        "title": "LDK v.0.0.116",
+        "url": "https://github.com/lightningdevkit/rust-lightning/releases/tag/v0.0.116",
+        "date": "2023-07-27T00:00:00.000Z"
+      }
+    ]
+  },
+  "mauritius": {
+    "id": "mauritius",
+    "source": "rss",
+    "fetchedAt": "2026-07-07T20:13:42.500Z",
+    "topics": [
+      {
+        "title": "Welcome and meetup overview",
+        "url": "https://bitdevsmauritius.org/socratic-seminar-7/",
+        "date": "2026-06-27T00:00:00.000Z"
+      },
+      {
+        "title": "Recap of the previous Lightning Network session",
+        "url": "https://bitdevsmauritius.org/socratic-seminar-7/",
+        "date": "2026-06-27T00:00:00.000Z"
+      },
+      {
+        "title": "Objectives for today's discussion",
+        "url": "https://bitdevsmauritius.org/socratic-seminar-7/",
+        "date": "2026-06-27T00:00:00.000Z"
+      },
+      {
+        "title": "Review of payment channels",
+        "url": "https://bitdevsmauritius.org/socratic-seminar-7/",
+        "date": "2026-06-27T00:00:00.000Z"
+      },
+      {
+        "title": "Lightning daemon architecture",
+        "url": "https://bitdevsmauritius.org/socratic-seminar-7/",
+        "date": "2026-06-27T00:00:00.000Z"
+      },
+      {
+        "title": "Onion routing and message propagation",
+        "url": "https://bitdevsmauritius.org/socratic-seminar-7/",
+        "date": "2026-06-27T00:00:00.000Z"
+      },
+      {
+        "title": "Routing payments across the network",
+        "url": "https://bitdevsmauritius.org/socratic-seminar-7/",
+        "date": "2026-06-27T00:00:00.000Z"
+      },
+      {
+        "title": "Interactive Q&A and concept clarification",
+        "url": "https://bitdevsmauritius.org/socratic-seminar-7/",
+        "date": "2026-06-27T00:00:00.000Z"
+      },
+      {
+        "title": "Introduction to the Btrust Builder Pathway",
+        "url": "https://bitdevsmauritius.org/socratic-seminar-7/",
+        "date": "2026-06-27T00:00:00.000Z"
+      },
+      {
+        "title": "Personal journey into the Builder Pathway",
+        "url": "https://bitdevsmauritius.org/socratic-seminar-7/",
+        "date": "2026-06-27T00:00:00.000Z"
+      },
+      {
+        "title": "Lessons learned from studying Mastering Bitcoin",
+        "url": "https://bitdevsmauritius.org/socratic-seminar-7/",
+        "date": "2026-06-27T00:00:00.000Z"
+      },
+      {
+        "title": "Advice for new developers starting their Bitcoin journey",
+        "url": "https://bitdevsmauritius.org/socratic-seminar-7/",
+        "date": "2026-06-27T00:00:00.000Z"
+      },
+      {
+        "title": "Open-source contribution opportunities",
+        "url": "https://bitdevsmauritius.org/socratic-seminar-7/",
+        "date": "2026-06-27T00:00:00.000Z"
+      },
+      {
+        "title": "Open discussion and questions",
+        "url": "https://bitdevsmauritius.org/socratic-seminar-7/",
+        "date": "2026-06-27T00:00:00.000Z"
+      },
+      {
+        "title": "Resources for continued learning",
+        "url": "https://bitdevsmauritius.org/socratic-seminar-7/",
+        "date": "2026-06-27T00:00:00.000Z"
+      },
+      {
+        "title": "Preview of next month's BitDevs Mauritius meetup",
+        "url": "https://bitdevsmauritius.org/socratic-seminar-7/",
+        "date": "2026-06-27T00:00:00.000Z"
+      },
+      {
+        "title": "Community announcements and networking",
+        "url": "https://bitdevsmauritius.org/socratic-seminar-7/",
+        "date": "2026-06-27T00:00:00.000Z"
+      },
+      {
+        "title": "Btrust Builders",
+        "url": "https://www.btrust.tech/builders",
+        "date": "2026-06-27T00:00:00.000Z"
+      }
+    ]
+  },
+  "mexico-city": {
+    "id": "mexico-city",
+    "source": "rss",
+    "fetchedAt": "2026-07-07T20:13:42.500Z",
+    "topics": [
+      {
+        "title": "bark, segunda implementación de ark, en vivo en mainnet",
+        "url": "https://bitcoinops.org/en/newsletters/2026/06/19/#bark-live-on-bitcoin-mainnet",
+        "date": "2026-06-25T00:00:00.000Z"
+      },
+      {
+        "title": "cube, smart contracts trustless nativos en bitcoin",
+        "url": "https://medium.com/cube-bitcoin/introducing-cube-8b3702e470a5",
+        "date": "2026-06-25T00:00:00.000Z"
+      },
+      {
+        "title": "pools con 75% del hashrate se suman a estándar abierto de construcción de bloques",
+        "url": "https://www.coindesk.com/markets/2026/05/11/bitcoin-mining-pools-with-75-of-btc-hashrate-join-open-standard-for-block-construction",
+        "date": "2026-06-25T00:00:00.000Z"
+      },
+      {
+        "title": "dashboard de señalización BIP110",
+        "url": "http://bip110.orange.surf/",
+        "date": "2026-06-25T00:00:00.000Z"
+      },
+      {
+        "title": "CVE de Bitcoin Core: crash remoto por use-after-free en el intérprete de scripts",
+        "url": "https://bitcoinops.org/en/newsletters/2026/05/15/#bitcoin-core-script-interpreter-remote-crash-disclosure",
+        "date": "2026-06-25T00:00:00.000Z"
+      },
+      {
+        "title": "hack a Bisq: atacante drena 11.5 BTC en ofertas",
+        "url": "https://xcancel.com/bisq_network/status/2050206753246363819",
+        "date": "2026-06-25T00:00:00.000Z"
+      },
+      {
+        "title": "vulnerabilidad de falsificación en Orchard de Zcash",
+        "url": "https://forum.zcashcommunity.com/t/the-orchard-counterfeiting-vulnerability-and-next-steps/56015",
+        "date": "2026-06-25T00:00:00.000Z"
+      },
+      {
+        "title": "supply-chain attack: Bitwarden CLI comprometido",
+        "url": "https://thehackernews.com/2026/04/bitwarden-cli-compromised-in-ongoing.html",
+        "date": "2026-06-25T00:00:00.000Z"
+      },
+      {
+        "title": "Copy Fail: escalación a root en Linux/cloud",
+        "url": "https://www.microsoft.com/en-us/security/blog/2026/05/01/cve-2026-31431-copy-fail-vulnerability-enables-linux-root-privilege-escalation/",
+        "date": "2026-06-25T00:00:00.000Z"
+      },
+      {
+        "title": "Firefox/Tor: identificador estable vía IndexedDB",
+        "url": "https://fingerprint.com/blog/firefox-tor-indexeddb-privacy-vulnerability/",
+        "date": "2026-06-25T00:00:00.000Z"
+      },
+      {
+        "title": "Canadá propone prohibir todos los crypto ATMs",
+        "url": "https://www.amlintelligence.com/2026/05/latest-canada-to-ban-all-crypto-atms-over-fraud-concerns/",
+        "date": "2026-06-25T00:00:00.000Z"
+      },
+      {
+        "title": "Minnesota prohíbe crypto ATMs públicos",
+        "url": "https://www.inc.com/georgia-fearn/state-just-announced-a-ban-of-crypto-atms-experts-say-retailers-should-pay-attention/91363844",
+        "date": "2026-06-25T00:00:00.000Z"
+      },
+      {
+        "title": "UK y la idea de ID digital obligatorio en smartphones",
+        "url": "https://slaynews.com/uk-government-moves-mandate-digital-id-every-smartphone/",
+        "date": "2026-06-25T00:00:00.000Z"
+      },
+      {
+        "title": "industria crypto contra propuesta de impuesto a trading digital en Illinois",
+        "url": "https://news.bloombergtax.com/daily-tax-report-state/crypto-groups-blast-illinois-digital-asset-trading-tax-proposal-5",
+        "date": "2026-06-25T00:00:00.000Z"
+      },
+      {
+        "title": "Crypto Clarity Act: enemy Catholic",
+        "url": "http://finance.yahoo.com/markets/crypto/articles/crypto-clarity-act-enemy-catholic-211054056.html?guccounter=1&guce_referrer=aHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS8&guce_referrer_sig=AQAAADMMaHwkKYjCGt8YojVWAYjT1Uao5UMbfr6uZFpJDaP3OqQZUS9F2jsC_FEEaoe__k5Y3-YuZukhVJsjJ66MOyzSUSJxsTJai3hGnPXazWAUhiSsO9B7iZ2ZA9o6Rg82ZOtpplQVp67ejb1OnmgQPyg9O0cZHNDhOC9Zl0QkHDwy",
+        "date": "2026-06-25T00:00:00.000Z"
+      },
+      {
+        "title": "Mined in America Act: riesgo de centralización/regulación minera",
+        "url": "https://www.therage.co/mined-in-america-act-bitcoin-at-risk/",
+        "date": "2026-06-25T00:00:00.000Z"
+      },
+      {
+        "title": "Oman: mandatory national Bitcoin mining pool",
+        "url": "https://bitcoinnews.com/p/oman-mandatory-national-bitcoin-mining-pool?utm_medium=email&_hsenc=p2ANqtz-9kA4KbbM0H6tR7gT30oQT4IEtuaLr3T7z-TFjYe-_nXhd78Ul_LD_OfrLjE28jcLDnJLqX7xi1GaJoJfW4q_gL-pLvpA&_hsmi=424931918&utm_content=424931918&utm_source=hs_email",
+        "date": "2026-06-25T00:00:00.000Z"
+      },
+      {
+        "title": "Anthropic: gobierno de EE.UU. ordena suspender acceso a Fable 5 y Mythos 5",
+        "url": "https://www.anthropic.com/news/fable-mythos-access",
+        "date": "2026-06-25T00:00:00.000Z"
+      },
+      {
+        "title": "Eclair v0.14.0: splicing, taproot channels y zero-fee commitments",
+        "url": "https://github.com/ACINQ/eclair/releases/tag/v0.14.0",
+        "date": "2026-06-25T00:00:00.000Z"
+      },
+      {
+        "title": "Core Lightning 26.06: xpay, xkeysend y payer proofs experimentales",
+        "url": "https://bitcoinops.org/en/newsletters/2026/06/05/#core-lightning-26-06",
+        "date": "2026-06-25T00:00:00.000Z"
+      },
+      {
+        "title": "LND 0.21.0-beta: onion messages, taproot channels y store SQL opcional",
+        "url": "https://bitcoinops.org/en/newsletters/2026/06/12/#lnd-0-21-0-beta",
+        "date": "2026-06-25T00:00:00.000Z"
+      },
+      {
+        "title": "mempool.space v3.3.0: taproot script trees, PSBT preview y más",
+        "url": "https://bitcoinops.org/en/newsletters/2026/05/22/#mempool-space-v3-3-0-released",
+        "date": "2026-06-25T00:00:00.000Z"
+      },
+      {
+        "title": "Sparrow Wallet 2.5.0 recibe silent payments",
+        "url": "https://bitcoinops.org/en/newsletters/2026/06/19/#sparrow-wallet-2-5-0-adds-silent-payments-receiving",
+        "date": "2026-06-25T00:00:00.000Z"
+      },
+      {
+        "title": "Alby Hub v1.23.0: JIT channels y backend experimental de Ark",
+        "url": "https://bitcoinops.org/en/newsletters/2026/06/19/#alby-hub-v1-23-0-released",
+        "date": "2026-06-25T00:00:00.000Z"
+      },
+      {
+        "title": "JoinMarket NG 0.32.0: mejoras de Neutrino/mempool para takers",
+        "url": "https://bitcoinops.org/en/newsletters/2026/06/19/#joinmarket-ng-0-32-0-released",
+        "date": "2026-06-25T00:00:00.000Z"
+      },
+      {
+        "title": "BIP449: OP_TWEAKADD para tweaks de claves x-only en tapscript",
+        "url": "https://github.com/bitcoin/bips/blob/master/bip-0449.md",
+        "date": "2026-06-25T00:00:00.000Z"
+      },
+      {
+        "title": "BIP450 Formosa: seeds como historias mnemónicas temáticas",
+        "url": "https://github.com/bitcoin/bips/blob/master/bip-0450.mediawiki",
+        "date": "2026-06-25T00:00:00.000Z"
+      },
+      {
+        "title": "BIP323: 24 bits de nVersion como nonce space para mineros",
+        "url": "https://github.com/bitcoin/bips/blob/master/bip-0323.mediawiki",
+        "date": "2026-06-25T00:00:00.000Z"
+      },
+      {
+        "title": "BIP451: protocolo para deshacerse de dust UTXOs",
+        "url": "https://github.com/bitcoin/bips/blob/master/bip-0451.md",
+        "date": "2026-06-25T00:00:00.000Z"
+      },
+      {
+        "title": "testnet5: propuesta para reemplazar testnet4",
+        "url": "https://bitcoinops.org/en/newsletters/2026/06/12/#draft-bip-for-testnet5",
+        "date": "2026-06-25T00:00:00.000Z"
+      },
+      {
+        "title": "BLIP42: propuesta de contactos para BOLT12",
+        "url": "https://github.com/lightning/blips/blob/master/blip-0042.md",
+        "date": "2026-06-25T00:00:00.000Z"
+      },
+      {
+        "title": "BOLTs #995: simple taproot channels",
+        "url": "https://github.com/lightning/bolts/pull/995",
+        "date": "2026-06-25T00:00:00.000Z"
+      },
+      {
+        "title": "BOLTs #1228: zero-fee commitments con v3/TRUC",
+        "url": "https://github.com/lightning/bolts/pull/1228",
+        "date": "2026-06-25T00:00:00.000Z"
+      },
+      {
+        "title": "Electrum Protocol #2",
+        "url": "https://github.com/spesmilo/electrum-protocol/pull/2",
+        "date": "2026-06-25T00:00:00.000Z"
+      },
+      {
+        "title": "BIP54, txs de 64 bytes y posibles usos legítimos",
+        "url": "https://bitcoinops.org/en/newsletters/2026/06/05/#bip54-64-byte-transactions-and-potential-legitimate-uses",
+        "date": "2026-06-25T00:00:00.000Z"
+      },
+      {
+        "title": "señalización BIP54 en coinbase locktime",
+        "url": "https://mainnet.observer/charts/transactions-coinbase-locktime-bip54/",
+        "date": "2026-06-25T00:00:00.000Z"
+      },
+      {
+        "title": "Ibis Wallet: Android wallet con BDK, coin control, silent payments y Tor",
+        "url": "https://bitcoinops.org/en/newsletters/2026/05/22/#ibis-wallet-announced",
+        "date": "2026-06-25T00:00:00.000Z"
+      },
+      {
+        "title": "LDK Server: daemon Lightning API-first basado en LDK Node",
+        "url": "https://bitcoinops.org/en/newsletters/2026/05/22/#ldk-server-announced",
+        "date": "2026-06-25T00:00:00.000Z"
+      },
+      {
+        "title": "Arké: wallet iOS de Ark + onchain + Lightning",
+        "url": "https://bitcoinops.org/en/newsletters/2026/06/19/#arke-ark-wallet-announced",
+        "date": "2026-06-25T00:00:00.000Z"
+      },
+      {
+        "title": "Noah: wallet móvil de Ark con Lightning",
+        "url": "https://bitcoinops.org/en/newsletters/2026/06/19/#noah-ark-wallet-announced",
+        "date": "2026-06-25T00:00:00.000Z"
+      },
+      {
+        "title": "Mosaic de Alpen: protocolo de garbled circuits",
+        "url": "https://github.com/alpenlabs/mosaic",
+        "date": "2026-06-25T00:00:00.000Z"
+      },
+      {
+        "title": "Core Lightning #9116: payer proofs experimentales para BOLT12",
+        "url": "https://bitcoinops.org/en/newsletters/2026/05/15/#core-lightning-9116",
+        "date": "2026-06-25T00:00:00.000Z"
+      },
+      {
+        "title": "Bitcoin Inquisition #100: OP_TEMPLATEHASH en signet",
+        "url": "https://bitcoinops.org/en/newsletters/2026/05/15/#bitcoin-inquisition-100",
+        "date": "2026-06-25T00:00:00.000Z"
+      },
+      {
+        "title": "Bitcoin Core #21283: soporte PSBTv2",
+        "url": "https://bitcoinops.org/en/newsletters/2026/05/08/#bitcoin-core-21283",
+        "date": "2026-06-25T00:00:00.000Z"
+      },
+      {
+        "title": "BTCPay Server #7218: setup guiado para multisig BTC",
+        "url": "https://bitcoinops.org/en/newsletters/2026/06/12/#btcpay-server-7218",
+        "date": "2026-06-25T00:00:00.000Z"
+      },
+      {
+        "title": "Bitcoin Core #35221: negociación de features P2P con BIP434",
+        "url": "https://bitcoinops.org/en/newsletters/2026/06/19/#bitcoin-core-35221",
+        "date": "2026-06-25T00:00:00.000Z"
+      },
+      {
+        "title": "binary fuse filters como alternativa a los GCS de BIP158",
+        "url": "https://bitcoinops.org/en/newsletters/2026/05/01/#binary-fuse-filters-as-an-alternative-to-bip158-s-gcs",
+        "date": "2026-06-25T00:00:00.000Z"
+      },
+      {
+        "title": "fraud proofs públicos para just-in-time channels",
+        "url": "https://delvingbitcoin.org/t/proposal-public-fraud-proofs-for-just-in-time-channels/2451",
+        "date": "2026-06-25T00:00:00.000Z"
+      },
+      {
+        "title": "vault PoC usando solo CTV",
+        "url": "https://bitcoinops.org/en/newsletters/2026/06/05/#ctv-only-vault-proof-of-concept",
+        "date": "2026-06-25T00:00:00.000Z"
+      },
+      {
+        "title": "rompen clave elíptica de 15 bits y lo venden como “quantum attack”",
+        "url": "https://www.theblock.co/post/398792/researcher-breaks-15-bit-elliptic-curve-key-wins-1-bitcoin-bounty-project-eleven",
+        "date": "2026-06-25T00:00:00.000Z"
+      }
+    ]
+  },
+  "minneapolis": {
+    "id": "minneapolis",
+    "source": "rss",
+    "fetchedAt": "2026-07-07T20:13:42.500Z",
+    "topics": [
+      {
+        "title": "Private Broadcast May Reveal Sender IP Address in Bitcoin Core 31.0",
+        "url": "https://bitcoincore.org/en/2026/06/06/privatebroadcast-ip-leak/",
+        "date": "2026-06-23T00:00:00.000Z"
+      },
+      {
+        "title": "BIP Proposal Removal of BIP 125 RBF signalling in wallet transactions",
+        "url": "https://groups.google.com/g/bitcoindev/c/C7zNIk8llew/m/YAdpwe33AgAJ",
+        "date": "2026-06-23T00:00:00.000Z"
+      },
+      {
+        "title": "BIP-0054 64-Byte Transactions and Potential Legitimate Uses",
+        "url": "https://groups.google.com/g/bitcoindev/c/iCuq6bFKt5Y/m/MCATyQ4zAAAJ",
+        "date": "2026-06-23T00:00:00.000Z"
+      },
+      {
+        "title": "A Post-Quantum Path for BIP 324",
+        "url": "https://groups.google.com/g/bitcoindev/c/n_5WuKVYqwI/m/lBooLis3AQAJ",
+        "date": "2026-06-23T00:00:00.000Z"
+      },
+      {
+        "title": "BIP 450 Formosa",
+        "url": "https://github.com/bitcoin/bips/blob/master/bip-0450.mediawiki",
+        "date": "2026-06-23T00:00:00.000Z"
+      },
+      {
+        "title": "Post Quantum Lightning: Layer by Layer",
+        "url": "https://delvingbitcoin.org/t/post-quantum-lightning-layer-by-layer/2479",
+        "date": "2026-06-23T00:00:00.000Z"
+      },
+      {
+        "title": "Iroh 1.0",
+        "url": "https://www.iroh.computer/blog/v1",
+        "date": "2026-06-23T00:00:00.000Z"
+      }
+    ]
+  },
+  "nairobi": {
+    "id": "nairobi",
+    "source": "rss",
+    "fetchedAt": "2026-07-07T20:13:42.500Z",
+    "topics": [
+      {
+        "title": "Citrea recently changed their scheme to use a single 144-byte OP_RETURN",
+        "url": "https://x.com/jonatack/status/2067819987033608358",
+        "date": "2026-06-20T00:00:00.000Z"
+      },
+      {
+        "title": "Draft BIP for testnet5",
+        "url": "https://groups.google.com/g/bitcoindev/c/kGUMTxOvdJA/m/Eyx5FxQeAAAJ",
+        "date": "2026-06-20T00:00:00.000Z"
+      },
+      {
+        "title": "A post-quantum path for BIP324",
+        "url": "https://groups.google.com/g/bitcoindev/c/n_5WuKVYqwI/m/lBooLis3AQAJ",
+        "date": "2026-06-20T00:00:00.000Z"
+      },
+      {
+        "title": "Disposing of “dust attack” UTXOs",
+        "url": "https://delvingbitcoin.org/t/disposing-of-dust-attack-utxos/2215/4",
+        "date": "2026-06-20T00:00:00.000Z"
+      },
+      {
+        "title": "Bitcoin Core #35221: BIP434 peer feature negotiation",
+        "url": "https://github.com/bitcoin/bitcoin/pull/35221",
+        "date": "2026-06-20T00:00:00.000Z"
+      },
+      {
+        "title": "Removing RBF opt-in signaling from wallet transactions",
+        "url": "https://github.com/bitcoin/bitcoin/pull/35405",
+        "date": "2026-06-20T00:00:00.000Z"
+      },
+      {
+        "title": "Bitcoin mining difficulty drops 10%",
+        "url": "https://beincrypto.com/bitcoin-mining-second-largest-2026-drop/",
+        "date": "2026-06-20T00:00:00.000Z"
+      },
+      {
+        "title": "Oman launches mandatory national Bitcoin mining pool",
+        "url": "https://bitcoinmagazine.com/news/oman-launches-mandatory-bitcoin-mining",
+        "date": "2026-06-20T00:00:00.000Z"
+      },
+      {
+        "title": "Alby Hub v1.23.0: Just-in-time channels",
+        "url": "https://github.com/getAlby/hub/releases",
+        "date": "2026-06-20T00:00:00.000Z"
+      },
+      {
+        "title": "Block (Square) rolling out Lightning to ~4 million US merchants",
+        "url": "https://www.plaitr.com/blog/lightning-network-for-merchant-payments-a-2026-reality-check",
+        "date": "2026-06-20T00:00:00.000Z"
+      },
+      {
+        "title": "Bitnob: salary payments via Lightning across 23 African countries",
+        "url": "https://www.plaitr.com/blog/lightning-network-for-merchant-payments-a-2026-reality-check",
+        "date": "2026-06-20T00:00:00.000Z"
+      },
+      {
+        "title": "Bark live on Bitcoin mainnet",
+        "url": "https://blog.second.tech/bark-now-on-bitcoin-mainnet/",
+        "date": "2026-06-20T00:00:00.000Z"
+      },
+      {
+        "title": "Arké: Native iOS Ark wallet",
+        "url": "https://github.com/arkeapp/arke",
+        "date": "2026-06-20T00:00:00.000Z"
+      },
+      {
+        "title": "Fedimint v0.11.1 “Mint Condition”",
+        "url": "https://github.com/fedimint/fedimint/releases/tag/v0.11.1",
+        "date": "2026-06-20T00:00:00.000Z"
+      },
+      {
+        "title": "Fedimint v0.11.2-alpha.1",
+        "url": "https://github.com/fedimint/fedimint/releases/tag/v0.11.2-alpha.1",
+        "date": "2026-06-20T00:00:00.000Z"
+      },
+      {
+        "title": "Bitcoin Nairobi Conference",
+        "url": "https://bitcoinnairobiconference.com/",
+        "date": "2026-06-20T00:00:00.000Z"
+      },
+      {
+        "title": "Africa Bitcoin Conference 2026",
+        "url": "https://afrobitcoin.org/",
+        "date": "2026-06-20T00:00:00.000Z"
+      }
+    ]
+  },
+  "nashville": {
+    "id": "nashville",
+    "source": "rss",
+    "fetchedAt": "2026-07-07T20:13:42.500Z",
+    "topics": [
+      {
+        "title": "Thr-Sat June 11-13: BTC Prague",
+        "url": "https://btcprague.com/",
+        "date": "2026-06-09T00:00:00.000Z"
+      },
+      {
+        "title": "Sun-Wed Oct 12-15: TABConf 8",
+        "url": "https://8.tabconf.com/",
+        "date": "2026-06-09T00:00:00.000Z"
+      },
+      {
+        "title": "\"Square Customer selected Bitcoin, Tap to Pay\"",
+        "url": "https://squareup.com/us/en/release-notes/release-notes-june-4th",
+        "date": "2026-06-09T00:00:00.000Z"
+      },
+      {
+        "title": "BOSS Challenge Portfolio Projects",
+        "url": "https://bosschallenge.xyz/portfolioprojects",
+        "date": "2026-06-09T00:00:00.000Z"
+      },
+      {
+        "title": "Bark now on bitcoin mainnet",
+        "url": "https://blog.second.tech/bark-now-on-bitcoin-mainnet/",
+        "date": "2026-06-09T00:00:00.000Z"
+      },
+      {
+        "title": "primitives: fix witness commitment check (BIP-141) rust-bitcoin#6250",
+        "url": "https://github.com/rust-bitcoin/rust-bitcoin/pull/6250",
+        "date": "2026-06-09T00:00:00.000Z"
+      },
+      {
+        "title": "Implement create_psbt for Wallet bdk_wallet#297",
+        "url": "https://github.com/bitcoindevkit/bdk_wallet/pull/297",
+        "date": "2026-06-09T00:00:00.000Z"
+      },
+      {
+        "title": "feat(selection)!: declare sighash_type on Plan-derived inputs bdk-tx#74",
+        "url": "https://github.com/bitcoindevkit/bdk-tx/pull/74",
+        "date": "2026-06-09T00:00:00.000Z"
+      },
+      {
+        "title": "Vulnerability Disclosure: Assertion DoS in Core Lightning",
+        "url": "https://delvingbitcoin.org/t/vulnerability-disclosure-assertion-dos-in-core-lightning/2507",
+        "date": "2026-06-09T00:00:00.000Z"
+      },
+      {
+        "title": "Eclair 0.14.0",
+        "url": "https://github.com/ACINQ/eclair/blob/master/docs/release-notes/eclair-v0.14.0.md",
+        "date": "2026-06-09T00:00:00.000Z"
+      },
+      {
+        "title": "Add support for zero-fee commitment format eclair#3192",
+        "url": "https://github.com/ACINQ/eclair/pull/3192",
+        "date": "2026-06-09T00:00:00.000Z"
+      }
+    ]
+  },
+  "new-york": {
+    "id": "new-york",
+    "source": "rss",
+    "fetchedAt": "2026-07-07T20:13:42.500Z",
+    "topics": [
+      {
+        "title": "(BIP Proposal) Removal of BIP 125 RBF signalling in wallet transactions",
+        "url": "https://groups.google.com/g/bitcoindev/c/C7zNIk8llew",
+        "date": "2026-06-18T00:00:00.000Z"
+      },
+      {
+        "title": "Aligning privacy incentives in P2MR",
+        "url": "https://groups.google.com/g/bitcoindev/c/p8AVEmAtWdA",
+        "date": "2026-06-18T00:00:00.000Z"
+      },
+      {
+        "title": "(BIP Proposal) Informational BIP on Low-R Signature Grinding",
+        "url": "https://groups.google.com/g/bitcoindev/c/boEZRlqczvw",
+        "date": "2026-06-18T00:00:00.000Z"
+      },
+      {
+        "title": "(BIP Draft) Testnet 5",
+        "url": "https://groups.google.com/g/bitcoindev/c/kGUMTxOvdJA",
+        "date": "2026-06-18T00:00:00.000Z"
+      },
+      {
+        "title": "Prohibit Merkle Internal Node Preimages That Encode Minimal 64-Byte Transactions",
+        "url": "https://groups.google.com/g/bitcoindev/c/ZVDEzxG6Sq8",
+        "date": "2026-06-18T00:00:00.000Z"
+      },
+      {
+        "title": "A look at SHRINCS",
+        "url": "https://groups.google.com/g/bitcoindev/c/pxt_4Gb973U",
+        "date": "2026-06-18T00:00:00.000Z"
+      },
+      {
+        "title": "(BIP) P2WOTS: 64 Slot Winternitz UTXO’s (witness version three)",
+        "url": "https://groups.google.com/g/bitcoindev/c/ZFZWvxpqsXs",
+        "date": "2026-06-18T00:00:00.000Z"
+      },
+      {
+        "title": "One Time Signatures as an Advantage?",
+        "url": "https://groups.google.com/g/bitcoindev/c/kdpOg2OnnbQ",
+        "date": "2026-06-18T00:00:00.000Z"
+      },
+      {
+        "title": "Weak Quantum Bounty Ceremony",
+        "url": "https://groups.google.com/g/bitcoindev/c/d7o74e-teNo",
+        "date": "2026-06-18T00:00:00.000Z"
+      },
+      {
+        "title": "BIP 3 and issues on BIPs",
+        "url": "https://groups.google.com/g/bitcoindev/c/AhtwiWNxpj0",
+        "date": "2026-06-18T00:00:00.000Z"
+      },
+      {
+        "title": "Testnet 4 difficulty/hashrate",
+        "url": "https://groups.google.com/g/bitcoindev/c/F-brZem1dfg",
+        "date": "2026-06-18T00:00:00.000Z"
+      },
+      {
+        "title": "Knowledge Gathering: SPV Proof Applications In the Wild and Proposed",
+        "url": "https://groups.google.com/g/bitcoindev/c/tPN7-nYxGSk",
+        "date": "2026-06-18T00:00:00.000Z"
+      },
+      {
+        "title": "(BIP127) announcements: removal of Proof File Format and update status to Complete",
+        "url": "https://groups.google.com/g/bitcoindev/c/rGIrAaZI3lM",
+        "date": "2026-06-18T00:00:00.000Z"
+      },
+      {
+        "title": "PQC: Lattice-based signatures",
+        "url": "https://groups.google.com/g/bitcoindev/c/nMO4hyEm5qc",
+        "date": "2026-06-18T00:00:00.000Z"
+      },
+      {
+        "title": "Mapping the design space of sibling-aware covenants",
+        "url": "https://groups.google.com/g/bitcoindev/c/uyRpzE6IFOQ",
+        "date": "2026-06-18T00:00:00.000Z"
+      },
+      {
+        "title": "(BIP Proposal) Hybrid SPHINCS+ / secp256k1 Key Derivation for Quantum-Resistant Paper Wallets",
+        "url": "https://groups.google.com/g/bitcoindev/c/VkY1lG_4FfU",
+        "date": "2026-06-18T00:00:00.000Z"
+      },
+      {
+        "title": "Notice: Can BIP52 be moved to Closed?",
+        "url": "https://groups.google.com/g/bitcoindev/c/Vrh7oED9b9Q",
+        "date": "2026-06-18T00:00:00.000Z"
+      },
+      {
+        "title": "A “Quantum-Agile” Bitcoin address proposal",
+        "url": "https://groups.google.com/g/bitcoindev/c/6vl7hVM8ey0",
+        "date": "2026-06-18T00:00:00.000Z"
+      },
+      {
+        "title": "Encoding art into the satoshi value field, and the unfilterable floor",
+        "url": "https://delvingbitcoin.org/t/encoding-art-into-the-satoshi-value-field-and-the-unfilterable-floor",
+        "date": "2026-06-18T00:00:00.000Z"
+      },
+      {
+        "title": "Public key recovery for EC leaves in P2MR (BIP-360)",
+        "url": "https://delvingbitcoin.org/t/public-key-recovery-for-ec-leaves-in-p2mr-bip-360",
+        "date": "2026-06-18T00:00:00.000Z"
+      },
+      {
+        "title": "Default signet reorg history — was the fork at height 287766 (depth 19) deliberate?",
+        "url": "https://delvingbitcoin.org/t/default-signet-reorg-history-was-the-fork-at-height-287766-depth-19-deliberate",
+        "date": "2026-06-18T00:00:00.000Z"
+      },
+      {
+        "title": "P2WOTS: Live Signet & Interactive Wallet Demo",
+        "url": "https://delvingbitcoin.org/t/p2wots-live-signet-interactive-wallet-demo",
+        "date": "2026-06-18T00:00:00.000Z"
+      },
+      {
+        "title": "PQC: Google’s result on improving Shor’s algorithm reconstructed",
+        "url": "https://delvingbitcoin.org/t/pqc-googles-result-on-improving-shors-algorithm-reconstructed",
+        "date": "2026-06-18T00:00:00.000Z"
+      },
+      {
+        "title": "A Bitcoin-native LLM: dataset, architecture and open questions",
+        "url": "https://delvingbitcoin.org/t/a-bitcoin-native-llm-dataset-architecture-and-open-questions",
+        "date": "2026-06-18T00:00:00.000Z"
+      },
+      {
+        "title": "CTV-only Vault Concept v0.1.0 release",
+        "url": "https://delvingbitcoin.org/t/ctv-only-vault-concept-v0-1-0-release",
+        "date": "2026-06-18T00:00:00.000Z"
+      },
+      {
+        "title": "P2WOTS: Post Quantum UTXO Winternitz Signatures",
+        "url": "https://delvingbitcoin.org/t/p2wots-post-quantum-utxo-winternitz-signatures",
+        "date": "2026-06-18T00:00:00.000Z"
+      },
+      {
+        "title": "New Post Quantum Bitcoin Proposal using WInternitz + Lamport auth chains",
+        "url": "https://delvingbitcoin.org/t/new-post-quantum-bitcoin-proposal-using-winternitz-lamport-auth-chains",
+        "date": "2026-06-18T00:00:00.000Z"
+      },
+      {
+        "title": "Quantum Attack Game Theory",
+        "url": "https://delvingbitcoin.org/t/quantum-attack-game-theory",
+        "date": "2026-06-18T00:00:00.000Z"
+      },
+      {
+        "title": "Bird of Prey 2: non-malleable Schnorr + PQ signatures",
+        "url": "https://delvingbitcoin.org/t/bird-of-prey-2-non-malleable-schnorr-pq-signatures",
+        "date": "2026-06-18T00:00:00.000Z"
+      },
+      {
+        "title": "Add optional UltrafastSecp256k1 backend (opt-in, default unchanged)",
+        "url": "https://delvingbitcoin.org/t/add-optional-ultrafastsecp256k1-backend-opt-in-default-unchanged",
+        "date": "2026-06-18T00:00:00.000Z"
+      },
+      {
+        "title": "UltrafastSecp256k1 v4.0 — Verification, Performance, and the Cost of Engineering Truth",
+        "url": "https://delvingbitcoin.org/t/ultrafastsecp256k1-v4-0-verification-performance-and-the-cost-of-engineering-truth",
+        "date": "2026-06-18T00:00:00.000Z"
+      },
+      {
+        "title": "Vulnerability Disclosure: Assertion DoS in Core Lightning",
+        "url": "https://delvingbitcoin.org/t/vulnerability-disclosure-assertion-dos-in-core-lightning",
+        "date": "2026-06-18T00:00:00.000Z"
+      },
+      {
+        "title": "QCAP: A Bitcoin-Native Quantum Canary Alert",
+        "url": "https://delvingbitcoin.org/t/qcap-a-bitcoin-native-quantum-canary-alert",
+        "date": "2026-06-18T00:00:00.000Z"
+      },
+      {
+        "title": "TCP hole punching for Bitcoin nodes behind home NATs?",
+        "url": "https://delvingbitcoin.org/t/tcp-hole-punching-for-bitcoin-nodes-behind-home-nats",
+        "date": "2026-06-18T00:00:00.000Z"
+      },
+      {
+        "title": "Brainstorming: What data to collect and monitor during the BIP-110 & BIP-300 forks in August 2026?",
+        "url": "https://bnoc.xyz/t/brainstorming-what-data-to-collect-and-monitor-during-the-bip-110-bip-300-forks-in-august-2026",
+        "date": "2026-06-18T00:00:00.000Z"
+      },
+      {
+        "title": "High CPU usage on Knots node causing connections to drop",
+        "url": "https://bnoc.xyz/t/high-cpu-usage-on-knots-node-causing-connections-to-drop",
+        "date": "2026-06-18T00:00:00.000Z"
+      },
+      {
+        "title": "Request: How many mempool transactions are evicted by time?",
+        "url": "https://bnoc.xyz/t/request-how-many-mempool-transactions-are-evicted-by-time",
+        "date": "2026-06-18T00:00:00.000Z"
+      },
+      {
+        "title": "Temporary increase in number of Tor addresses",
+        "url": "https://bnoc.xyz/t/temporary-increase-in-number-of-tor-addresses",
+        "date": "2026-06-18T00:00:00.000Z"
+      },
+      {
+        "title": "Addresses with multiple ports",
+        "url": "https://bnoc.xyz/t/addresses-with-multiple-ports",
+        "date": "2026-06-18T00:00:00.000Z"
+      },
+      {
+        "title": "How similar are addrman of different nodes",
+        "url": "https://bnoc.xyz/t/how-similar-are-addrman-of-different-nodes",
+        "date": "2026-06-18T00:00:00.000Z"
+      },
+      {
+        "title": "Back-to-back fork at height 949203 and 949204",
+        "url": "https://bnoc.xyz/t/back-to-back-fork-at-height-949203-and-949204",
+        "date": "2026-06-18T00:00:00.000Z"
+      },
+      {
+        "title": "Request: Bitnodes historic datasets (or similar)",
+        "url": "https://bnoc.xyz/t/request-bitnodes-historic-datasets-or-similar",
+        "date": "2026-06-18T00:00:00.000Z"
+      },
+      {
+        "title": "Logs of “Mempool in non-optimal ordering after block/additions(s)”",
+        "url": "https://bnoc.xyz/t/logs-of-mempool-in-non-optimal-ordering-after-block-additions-s",
+        "date": "2026-06-18T00:00:00.000Z"
+      },
+      {
+        "title": "Bitcoin Core Dev Tech Transcripts (May 2026)",
+        "url": "https://btctranscripts.com/bitcoin-core-dev-tech/2026-05",
+        "date": "2026-06-18T00:00:00.000Z"
+      },
+      {
+        "title": "Lightning Specification Meeting 2026/06/29",
+        "url": "https://github.com/lightning/bolts/issues/1342",
+        "date": "2026-06-18T00:00:00.000Z"
+      },
+      {
+        "title": "Bitcoin Optech Newsletter #409",
+        "url": "https://bitcoinops.org/en/newsletters/2026/06/12/",
+        "date": "2026-06-18T00:00:00.000Z"
+      },
+      {
+        "title": "Bitcoin Optech Newsletter #408",
+        "url": "https://bitcoinops.org/en/newsletters/2026/06/05/",
+        "date": "2026-06-18T00:00:00.000Z"
+      },
+      {
+        "title": "Bitcoin Optech Newsletter #407",
+        "url": "https://bitcoinops.org/en/newsletters/2026/05/29/",
+        "date": "2026-06-18T00:00:00.000Z"
+      },
+      {
+        "title": "Bitcoin Optech Newsletter #406",
+        "url": "https://bitcoinops.org/en/newsletters/2026/05/22/",
+        "date": "2026-06-18T00:00:00.000Z"
+      },
+      {
+        "title": "Bitcoin Optech Newsletter #405",
+        "url": "https://bitcoinops.org/en/newsletters/2026/05/15/",
+        "date": "2026-06-18T00:00:00.000Z"
+      }
+    ]
+  },
+  "perth": {
+    "id": "perth",
+    "source": "github-issues",
+    "fetchedAt": "2026-07-07T20:13:42.500Z",
+    "topics": [
+      {
+        "title": "July 2026 Perth BitDevs",
+        "url": "https://github.com/PerthBitDevs/PerthBitDevs/issues/37",
+        "date": "2026-07-02T09:50:50Z"
+      },
+      {
+        "title": "June 2026 Perth BitDevs",
+        "url": "https://github.com/PerthBitDevs/PerthBitDevs/issues/36",
+        "date": "2026-07-02T03:20:03Z"
+      },
+      {
+        "title": "May 2026 Perth BitDevs",
+        "url": "https://github.com/PerthBitDevs/PerthBitDevs/issues/35",
+        "date": "2026-07-02T03:20:02Z"
+      },
+      {
+        "title": "April bit devs",
+        "url": "https://github.com/PerthBitDevs/PerthBitDevs/issues/34",
+        "date": "2026-06-06T04:46:31Z"
+      },
+      {
+        "title": "March 2026 Perth BitDevs",
+        "url": "https://github.com/PerthBitDevs/PerthBitDevs/issues/32",
+        "date": "2026-06-06T04:46:30Z"
+      },
+      {
+        "title": "February 2026 BitDevs / meetup topics",
+        "url": "https://github.com/PerthBitDevs/PerthBitDevs/issues/30",
+        "date": "2026-06-06T04:46:30Z"
+      },
+      {
+        "title": "December ",
+        "url": "https://github.com/PerthBitDevs/PerthBitDevs/issues/29",
+        "date": "2026-03-06T04:12:17Z"
+      },
+      {
+        "title": "How the Japan Carry trade ends?",
+        "url": "https://github.com/PerthBitDevs/PerthBitDevs/issues/31",
+        "date": "2026-02-05T01:34:29Z"
+      },
+      {
+        "title": "November 2025 BitDevs - Bushbash Edition",
+        "url": "https://github.com/PerthBitDevs/PerthBitDevs/issues/28",
+        "date": "2026-02-05T01:24:16Z"
+      },
+      {
+        "title": "October 2025 BitDevs / meetup topics",
+        "url": "https://github.com/PerthBitDevs/PerthBitDevs/issues/27",
+        "date": "2026-02-05T01:24:16Z"
+      },
+      {
+        "title": "September 2025 BitDevs/Bitcoin Meetup topics",
+        "url": "https://github.com/PerthBitDevs/PerthBitDevs/issues/26",
+        "date": "2026-02-05T01:24:16Z"
+      },
+      {
+        "title": "August 2025 BitDevs/Bitcoin Meetup topics",
+        "url": "https://github.com/PerthBitDevs/PerthBitDevs/issues/25",
+        "date": "2026-02-05T01:24:15Z"
+      },
+      {
+        "title": "July 2025 BitDevs/Bitcoin Meetup topics",
+        "url": "https://github.com/PerthBitDevs/PerthBitDevs/issues/24",
+        "date": "2026-02-05T01:24:15Z"
+      },
+      {
+        "title": "June 2025 BitDevs/Bitcoin Meetup topics",
+        "url": "https://github.com/PerthBitDevs/PerthBitDevs/issues/23",
+        "date": "2026-02-05T01:24:15Z"
+      },
+      {
+        "title": "May 2025 BitDevs/Bitcoin Meetup topics ",
+        "url": "https://github.com/PerthBitDevs/PerthBitDevs/issues/22",
+        "date": "2025-07-11T01:49:38Z"
+      },
+      {
+        "title": "April BitDevs/Bitcoin Meetup topics",
+        "url": "https://github.com/PerthBitDevs/PerthBitDevs/issues/21",
+        "date": "2025-07-11T01:49:38Z"
+      },
+      {
+        "title": "March BitDevs/Meetup List",
+        "url": "https://github.com/PerthBitDevs/PerthBitDevs/issues/20",
+        "date": "2025-07-11T01:49:38Z"
+      },
+      {
+        "title": "February BitDevs List",
+        "url": "https://github.com/PerthBitDevs/PerthBitDevs/issues/19",
+        "date": "2025-07-11T01:49:37Z"
+      },
+      {
+        "title": "January BitDevs List",
+        "url": "https://github.com/PerthBitDevs/PerthBitDevs/issues/18",
+        "date": "2025-07-11T01:49:37Z"
+      }
+    ]
+  },
+  "porto-alegre": {
+    "id": "porto-alegre",
+    "source": "rss",
+    "fetchedAt": "2026-07-07T20:13:42.500Z",
+    "topics": [
+      {
+        "title": "Me Aprende um Bitcoin",
+        "url": "https://meaprendeumbitcoin.com.br/pt-br/",
+        "date": "2026-07-08T00:00:00.000Z"
+      },
+      {
+        "title": "Craig Raw: conta Apple Developer flagada para término por tentar proteger usuários de apps falsas",
+        "url": "https://xcancel.com/craigraw/status/2069124643223445854",
+        "date": "2026-07-08T00:00:00.000Z"
+      },
+      {
+        "title": "Loupe: AI-Powered Vulnerability Scanning para Bitcoin Open-Source",
+        "url": "https://spiralbtc.substack.com/p/meet-loupe-ai-powered-vulnerability",
+        "date": "2026-07-08T00:00:00.000Z"
+      },
+      {
+        "title": "Discussion of QR Signing Payloads for Miniscript Wallets",
+        "url": "https://bitcoinops.org/en/newsletters/2026/06/05/#discussion-of-qr-signing-payloads-for-miniscript-wallets",
+        "date": "2026-07-08T00:00:00.000Z"
+      },
+      {
+        "title": "Draft BIP for Testnet5",
+        "url": "https://bitcoinops.org/en/newsletters/2026/06/12/#draft-bip-for-testnet5",
+        "date": "2026-07-08T00:00:00.000Z"
+      },
+      {
+        "title": "Version 3 Transaction Relay",
+        "url": "https://bitcoinops.org/en/topics/version-3-transaction-relay/",
+        "date": "2026-07-08T00:00:00.000Z"
+      },
+      {
+        "title": "Bitcoin Core #30951: -v2onlyclearnet",
+        "url": "https://github.com/bitcoin/bitcoin/pull/30951",
+        "date": "2026-07-08T00:00:00.000Z"
+      },
+      {
+        "title": "BOLTS #1228",
+        "url": "https://bitcoinops.org/en/newsletters/2026/05/08/#bolts-1228",
+        "date": "2026-07-08T00:00:00.000Z"
+      },
+      {
+        "title": "LND Zero Timestamp Gossip DoS Disclosure",
+        "url": "https://bitcoinops.org/en/newsletters/2026/06/26/#lnd-zero-timestamp-gossip-dos-disclosure",
+        "date": "2026-07-08T00:00:00.000Z"
+      },
+      {
+        "title": "Bisq Security Incident Post-Mortem",
+        "url": "https://bisq.network/blog/security-incident-post-mortem/",
+        "date": "2026-07-08T00:00:00.000Z"
+      }
+    ]
+  },
+  "raleigh-durham-chapel-hill": {
+    "id": "raleigh-durham-chapel-hill",
+    "source": "rss",
+    "fetchedAt": "2026-07-07T20:13:42.500Z",
+    "topics": [
+      {
+        "title": "Nix bitcoind flake - bit-for-bit identical to Guix build",
+        "url": "https://github.com/0xB10C/bitcoind-gunix",
+        "date": "2026-06-10T00:00:00.000Z"
+      },
+      {
+        "title": "BIP322 message signing advances to Complete status",
+        "url": "https://github.com/bitcoin/bips/pull/2141",
+        "date": "2026-06-10T00:00:00.000Z"
+      },
+      {
+        "title": "MCCV v0.1.0 - More Complicated CTV Vault",
+        "url": "https://delvingbitcoin.org/t/ctv-only-vault-concept-v0-1-0-release/2539",
+        "date": "2026-06-10T00:00:00.000Z"
+      },
+      {
+        "title": "BIP 450: Formosa - seed phrases as themed mnemonic stories",
+        "url": "https://github.com/bitcoin/bips/blob/master/bip-0450.mediawiki",
+        "date": "2026-06-10T00:00:00.000Z"
+      },
+      {
+        "title": "BIP 452: P2P UTXO Set Sharing",
+        "url": "https://github.com/bitcoin/bips/pull/2137",
+        "date": "2026-06-10T00:00:00.000Z"
+      },
+      {
+        "title": "Core Lightning assertion DoS vulnerability disclosure",
+        "url": "https://delvingbitcoin.org/t/vulnerability-disclosure-assertion-dos-in-core-lightning/2507",
+        "date": "2026-06-10T00:00:00.000Z"
+      },
+      {
+        "title": "Nimdolf: Non-Interactive Mint Delegation on Liveness Failure",
+        "url": "https://gist.github.com/lukechilds/302e7fa04b09d6e4568bdcd64cb43356",
+        "date": "2026-06-10T00:00:00.000Z"
+      },
+      {
+        "title": "Draft: Cashu Payjoin",
+        "url": "https://github.com/cashubtc/nuts/pull/376",
+        "date": "2026-06-10T00:00:00.000Z"
+      },
+      {
+        "title": "Bark is now live on Bitcoin mainnet",
+        "url": "https://bitcoinmagazine.com/news/second-launches-bark-on-bitcoin-mainnet",
+        "date": "2026-06-10T00:00:00.000Z"
+      },
+      {
+        "title": "Dog Park: Privacy in Bark",
+        "url": "https://sovrandy.com/2026/04/19/dog-park-privacy-in-bark.html",
+        "date": "2026-06-10T00:00:00.000Z"
+      },
+      {
+        "title": "CUBE: Bitcoin smart contracts built on Ark",
+        "url": "https://medium.com/cube-bitcoin/introducing-cube-8b3702e470a5",
+        "date": "2026-06-10T00:00:00.000Z"
+      },
+      {
+        "title": "Stratum V2: Vardiff improvements",
+        "url": "https://github.com/stratum-mining/stratum/pull/2154",
+        "date": "2026-06-10T00:00:00.000Z"
+      },
+      {
+        "title": "Square \"Bitcoin, Tap to Pay\" for customers",
+        "url": "https://squareup.com/us/en/release-notes/release-notes-june-4th",
+        "date": "2026-06-10T00:00:00.000Z"
+      },
+      {
+        "title": "Taproot OP_IF potential exploit",
+        "url": "https://github.com/Unbesteveable/taproot-opif",
+        "date": "2026-06-10T00:00:00.000Z"
+      },
+      {
+        "title": "Bisq v1 exploit - 11 BTC stolen in AI-assisted attack",
+        "url": "https://bisq.network/blog/security-incident-post-mortem/",
+        "date": "2026-06-10T00:00:00.000Z"
+      }
+    ]
+  },
+  "san-francisco": {
+    "id": "san-francisco",
+    "source": "rss",
+    "fetchedAt": "2026-07-07T20:13:42.500Z",
+    "topics": [
+      {
+        "title": "Who was the 1st Bitcoin Miner?",
+        "url": "https://1stbitcoinminer.com/",
+        "date": "2026-07-09T00:00:00.000Z"
+      },
+      {
+        "title": "Noah Ark wallet announced",
+        "url": "https://github.com/smolcars/noah",
+        "date": "2026-07-09T00:00:00.000Z"
+      },
+      {
+        "title": "Arké Ark wallet announced",
+        "url": "https://github.com/GBKS/arke",
+        "date": "2026-07-09T00:00:00.000Z"
+      },
+      {
+        "title": "Strategy Announces Digital Credit Capital Framework, USD Reserve Policy, STRC Dividend Policy, Digital Credit and MSTR Repurchase Authorizations, and BTC Monetization Program",
+        "url": "https://www.strategy.com/press/strategy-announces-digital-credit-capital-framework_06-29-2026",
+        "date": "2026-07-09T00:00:00.000Z"
+      },
+      {
+        "title": "Benchmarking SLH-DSA Aggregation with STARKs",
+        "url": "https://remix7531.com/post/slh-dsa-stark-bench/",
+        "date": "2026-07-09T00:00:00.000Z"
+      },
+      {
+        "title": "Reflections Upon Bitcoin's Block Size Debate",
+        "url": "https://blog.lopp.net/reflections-upon-bitcoins-block-size-debate/",
+        "date": "2026-07-09T00:00:00.000Z"
+      },
+      {
+        "title": "Giving teeth to expected EC disabling: P2XX(-T)(-ML)",
+        "url": "https://groups.google.com/g/bitcoindev/c/aWYtPLVPZ3U",
+        "date": "2026-07-09T00:00:00.000Z"
+      },
+      {
+        "title": "btc-verified: formalizing the Bitcoin protocol",
+        "url": "https://groups.google.com/g/bitcoindev/c/OIml9stwbGQ",
+        "date": "2026-07-09T00:00:00.000Z"
+      },
+      {
+        "title": "Accountable Computing On-Chain Contracts for AI Agents Supervision",
+        "url": "https://groups.google.com/g/bitcoindev/c/S4jM2mpMrbU",
+        "date": "2026-07-09T00:00:00.000Z"
+      },
+      {
+        "title": "Proposal discussion: BIP39 native-language display wordlists",
+        "url": "https://groups.google.com/g/bitcoindev/c/Rwo7P5pTA0c",
+        "date": "2026-07-09T00:00:00.000Z"
+      },
+      {
+        "title": "Bird of Prey 2: non-malleable Schnorr + PQ signatures",
+        "url": "https://delvingbitcoin.org/t/bird-of-prey-2-non-malleable-schnorr-pq-signatures/2514",
+        "date": "2026-07-09T00:00:00.000Z"
+      },
+      {
+        "title": "A faster Go (golang) secp256k1 library",
+        "url": "https://delvingbitcoin.org/t/a-faster-go-golang-secp256k1-library/2658",
+        "date": "2026-07-09T00:00:00.000Z"
+      },
+      {
+        "title": "Roast our real-time Bitcoin explorer built for everyday Bitcoin users",
+        "url": "https://delvingbitcoin.org/t/roast-our-real-time-bitcoin-explorer-built-for-everyday-bitcoin-users/2654",
+        "date": "2026-07-09T00:00:00.000Z"
+      },
+      {
+        "title": "Proof-of-work based signet faucet",
+        "url": "https://delvingbitcoin.org/t/proof-of-work-based-signet-faucet/937",
+        "date": "2026-07-09T00:00:00.000Z"
+      },
+      {
+        "title": "A Bitcoin-native LLM: dataset, architecture and open questions",
+        "url": "https://delvingbitcoin.org/t/a-bitcoin-native-llm-dataset-architecture-and-open-questions/2550",
+        "date": "2026-07-09T00:00:00.000Z"
+      },
+      {
+        "title": "Addressing the Diminishing Block Subsidy",
+        "url": "https://delvingbitcoin.org/t/addressing-the-diminishing-block-subsidy/2640",
+        "date": "2026-07-09T00:00:00.000Z"
+      },
+      {
+        "title": "Empirical ML-DSA-87 data from a live SHA-256 PoW chain",
+        "url": "https://delvingbitcoin.org/t/empirical-ml-dsa-87-data-from-a-live-sha-256-pow-chain-relevant-to-bip-360-witness-v3-sizing-discussion/2682",
+        "date": "2026-07-09T00:00:00.000Z"
+      },
+      {
+        "title": "ASmap dashboard: first version, looking for feedback",
+        "url": "https://bnoc.xyz/t/asmap-dashboard-first-version-looking-for-feedback/140",
+        "date": "2026-07-09T00:00:00.000Z"
+      },
+      {
+        "title": "Outbound connection success rates of a Bitcoin node",
+        "url": "https://bnoc.xyz/t/outbound-connection-success-rates-of-a-bitcoin-node/142",
+        "date": "2026-07-09T00:00:00.000Z"
+      },
+      {
+        "title": "Brainstorming: What data to collect and monitor during the BIP-110 & BIP-300 forks in August 2026?",
+        "url": "https://bnoc.xyz/t/brainstorming-what-data-to-collect-and-monitor-during-the-bip-110-bip-300-forks-in-august-2026/139",
+        "date": "2026-07-09T00:00:00.000Z"
+      },
+      {
+        "title": "LND: Zero-Timestamp Gossip DoS disclosure",
+        "url": "https://delvingbitcoin.org/t/lnd-zero-timestamp-gossip-dos-disclosure/2621",
+        "date": "2026-07-09T00:00:00.000Z"
+      },
+      {
+        "title": "BIP 95: testnet5",
+        "url": "https://github.com/bitcoin/bips/pull/2196",
+        "date": "2026-07-09T00:00:00.000Z"
+      },
+      {
+        "title": "BIP 110: advance to Complete status",
+        "url": "https://github.com/bitcoin/bips/pull/2201",
+        "date": "2026-07-09T00:00:00.000Z"
+      },
+      {
+        "title": "BIP 360: depth-zero script trees should be anyone-can-spend",
+        "url": "https://github.com/bitcoin/bips/pull/2198",
+        "date": "2026-07-09T00:00:00.000Z"
+      },
+      {
+        "title": "BIP Proposal: Removal of BIP 125 RBF signalling in wallet transactions",
+        "url": "https://groups.google.com/g/bitcoindev/c/C7zNIk8llew/m/YAdpwe33AgAJ",
+        "date": "2026-07-09T00:00:00.000Z"
+      },
+      {
+        "title": "BIP 323 Support: reserve version bits 5-28 as extra nonce space",
+        "url": "https://github.com/bitcoin/bitcoin/pull/34779",
+        "date": "2026-07-09T00:00:00.000Z"
+      },
+      {
+        "title": "BIP 434 Support: Peer feature negotiation",
+        "url": "https://github.com/bitcoin/bitcoin/pull/35221",
+        "date": "2026-07-09T00:00:00.000Z"
+      },
+      {
+        "title": "Replace libevent with our own HTTP and socket-handling implementation",
+        "url": "https://github.com/bitcoin/bitcoin/pull/35182",
+        "date": "2026-07-09T00:00:00.000Z"
+      },
+      {
+        "title": "coinselection: Optimize BnB exploration",
+        "url": "https://github.com/bitcoin/bitcoin/pull/32150",
+        "date": "2026-07-09T00:00:00.000Z"
+      },
+      {
+        "title": "net: use the proxy if overriden when doing v2->v1 reconnections",
+        "url": "https://github.com/bitcoin/bitcoin/pull/35410",
+        "date": "2026-07-09T00:00:00.000Z"
+      },
+      {
+        "title": "validation: prevent FindMostWorkChain from causing UB",
+        "url": "https://github.com/bitcoin/bitcoin/pull/35070",
+        "date": "2026-07-09T00:00:00.000Z"
+      },
+      {
+        "title": "bitcoin-util: Add netmagic command",
+        "url": "https://github.com/bitcoin/bitcoin/pull/35610",
+        "date": "2026-07-09T00:00:00.000Z"
+      },
+      {
+        "title": "net_processing: fix BIP152 first integer interpretation",
+        "url": "https://github.com/bitcoin/bitcoin/pull/35550",
+        "date": "2026-07-09T00:00:00.000Z"
+      },
+      {
+        "title": "Bitcoin Inquisition Simplicity PR is open",
+        "url": "https://github.com/bitcoin-inquisition/bitcoin/pull/115",
+        "date": "2026-07-09T00:00:00.000Z"
+      },
+      {
+        "title": "bolt12+lnwire: add codec foundation with Offer message",
+        "url": "https://github.com/lightningnetwork/lnd/pull/10789",
+        "date": "2026-07-09T00:00:00.000Z"
+      },
+      {
+        "title": "Stop using an introduction node in blinded message paths",
+        "url": "https://github.com/lightningdevkit/rust-lightning/pull/4647",
+        "date": "2026-07-09T00:00:00.000Z"
+      },
+      {
+        "title": "Include Nonce in payer_metadata again",
+        "url": "https://github.com/lightningdevkit/rust-lightning/pull/4685",
+        "date": "2026-07-09T00:00:00.000Z"
+      },
+      {
+        "title": "Reject RGS snapshots that leave our graph absurdly-sized",
+        "url": "https://github.com/lightningdevkit/rust-lightning/pull/4713",
+        "date": "2026-07-09T00:00:00.000Z"
+      },
+      {
+        "title": "Clear monitor-pending RAA once regenerated",
+        "url": "https://github.com/lightningdevkit/rust-lightning/pull/4684",
+        "date": "2026-07-09T00:00:00.000Z"
+      },
+      {
+        "title": "Lower strictness of pending monitor update while awaiting tx_signatures",
+        "url": "https://github.com/lightningdevkit/rust-lightning/pull/4748",
+        "date": "2026-07-09T00:00:00.000Z"
+      },
+      {
+        "title": "Ignore stale splice initial commitment_signed",
+        "url": "https://github.com/lightningdevkit/rust-lightning/pull/4751",
+        "date": "2026-07-09T00:00:00.000Z"
+      },
+      {
+        "title": "primitives: Simplify and optimize witness decoder",
+        "url": "https://github.com/rust-bitcoin/rust-bitcoin/pull/6321",
+        "date": "2026-07-09T00:00:00.000Z"
+      },
+      {
+        "title": "Bitcoin Core v31.1rc1",
+        "url": "https://github.com/bitcoin/bitcoin/blob/efde623463cf194dda8407271f4dd136d054bc9f/doc/release-notes.md",
+        "date": "2026-07-09T00:00:00.000Z"
+      },
+      {
+        "title": "Wasabi Wallet v2.8.0",
+        "url": "https://github.com/WalletWasabi/WalletWasabi/releases/tag/v2.8.0",
+        "date": "2026-07-09T00:00:00.000Z"
+      }
+    ]
+  },
+  "san-juan": {
+    "id": "san-juan",
+    "source": "rss",
+    "fetchedAt": "2026-07-07T20:13:42.500Z",
+    "topics": [
+      {
+        "title": "this secondary Signal group",
+        "url": "https://signal.group/#CjQKIGY9SnYfa6wtrimUC6I2T9A3LvOtrqwy2D-MpUDrtallEhAw7L2bOvYcwavp8-0wcf0X",
+        "date": "2026-06-24T00:00:00.000Z"
+      },
+      {
+        "title": "A second implementation of Ark launched on mainnet",
+        "url": "https://blog.second.tech/bark-now-on-bitcoin-mainnet/",
+        "date": "2026-06-24T00:00:00.000Z"
+      },
+      {
+        "title": "Coin-stealing vulnerability found in popular cashu server software",
+        "url": "https://uncensoredtech.substack.com/p/rug-the-mints",
+        "date": "2026-06-24T00:00:00.000Z"
+      },
+      {
+        "title": "Cashu inventor proposes “unruggable mints”",
+        "url": "https://xcancel.com/i/status/2063322203450384753",
+        "date": "2026-06-24T00:00:00.000Z"
+      },
+      {
+        "title": "Ditto launches and brings L1 tipping to nostr",
+        "url": "https://soapbox.pub/blog/onchain-zaps-in-ditto",
+        "date": "2026-06-24T00:00:00.000Z"
+      },
+      {
+        "title": "3d lightning network explorer that shows actual transactions (but only channel opening txs)",
+        "url": "https://lightningobservatory.com/",
+        "date": "2026-06-24T00:00:00.000Z"
+      },
+      {
+        "title": "Polish “Blik” payment system gets a bitcoin bridge",
+        "url": "https://bitblik.app/",
+        "date": "2026-06-24T00:00:00.000Z"
+      },
+      {
+        "title": "First instance of cross-platform CLINK payment (proposed successor to LNURL and BOLT12)",
+        "url": "https://bxrd.app/note/5d66b6ad1b43e5dafac62f8488cc8770b64260378ee953498505b0f49a122052",
+        "date": "2026-06-24T00:00:00.000Z"
+      }
+    ]
+  },
+  "san-salvador": {
+    "id": "san-salvador",
+    "source": "rss",
+    "fetchedAt": "2026-07-07T20:13:42.500Z",
+    "topics": [
+      {
+        "title": "Programa B4OS",
+        "url": "https://b4os.dev/",
+        "date": "2025-08-20T00:00:00.000Z"
+      },
+      {
+        "title": "The Post-Quantum Security of Bitcoin’s Taproot as a Commitment Scheme",
+        "url": "https://eprint.iacr.org/2025/1307",
+        "date": "2025-08-20T00:00:00.000Z"
+      },
+      {
+        "title": "Add deletecanceledinvoice RPC call #9625",
+        "url": "https://github.com/lightningnetwork/lnd/pull/9625",
+        "date": "2025-08-20T00:00:00.000Z"
+      },
+      {
+        "title": "How secure is your Bitcoin wallet’s mnemonic seed phrase?",
+        "url": "https://bennet.org/blog/how-secure-is-your-bitcoin-wallets-mnemonic-seed-phrase/",
+        "date": "2025-08-20T00:00:00.000Z"
+      },
+      {
+        "title": "Samourai Wallet Developers Plead Guilty to Conspiring to Operate an Unlicensed Money Transmitting Business",
+        "url": "https://bitcoinmagazine.com/news/samourai-wallet-developers-plead-guilty",
+        "date": "2025-08-20T00:00:00.000Z"
+      },
+      {
+        "title": "Tornado Cash Trial Concludes: Roman Storm Found Guilty on One of Three Counts",
+        "url": "https://bitcoinmagazine.com/news/tornado-cash-trial-concludes-roman-storm-found-guilty-of-one-of-three-counts",
+        "date": "2025-08-20T00:00:00.000Z"
+      }
+    ]
+  },
+  "santiago": {
+    "id": "santiago",
+    "source": "rss",
+    "fetchedAt": "2026-07-07T20:13:42.500Z",
+    "topics": [
+      {
+        "title": "A Post-Quantum Path for BIP 324",
+        "url": "https://groups.google.com/g/bitcoindev/c/n_5WuKVYqwI",
+        "date": "2026-07-07T00:00:00.000Z"
+      },
+      {
+        "title": "Against Allowing Quantum Recovery of Bitcoin",
+        "url": "https://groups.google.com/g/bitcoindev/c/uUK6py0Yjq0",
+        "date": "2026-07-07T00:00:00.000Z"
+      },
+      {
+        "title": "Public disclosure of one high severity Bitcoin Core advisory (CVE-2024-52911)",
+        "url": "https://groups.google.com/g/bitcoindev/c/e1UEdViSYkU",
+        "date": "2026-07-07T00:00:00.000Z"
+      },
+      {
+        "title": "Testnet 5 Draft",
+        "url": "https://groups.google.com/g/bitcoindev/c/kGUMTxOvdJA",
+        "date": "2026-07-07T00:00:00.000Z"
+      },
+      {
+        "title": "PQC: Lattice-based signatures",
+        "url": "https://groups.google.com/g/bitcoindev/c/nMO4hyEm5qc",
+        "date": "2026-07-07T00:00:00.000Z"
+      },
+      {
+        "title": "P2WOTS: 64 Slot Winternitz UTXO’s (witness version three)",
+        "url": "https://groups.google.com/g/bitcoindev/c/ZFZWvxpqsXs",
+        "date": "2026-07-07T00:00:00.000Z"
+      },
+      {
+        "title": "QCAP: A Bitcoin-Native Quantum Canary Alert",
+        "url": "https://delvingbitcoin.org/t/qcap-a-bitcoin-native-quantum-canary-alert/2498",
+        "date": "2026-07-07T00:00:00.000Z"
+      },
+      {
+        "title": "Onion Message Jamming in the Lightning Network",
+        "url": "https://delvingbitcoin.org/t/onion-message-jamming-in-the-lightning-network",
+        "date": "2026-07-07T00:00:00.000Z"
+      },
+      {
+        "title": "Quantum Attack Game Theory",
+        "url": "https://delvingbitcoin.org/t/quantum-attack-game-theory",
+        "date": "2026-07-07T00:00:00.000Z"
+      },
+      {
+        "title": "TCP hole punching for Bitcoin nodes behind home NATs?",
+        "url": "https://delvingbitcoin.org/t/tcp-hole-punching-for-bitcoin-nodes-behind-home-nats",
+        "date": "2026-07-07T00:00:00.000Z"
+      },
+      {
+        "title": "Binary Fuse filters as an alternative to BIP 158 GCS",
+        "url": "https://delvingbitcoin.org/t/binary-fuse-filters-as-an-alternative-to-bip-158-gcs",
+        "date": "2026-07-07T00:00:00.000Z"
+      },
+      {
+        "title": "PQC: Google’s result on improving Shor’s algorithm reconstructed",
+        "url": "https://delvingbitcoin.org/t/pqc-googles-result-on-improving-shors-algorithm-reconstructed",
+        "date": "2026-07-07T00:00:00.000Z"
+      },
+      {
+        "title": "Implement BIP 370 PSBTv2",
+        "url": "https://github.com/bitcoin/bitcoin/pull/21283",
+        "date": "2026-07-07T00:00:00.000Z"
+      },
+      {
+        "title": "BIP 434 Support: Peer feature negotiation",
+        "url": "https://github.com/bitcoin/bitcoin/pull/35221",
+        "date": "2026-07-07T00:00:00.000Z"
+      },
+      {
+        "title": "coinselection: Optimize BnB exploration",
+        "url": "https://github.com/bitcoin/bitcoin/pull/32150",
+        "date": "2026-07-07T00:00:00.000Z"
+      },
+      {
+        "title": "splice: Make feerate opening + feerate_offset",
+        "url": "https://github.com/ElementsProject/lightning/pull/9109",
+        "date": "2026-07-07T00:00:00.000Z"
+      },
+      {
+        "title": "Deprecate pay, keysend, renepay and getroute",
+        "url": "https://github.com/ElementsProject/lightning/pull/9110",
+        "date": "2026-07-07T00:00:00.000Z"
+      },
+      {
+        "title": "Switch 0FC to production feature bit",
+        "url": "https://github.com/lightningdevkit/rust-lightning/pull/4515",
+        "date": "2026-07-07T00:00:00.000Z"
+      },
+      {
+        "title": "Allow cancellation of pending splice funding negotiations",
+        "url": "https://github.com/lightningdevkit/rust-lightning/pull/4490",
+        "date": "2026-07-07T00:00:00.000Z"
+      },
+      {
+        "title": "Persist negotiated splice candidates on reload",
+        "url": "https://github.com/lightningdevkit/rust-lightning/pull/4653",
+        "date": "2026-07-07T00:00:00.000Z"
+      },
+      {
+        "title": "Support async signing of splice shared input",
+        "url": "https://github.com/lightningdevkit/rust-lightning/pull/4579",
+        "date": "2026-07-07T00:00:00.000Z"
+      },
+      {
+        "title": "Gate interactive commitment_signed on user approval during reestablish",
+        "url": "https://github.com/lightningdevkit/rust-lightning/pull/4629",
+        "date": "2026-07-07T00:00:00.000Z"
+      },
+      {
+        "title": "Encrypt payment_metadata when we build the payment secret",
+        "url": "https://github.com/lightningdevkit/rust-lightning/pull/4628",
+        "date": "2026-07-07T00:00:00.000Z"
+      },
+      {
+        "title": "Commit to payment_metadata in inbound payment HMAC",
+        "url": "https://github.com/lightningdevkit/rust-lightning/pull/4528",
+        "date": "2026-07-07T00:00:00.000Z"
+      },
+      {
+        "title": "Stop using an introduction node in blinded message paths",
+        "url": "https://github.com/lightningdevkit/rust-lightning/pull/4647",
+        "date": "2026-07-07T00:00:00.000Z"
+      },
+      {
+        "title": "Avoid repeated refreshes for persisted async invoices",
+        "url": "https://github.com/lightningdevkit/rust-lightning/pull/4672",
+        "date": "2026-07-07T00:00:00.000Z"
+      },
+      {
+        "title": "Add async variant of MigratableKVStore",
+        "url": "https://github.com/lightningdevkit/rust-lightning/pull/4658",
+        "date": "2026-07-07T00:00:00.000Z"
+      },
+      {
+        "title": "multi: implement awareness of the final/production taproot channel variant",
+        "url": "https://github.com/lightningnetwork/lnd/pull/9985",
+        "date": "2026-07-07T00:00:00.000Z"
+      },
+      {
+        "title": "funding: require explicit taproot channel negotiation",
+        "url": "https://github.com/lightningnetwork/lnd/pull/10820",
+        "date": "2026-07-07T00:00:00.000Z"
+      },
+      {
+        "title": "multi: add new rbf coop close actor for RPC server fee bumps",
+        "url": "https://github.com/lightningnetwork/lnd/pull/9821",
+        "date": "2026-07-07T00:00:00.000Z"
+      },
+      {
+        "title": "onionmessage: graph-based pathfinding for onion messages",
+        "url": "https://github.com/lightningnetwork/lnd/pull/10612",
+        "date": "2026-07-07T00:00:00.000Z"
+      },
+      {
+        "title": "onionmessage+peer: rate-limit incoming onion messages per-peer and globally",
+        "url": "https://github.com/lightningnetwork/lnd/pull/10713",
+        "date": "2026-07-07T00:00:00.000Z"
+      },
+      {
+        "title": "Add support for the official splicing protocol",
+        "url": "https://github.com/ACINQ/eclair/pull/2887",
+        "date": "2026-07-07T00:00:00.000Z"
+      },
+      {
+        "title": "Use official feature bit for option_simple_taproot",
+        "url": "https://github.com/ACINQ/eclair/pull/3144",
+        "date": "2026-07-07T00:00:00.000Z"
+      },
+      {
+        "title": "Add support for zero-fee commitment format",
+        "url": "https://github.com/ACINQ/eclair/pull/3192",
+        "date": "2026-07-07T00:00:00.000Z"
+      },
+      {
+        "title": "Fix Bolt12 path fee hiding",
+        "url": "https://github.com/ACINQ/eclair/pull/3311",
+        "date": "2026-07-07T00:00:00.000Z"
+      },
+      {
+        "title": "BIP451: Dust UTXO Disposal Protocol",
+        "url": "https://github.com/bitcoin/bips/pull/2150",
+        "date": "2026-07-07T00:00:00.000Z"
+      },
+      {
+        "title": "BIP361: Post Quantum Migration and Legacy Signature Sunset",
+        "url": "https://github.com/bitcoin/bips/pull/1895",
+        "date": "2026-07-07T00:00:00.000Z"
+      },
+      {
+        "title": "BIP 77: Specify v1-fallback response mechanism",
+        "url": "https://github.com/bitcoin/bips/pull/2186",
+        "date": "2026-07-07T00:00:00.000Z"
+      },
+      {
+        "title": "Zero-fee commitments using v3 transactions (feature 40/41)",
+        "url": "https://github.com/lightning/bolts/pull/1228",
+        "date": "2026-07-07T00:00:00.000Z"
+      },
+      {
+        "title": "extension-bolt: simple taproot channels (feature 80/81)",
+        "url": "https://github.com/lightning/bolts/pull/995",
+        "date": "2026-07-07T00:00:00.000Z"
+      },
+      {
+        "title": "blip-0042: Bolt 12 Contacts",
+        "url": "https://github.com/lightning/blips/pull/42",
+        "date": "2026-07-07T00:00:00.000Z"
+      },
+      {
+        "title": "The U.S. Military Is Running a Bitcoin Node, Admiral Paparo Reveals",
+        "url": "https://bitcoinmagazine.com/news/the-us-military-is-running-a-bitcoin-node",
+        "date": "2026-07-07T00:00:00.000Z"
+      },
+      {
+        "title": "Disclosure: PrivateBroadcast IP Address Leak (Bitcoin Core)",
+        "url": "https://bitcoincore.org/en/2026/06/06/privatebroadcast-ip-leak/",
+        "date": "2026-07-07T00:00:00.000Z"
+      },
+      {
+        "title": "Please Do Not Vibe Fuck Up This Software",
+        "url": "https://github.com/RsyncProject/rsync/issues/929",
+        "date": "2026-07-07T00:00:00.000Z"
+      },
+      {
+        "title": "Tennessee Becomes Second State to Outlaw Bitcoin, Crypto ATMs",
+        "url": "https://decrypt.co/365502/tennessee-second-state-outlaw-bitcoin-crypto-atms",
+        "date": "2026-07-07T00:00:00.000Z"
+      },
+      {
+        "title": "Introducing Majorana 2 — Microsoft’s Topological Qubit Processor",
+        "url": "https://news.microsoft.com/source/features/innovation/majorana-2-microsoft-discovery-agentic-ai/",
+        "date": "2026-07-07T00:00:00.000Z"
+      },
+      {
+        "title": "We found a stable Firefox identifier linking all your private Tor identities",
+        "url": "https://fingerprint.com/blog/firefox-tor-indexeddb-privacy-vulnerability/",
+        "date": "2026-07-07T00:00:00.000Z"
+      }
+    ]
+  },
+  "sao-paulo": {
+    "id": "sao-paulo",
+    "source": "rss",
+    "fetchedAt": "2026-07-07T20:13:42.500Z",
+    "topics": [
+      {
+        "title": "Signal do BitDevs SP",
+        "url": "https://signal.group/#CjQKIKRG6Gw3huCUVV57mu8fj_uOaQl4CrBBWdDlhKvMbag_EhAX7s2tuBB4YY8c71UWepPH",
+        "date": "2026-06-25T00:00:00.000Z"
+      },
+      {
+        "title": "Tradução PT-BR para o site learn me a bitcoin",
+        "url": "https://meaprendeumbitcoin.com.br/",
+        "date": "2026-06-25T00:00:00.000Z"
+      },
+      {
+        "title": "Craig Raw Apple Developer Account Flagged For Termination",
+        "url": "https://xcancel.com/craigraw/status/2069124643223445854#m",
+        "date": "2026-06-25T00:00:00.000Z"
+      },
+      {
+        "title": "Viena Lightning Spec Summit",
+        "url": "https://github.com/lightning/bolts/issues/1329",
+        "date": "2026-06-25T00:00:00.000Z"
+      },
+      {
+        "title": "Bitcoin Core: disallow P2Pv1 connection for IPv4 and IPv6 peers",
+        "url": "https://github.com/bitcoin/bitcoin/pull/30951",
+        "date": "2026-06-25T00:00:00.000Z"
+      },
+      {
+        "title": "$ bitcoin-cli getmempoolcluster (Bitcoin Core v31 na prática)",
+        "url": "https://blog.areabitcoin.com.br/bitcoin-core-v31-na-pratica/",
+        "date": "2026-06-25T00:00:00.000Z"
+      },
+      {
+        "title": "Draft BIP for testnet5",
+        "url": "https://groups.google.com/g/bitcoindev/c/kGUMTxOvdJA/m/Eyx5FxQeAAAJ",
+        "date": "2026-06-25T00:00:00.000Z"
+      },
+      {
+        "title": "Fountain Codes: a way to reduce blockchain storage costs",
+        "url": "https://delvingbitcoin.org/t/fountain-codes-a-way-to-reduce-blockchain-storage-costs/2624",
+        "date": "2026-06-25T00:00:00.000Z"
+      },
+      {
+        "title": "Recap da última Core Dev",
+        "url": "https://btctranscripts.com/bitcoin-core-dev-tech/2026-05",
+        "date": "2026-06-25T00:00:00.000Z"
+      },
+      {
+        "title": "CTV-only Vault Concept v0.1.0 release",
+        "url": "https://delvingbitcoin.org/t/ctv-only-vault-concept-v0-1-0-release/2539",
+        "date": "2026-06-25T00:00:00.000Z"
+      },
+      {
+        "title": "Zcash e os perigos da opacificação na camada base (money printer go brrr)",
+        "url": "https://gizmodo.com/zcash-bug-could-have-let-attackers-print-cryptocurrency-out-of-thin-air-2000767790",
+        "date": "2026-06-25T00:00:00.000Z"
+      },
+      {
+        "title": "Rug the mints (full disclosure)",
+        "url": "https://uncensoredtech.substack.com/p/rug-the-mints",
+        "date": "2026-06-25T00:00:00.000Z"
+      },
+      {
+        "title": "Trezor’s TROPIC01 chip vulnerability disclosure",
+        "url": "https://trezor.io/blog/news/Trezor-response-TROPIC01-chip-disclosure-no-impact-to-your-funds",
+        "date": "2026-06-25T00:00:00.000Z"
+      },
+      {
+        "title": "Bug crítico de segurança na p2pool (monero) - uncle blocks e merkle root spam",
+        "url": "https://github.com/SChernykh/p2pool/commit/4553c0cb4371ab77cfe7918ed5432a077c8d2151",
+        "date": "2026-06-25T00:00:00.000Z"
+      },
+      {
+        "title": "2 vulnerabilities in bark to steal funds",
+        "url": "https://uncensoredtech.substack.com/p/2-vulnerabilities-in-bark-to-steal",
+        "date": "2026-06-25T00:00:00.000Z"
+      },
+      {
+        "title": "Adds Pairing-based BDHKE BLS12-381 as the v3 Cashu blind-signature protocol for keysets",
+        "url": "https://github.com/cashubtc/nuts/pull/371",
+        "date": "2026-06-25T00:00:00.000Z"
+      },
+      {
+        "title": "Intersection Attacks on CoinJoin Anonymity",
+        "url": "https://spiralbtc.substack.com/p/the-scroll-4-intersection-attacks",
+        "date": "2026-06-25T00:00:00.000Z"
+      },
+      {
+        "title": "Private Broadcast May Reveal Sender IP Address in Bitcoin Core 31.0",
+        "url": "https://bitcoincore.org/en/2026/06/06/privatebroadcast-ip-leak/",
+        "date": "2026-06-25T00:00:00.000Z"
+      },
+      {
+        "title": "Vulnerability Disclosure: Assertion DoS in Core Lightning",
+        "url": "https://delvingbitcoin.org/t/vulnerability-disclosure-assertion-dos-in-core-lightning/2507",
+        "date": "2026-06-25T00:00:00.000Z"
+      },
+      {
+        "title": "Cube: Ark + ZK",
+        "url": "https://medium.com/cube-bitcoin/introducing-cube-8b3702e470a5",
+        "date": "2026-06-25T00:00:00.000Z"
+      },
+      {
+        "title": "Bark now on bitcoin mainnet",
+        "url": "https://blog.second.tech/bark-now-on-bitcoin-mainnet/",
+        "date": "2026-06-25T00:00:00.000Z"
+      },
+      {
+        "title": "Post Quantum Lightning: Layer by Layer",
+        "url": "https://delvingbitcoin.org/t/post-quantum-lightning-layer-by-layer/2479",
+        "date": "2026-06-25T00:00:00.000Z"
+      },
+      {
+        "title": "A Post-Quantum Path for BIP 324",
+        "url": "https://groups.google.com/g/bitcoindev/c/n_5WuKVYqwI/m/lBooLis3AQAJ",
+        "date": "2026-06-25T00:00:00.000Z"
+      }
+    ]
+  },
+  "seattle": {
+    "id": "seattle",
+    "source": "github-issues",
+    "fetchedAt": "2026-07-07T20:13:42.500Z",
+    "topics": [
+      {
+        "title": "Arké wallet, first true normie friendly self custodial wallet?",
+        "url": "https://github.com/reardencode/seattle_bitdevs/issues/15",
+        "date": "2026-06-25T18:19:51Z"
+      },
+      {
+        "title": "202403 - Bitcoin Core Snap Package",
+        "url": "https://github.com/reardencode/seattle_bitdevs/issues/6",
+        "date": "2026-06-25T18:17:35Z"
+      },
+      {
+        "title": "review Surge Credit",
+        "url": "https://github.com/reardencode/seattle_bitdevs/issues/14",
+        "date": "2026-06-25T18:17:23Z"
+      },
+      {
+        "title": "Idea for 2/27/26 - SatSwap",
+        "url": "https://github.com/reardencode/seattle_bitdevs/issues/12",
+        "date": "2026-02-26T23:31:01Z"
+      },
+      {
+        "title": "Review CTV versus template hash",
+        "url": "https://github.com/reardencode/seattle_bitdevs/issues/10",
+        "date": "2026-02-26T23:17:02Z"
+      },
+      {
+        "title": "Anchorwatch launches 1 key and multi institution vaults",
+        "url": "https://github.com/reardencode/seattle_bitdevs/issues/13",
+        "date": "2026-02-26T23:16:38Z"
+      },
+      {
+        "title": "lifofifo multisig",
+        "url": "https://github.com/reardencode/seattle_bitdevs/issues/9",
+        "date": "2025-10-30T21:52:40Z"
+      },
+      {
+        "title": "202406 Fedimint Issue: Inability to change Guardians' DNS",
+        "url": "https://github.com/reardencode/seattle_bitdevs/issues/7",
+        "date": "2024-08-28T20:54:32Z"
+      },
+      {
+        "title": "02-29 topic suggestion",
+        "url": "https://github.com/reardencode/seattle_bitdevs/issues/4",
+        "date": "2024-02-27T05:19:16Z"
+      },
+      {
+        "title": "Multisig related",
+        "url": "https://github.com/reardencode/seattle_bitdevs/issues/3",
+        "date": "2024-01-26T00:35:42Z"
+      },
+      {
+        "title": "12.21.2023 - Suggested Topic - potential UASF on CTV and vault?",
+        "url": "https://github.com/reardencode/seattle_bitdevs/issues/2",
+        "date": "2024-01-12T21:57:54Z"
+      }
+    ]
+  },
+  "uberlandia": {
+    "id": "uberlandia",
+    "source": "rss",
+    "fetchedAt": "2026-07-07T20:13:42.500Z",
+    "topics": [
+      {
+        "title": "Builds determinísticas entre nix e guix",
+        "url": "https://b10c.me/projects/027-bitcoind-gunix-match/",
+        "date": "2026-06-23T00:00:00.000Z"
+      },
+      {
+        "title": "BIP-323 e o novo teto teórico de 72 PH/s para “header-only mining”",
+        "url": "https://github.com/bitcoin/bitcoin/pull/34779",
+        "date": "2026-06-23T00:00:00.000Z"
+      },
+      {
+        "title": "Testnet5",
+        "url": "https://groups.google.com/g/bitcoindev/c/kGUMTxOvdJA/m/Eyx5FxQeAAAJ?pli=1",
+        "date": "2026-06-23T00:00:00.000Z"
+      },
+      {
+        "title": "Cursos avançados sobre manutenção de equipamentos de mineração",
+        "url": "https://course.zeusbtc.com/",
+        "date": "2026-06-23T00:00:00.000Z"
+      },
+      {
+        "title": "GridPool - pool soberana onde cada minerador constrói seu próprio template de bloco",
+        "url": "https://gridpool.net/",
+        "date": "2026-06-23T00:00:00.000Z"
+      },
+      {
+        "title": "De BM1366 a BM1373: como as gerações de chips ASIC da Bitmain abriram espaço para a mineração caseira",
+        "url": "https://ixtech.xyz/blogs/mining-tips/from-bm1366-to-bm1373-how-bitmains-asic-chip-generations-unlocked-home-bitcoin-mining",
+        "date": "2026-06-23T00:00:00.000Z"
+      }
+    ]
+  },
+  "vancouver": {
+    "id": "vancouver",
+    "source": "rss",
+    "fetchedAt": "2026-07-07T20:13:42.500Z",
+    "topics": [
+      {
+        "title": "East Van Bitcoin Meetup",
+        "url": "https://luma.com/m4pjyfuj",
+        "date": "2026-06-30T19:00:00.000Z"
+      },
+      {
+        "title": "Bitcoin Core CVE-2024-52911 - Script Interpreter Remote Crash",
+        "url": "https://bitcoincore.org/en/2026/05/05/disclose-cve-2024-52911/",
+        "date": "2026-06-30T19:00:00.000Z"
+      },
+      {
+        "title": "TCP hole punching for Bitcoin nodes behind home NATs?",
+        "url": "https://delvingbitcoin.org/t/tcp-hole-punching-for-bitcoin-nodes-behind-home-nats/2497",
+        "date": "2026-06-30T19:00:00.000Z"
+      },
+      {
+        "title": "Testnet5 proposed to deal with the issues of testnet4",
+        "url": "https://github.com/fjahr/bips/pull/2/changes/957136cfd6d499ca515c3d9eada0a445c27cfcda",
+        "date": "2026-06-30T19:00:00.000Z"
+      },
+      {
+        "title": "Testnet5 discussion",
+        "url": "https://groups.google.com/g/bitcoindev/c/kGUMTxOvdJA/m/UF4W6Yo0AAAJ",
+        "date": "2026-06-30T19:00:00.000Z"
+      },
+      {
+        "title": "Silent Payments: a hands-on guide to better Bitcoin privacy",
+        "url": "https://bennet.org/learn/silent-payments-bitcoin-privacy/",
+        "date": "2026-06-30T19:00:00.000Z"
+      },
+      {
+        "title": "Simple Taproot Channels merged into BOLT",
+        "url": "https://github.com/lightning/bolts/blob/master/bolt-simple-taproot.md",
+        "date": "2026-06-30T19:00:00.000Z"
+      },
+      {
+        "title": "Rusty leaving Core Lightning",
+        "url": "https://njump.me/nevent1qqsgxucdkyu8zu9ntgl4gpvxcfesx8pua56ahmf2d5qrwcgwnjtlx3gzyrchy4vx5spvq6hvsxx3g79yt24qmstv02wys6we0s6sxdk3d78yx5hspxf",
+        "date": "2026-06-30T19:00:00.000Z"
+      },
+      {
+        "title": "LND: Zero-Timestamp Gossip DoS disclosure",
+        "url": "https://delvingbitcoin.org/t/lnd-zero-timestamp-gossip-dos-disclosure/2621",
+        "date": "2026-06-30T19:00:00.000Z"
+      },
+      {
+        "title": "Bisq Security Incident Post-Mortem",
+        "url": "https://bisq.network/blog/security-incident-post-mortem/",
+        "date": "2026-06-30T19:00:00.000Z"
+      },
+      {
+        "title": "CVE-2026-31431: Copy Fail vulnerability enables Linux root privilege escalation across cloud environments",
+        "url": "https://www.microsoft.com/en-us/security/blog/2026/05/01/cve-2026-31431-copy-fail-vulnerability-enables-linux-root-privilege-escalation/",
+        "date": "2026-06-30T19:00:00.000Z"
+      },
+      {
+        "title": "Michael Saylor’s Strategy sells 32 bitcoin for $2.5 million as total holdings drop to 843,706 BTC",
+        "url": "https://www.theblock.co/post/403160/michael-saylors-strategy-sells-bitcoin",
+        "date": "2026-06-30T19:00:00.000Z"
+      },
+      {
+        "title": "Bitcoin, Fiat, and Islamic Finance",
+        "url": "https://www.axiomventures.vc/islamic",
+        "date": "2026-06-30T19:00:00.000Z"
+      },
+      {
+        "title": "Maelstrom Bitcoin Grant Program Report",
+        "url": "https://maelstrom.fund/wp-content/uploads/2026/06/Maelstrom-Bitcoin-Grant-Program-Annual-Report-1.pdf",
+        "date": "2026-06-30T19:00:00.000Z"
+      },
+      {
+        "title": "Zeus Lightning Economics Report",
+        "url": "https://zeusln.com/lightning-economics",
+        "date": "2026-06-30T19:00:00.000Z"
+      },
+      {
+        "title": "Bitnodes is shutting down",
+        "url": "https://bitcointalk.org/index.php?topic=5582226.0",
+        "date": "2026-06-30T19:00:00.000Z"
+      },
+      {
+        "title": "Adam Back’s Blockstream Borrows Billions, Hides CIO Chris Cook’s Fraud Conviction. NYT Cheerleads while BSTR lists.",
+        "url": "https://natinfosec.substack.com/p/adam-backs-blockstream-borrows-billions",
+        "date": "2026-06-30T19:00:00.000Z"
+      },
+      {
+        "title": "B.C. bitcoin mine plans to transform into AI data centre, regional district says it is already thwarting bylaw",
+        "url": "https://www.cbc.ca/news/canada/british-columbia/bitcoin-mine-ai-data-centre-9.7229641",
+        "date": "2026-06-30T19:00:00.000Z"
+      },
+      {
+        "title": "Ottawa outlines plans to tackle financial crime, ban crypto ATMs",
+        "url": "https://www.vancouverisawesome.com/national-news/ottawa-outlines-plans-to-tackle-financial-crime-ban-crypto-atms-12206125",
+        "date": "2026-06-30T19:00:00.000Z"
+      },
+      {
+        "title": "Canada proposes ban on crypto ATMs as fraud cases mount",
+        "url": "https://www.coindesk.com/markets/2026/04/29/canada-proposes-ban-on-bitcoin-atms-as-fraud-cases-mount",
+        "date": "2026-06-30T19:00:00.000Z"
+      },
+      {
+        "title": "Ottawa urged by industry to hit pause on plan to ban crypto ATMs",
+        "url": "https://www.theglobeandmail.com/politics/article-ottawa-urged-to-hit-pause-on-plan-to-ban-crypto-atms/",
+        "date": "2026-06-30T19:00:00.000Z"
+      },
+      {
+        "title": "Edmonton-based cryptocurrency company wants to work with feds on proposed ATM crackdown",
+        "url": "https://www.ctvnews.ca/edmonton/article/edmonton-based-cryptocurrency-company-wants-to-work-with-feds-on-proposed-atm-crackdown/",
+        "date": "2026-06-30T19:00:00.000Z"
+      },
+      {
+        "title": "Mario Canseco: Many Canadians skeptical of cryptocurrency as support grows for a crypto ATM ban, poll says",
+        "url": "https://www.vancouverisawesome.com/economy-law-politics/mario-canseco-many-canadians-skeptical-of-cryptocurrency-as-support-grows-for-a-crypto-atm-ban-poll-says-12351071",
+        "date": "2026-06-30T19:00:00.000Z"
+      },
+      {
+        "title": "Canadians for Crypto Access",
+        "url": "https://canadiansforcryptoaccess.ca/",
+        "date": "2026-06-30T19:00:00.000Z"
+      },
+      {
+        "title": "Tell your MP: regulate crypto ATMs, do not ban them.",
+        "url": "https://www.dontbancryptoatms.ca/",
+        "date": "2026-06-30T19:00:00.000Z"
+      },
+      {
+        "title": "Hal Wallet by Adam Soltys",
+        "url": "https://halwallet.app/",
+        "date": "2026-06-30T19:00:00.000Z"
+      },
+      {
+        "title": "SMS4SATS L402 Skill",
+        "url": "https://api.sms4sats.com/skill.md",
+        "date": "2026-06-30T19:00:00.000Z"
+      },
+      {
+        "title": "Lightning is live on NDAX",
+        "url": "https://ndax.io/en/blog/article/move-bitcoin-faster-with-btc-lightning-on-ndax",
+        "date": "2026-06-30T19:00:00.000Z"
+      },
+      {
+        "title": "Bark now on bitcoin mainnet",
+        "url": "https://blog.second.tech/bark-now-on-bitcoin-mainnet/",
+        "date": "2026-06-30T19:00:00.000Z"
+      },
+      {
+        "title": "Rusty Russell: Eleven Years of Lightning at Blockstream",
+        "url": "https://blog.blockstream.com/rusty-russell-eleven-years-of-lightning-at-blockstream/",
+        "date": "2026-06-30T19:00:00.000Z"
+      },
+      {
+        "title": "Vancouver’s crypto-anarchist collective is searching for a new home",
+        "url": "https://www.theglobeandmail.com/business/article-vancouvers-crypto-anarchist-collective-is-searching-for-a-new-home/",
+        "date": "2026-06-30T19:00:00.000Z"
+      },
+      {
+        "title": "How Trump’s crypto venture and Iran’s top exchange tapped into the same industry networks",
+        "url": "https://www.reuters.com/investigations/how-trumps-crypto-venture-irans-top-exchange-tapped-into-same-industry-networks-2026-05-18/",
+        "date": "2026-06-30T19:00:00.000Z"
+      },
+      {
+        "title": "Afroman Is Back—and He’s Bitcoin’s Latest Freedom Fighter",
+        "url": "https://www.wired.com/afroman-bitcoin-conference-free-speech/",
+        "date": "2026-06-30T19:00:00.000Z"
+      },
+      {
+        "title": "Under the Trump crypto playbook, the family always wins. Investors don’t",
+        "url": "https://www.reuters.com/investigations/under-trump-crypto-playbook-family-always-wins-investors-dont-2026-06-09/",
+        "date": "2026-06-30T19:00:00.000Z"
+      }
+    ]
+  },
+  "victoria": {
+    "id": "victoria",
+    "source": "rss",
+    "fetchedAt": "2026-07-07T20:13:42.500Z",
+    "topics": [
+      {
+        "title": "Public key recovery for EC leaves in P2MR (BIP-360)",
+        "url": "https://delvingbitcoin.org/t/public-key-recovery-for-ec-leaves-in-p2mr-bip-360/2603",
+        "date": "2026-06-19T00:00:00.000Z"
+      },
+      {
+        "title": "A Bitcoin-native LLM: dataset, architecture and open questions",
+        "url": "https://delvingbitcoin.org/t/a-bitcoin-native-llm-dataset-architecture-and-open-questions/2550",
+        "date": "2026-06-19T00:00:00.000Z"
+      },
+      {
+        "title": "Quantum Attack Game Theory",
+        "url": "https://delvingbitcoin.org/t/quantum-attack-game-theory/2524",
+        "date": "2026-06-19T00:00:00.000Z"
+      },
+      {
+        "title": "New Post Quantum Bitcoin Proposal using WInternitz + Lamport auth chains",
+        "url": "https://delvingbitcoin.org/t/new-post-quantum-bitcoin-proposal-using-winternitz-lamport-auth-chains/2525",
+        "date": "2026-06-19T00:00:00.000Z"
+      },
+      {
+        "title": "QCAP: A Bitcoin-Native Quantum Canary Alert",
+        "url": "https://delvingbitcoin.org/t/qcap-a-bitcoin-native-quantum-canary-alert/2498",
+        "date": "2026-06-19T00:00:00.000Z"
+      },
+      {
+        "title": "Bitcoin Optech Newsletter #409",
+        "url": "https://bitcoinops.org/en/newsletters/2026/06/12/",
+        "date": "2026-06-19T00:00:00.000Z"
+      },
+      {
+        "title": "Bitcoin Optech Newsletter #408",
+        "url": "https://bitcoinops.org/en/newsletters/2026/06/05/",
+        "date": "2026-06-19T00:00:00.000Z"
+      },
+      {
+        "title": "Bitcoin Optech Newsletter #407",
+        "url": "https://bitcoinops.org/en/newsletters/2026/05/29/",
+        "date": "2026-06-19T00:00:00.000Z"
+      },
+      {
+        "title": "Bitcoin mining pools with 75% of BTC hashrate join open standard for block construction",
+        "url": "https://www.coindesk.com/markets/2026/05/11/bitcoin-mining-pools-with-75-of-btc-hashrate-join-open-standard-for-block-construction",
+        "date": "2026-06-19T00:00:00.000Z"
+      },
+      {
+        "title": "Measuring LLMs’ impact on N-day exploits",
+        "url": "https://www.anthropic.com/research/n-days",
+        "date": "2026-06-19T00:00:00.000Z"
+      },
+      {
+        "title": "Predicting Channel Closures in the Lightning Network with Machine Learning",
+        "url": "https://arxiv.org/abs/2605.12759",
+        "date": "2026-06-19T00:00:00.000Z"
+      },
+      {
+        "title": "Bitcoin Price Prediction: Peer-Reviewed Evidence and Social Media Discourse",
+        "url": "https://arxiv.org/pdf/2606.00071",
+        "date": "2026-06-19T00:00:00.000Z"
+      },
+      {
+        "title": "Probabilistic Atomic Swaps for Bitcoin and Friends",
+        "url": "https://arxiv.org/pdf/2605.04975",
+        "date": "2026-06-19T00:00:00.000Z"
+      },
+      {
+        "title": "Vulnerability Disclosure: Assertion DoS in Core Lightning",
+        "url": "https://delvingbitcoin.org/t/vulnerability-disclosure-assertion-dos-in-core-lightning/2507",
+        "date": "2026-06-19T00:00:00.000Z"
+      },
+      {
+        "title": "IBM and Red Hat Commit $5 Billion to Redefine the Future of Open Source in the AI Era",
+        "url": "https://www.redhat.com/en/about/press-releases/project-lightwell-secure-open-source",
+        "date": "2026-06-19T00:00:00.000Z"
+      },
+      {
+        "title": "Zcash Orchard Vulnerability: “Three People Froze the Whole Pool”",
+        "url": "https://www.tftc.io/zcash-orchard-vulnerability-privacy-inflation-bug/",
+        "date": "2026-06-19T00:00:00.000Z"
+      },
+      {
+        "title": "LND v0.21.0",
+        "url": "https://lightning.engineering/posts/2026-06-11-lnd-0.21-launch/",
+        "date": "2026-06-19T00:00:00.000Z"
+      },
+      {
+        "title": "Bark now on bitcoin mainnet",
+        "url": "https://blog.second.tech/bark-now-on-bitcoin-mainnet/",
+        "date": "2026-06-19T00:00:00.000Z"
+      },
+      {
+        "title": "Please Do Not Vibe Fuck Up This Software",
+        "url": "https://github.com/RsyncProject/rsync/issues/929",
+        "date": "2026-06-19T00:00:00.000Z"
+      },
+      {
+        "title": "Anthropic Statement on the US government directive to suspend access to Fable 5 and Mythos 5",
+        "url": "https://www.anthropic.com/news/fable-mythos-access",
+        "date": "2026-06-19T00:00:00.000Z"
+      },
+      {
+        "title": "Silent Payments: a hands-on guide to better Bitcoin privacy",
+        "url": "https://bennet.org/learn/silent-payments-bitcoin-privacy/",
+        "date": "2026-06-19T00:00:00.000Z"
+      },
+      {
+        "title": "LIGHTNING ECONOMICS from ZeusLN",
+        "url": "https://zeusln.com/lightning-economics",
+        "date": "2026-06-19T00:00:00.000Z"
+      },
+      {
+        "title": "Intro to the Ark protocol",
+        "url": "https://second.tech/docs/learn/intro",
+        "date": "2026-06-19T00:00:00.000Z"
+      },
+      {
+        "title": "Stratum V2",
+        "url": "https://stratumprotocol.org/specification/00-abstract/",
+        "date": "2026-06-19T00:00:00.000Z"
+      }
+    ]
+  }
+}
