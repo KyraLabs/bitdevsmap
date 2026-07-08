@@ -409,7 +409,12 @@ async function main() {
       const explicit = sources[city.id]
       if (explicit?.adapter === 'github-issues') {
         try {
-          return report({ city, source: 'github-issues', topics: (await githubIssues(explicit)).slice(0, MAX_TOPICS) })
+          const topics = (await githubIssues(explicit)).slice(0, MAX_TOPICS)
+          return report(
+            topics.length
+              ? { city, source: 'github-issues', topics }
+              : { city, skipped: 'no topics' },
+          )
         } catch (err) {
           return report({ city, error: (err as Error).message })
         }
