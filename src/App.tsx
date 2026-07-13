@@ -17,6 +17,21 @@ const seedTopics = topicsData as TopicsIndex
 const TOPICS_URL =
   'https://raw.githubusercontent.com/KyraLabs/bitdevsmap/data/topics.json'
 
+// Guard the fetched payload before it replaces the known-good seed: a corrupted
+// or wrongly-shaped file on the data branch must not crash downstream views.
+function isValidTopics(data: unknown): data is TopicsIndex {
+  if (typeof data !== 'object' || data === null || Array.isArray(data)) return false
+  const entries = Object.values(data as Record<string, unknown>)
+  return (
+    entries.length > 0 &&
+    entries.every((v) => {
+      if (typeof v !== 'object' || v === null) return false
+      const c = v as { id?: unknown; topics?: unknown }
+      return typeof c.id === 'string' && Array.isArray(c.topics)
+    })
+  )
+}
+
 type Route = 'home' | 'topics'
 
 function currentRoute(): Route {
@@ -40,18 +55,18 @@ export default function App() {
   const [topics, setTopics] = useState<TopicsIndex>(seedTopics)
 
   // Override the bundled seed with the freshly git-scraped topics; on any
-  // network/parse error the seed stays in place.
+  // network/parse/shape error the seed stays in place.
   useEffect(() => {
-    let cancelled = false
-    fetch(TOPICS_URL)
+    const controller = new AbortController()
+    const timeout = setTimeout(() => controller.abort(), 10_000)
+    fetch(TOPICS_URL, { signal: controller.signal })
       .then((r) => (r.ok ? r.json() : Promise.reject(new Error(String(r.status)))))
-      .then((data: TopicsIndex) => {
-        if (!cancelled) setTopics(data)
+      .then((data: unknown) => {
+        if (isValidTopics(data)) setTopics(data)
       })
       .catch(() => {})
-    return () => {
-      cancelled = true
-    }
+      .finally(() => clearTimeout(timeout))
+    return () => controller.abort()
   }, [])
 
   // On route change, jump to the top or to the anchor named in the hash
