@@ -10,7 +10,12 @@ import CityIndex from './components/CityIndex'
 import Footer from './components/Footer'
 
 const cities = bitdevsData as BitDev[]
-const topics = topicsData as TopicsIndex
+// Bundled snapshot: instant first paint and an offline fallback.
+const seedTopics = topicsData as TopicsIndex
+// Live topics are git-scraped daily onto the unprotected `data` branch and
+// fetched at runtime, so updates ship without touching main or rebuilding.
+const TOPICS_URL =
+  'https://raw.githubusercontent.com/KyraLabs/bitdevsmap/data/topics.json'
 
 type Route = 'home' | 'topics'
 
@@ -32,6 +37,22 @@ export default function App() {
   const route = useHashRoute()
   // Shared highlight: hovering a city card lights up its marker and vice versa.
   const [activeIndex, setActiveIndex] = useState<number | null>(null)
+  const [topics, setTopics] = useState<TopicsIndex>(seedTopics)
+
+  // Override the bundled seed with the freshly git-scraped topics; on any
+  // network/parse error the seed stays in place.
+  useEffect(() => {
+    let cancelled = false
+    fetch(TOPICS_URL)
+      .then((r) => (r.ok ? r.json() : Promise.reject(new Error(String(r.status)))))
+      .then((data: TopicsIndex) => {
+        if (!cancelled) setTopics(data)
+      })
+      .catch(() => {})
+    return () => {
+      cancelled = true
+    }
+  }, [])
 
   // On route change, jump to the top or to the anchor named in the hash
   // (e.g. #cities when arriving from the topics page).
