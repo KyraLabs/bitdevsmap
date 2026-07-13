@@ -1,0 +1,79 @@
+{
+  "amsterdam": {
+    "id": "amsterdam",
+    "fetchedAt": "2026-07-13T19:10:45.728Z",
+    "events": [
+      {
+        "title": "BitDevs Rotterdam, September 3, 2026",
+        "url": "https://bitdevsamsterdam.org/2026-09-03-september-bitdevs-rotterdam",
+        "date": "2026-09-03"
+      }
+    ]
+  },
+  "brasilia": {
+    "id": "brasilia",
+    "fetchedAt": "2026-07-13T19:10:45.728Z",
+    "events": [
+      {
+        "title": "Seminário Socrático 031",
+        "url": "https://bitdevs.bsb.br/2026-07-16-socratic-seminar-031",
+        "date": "2026-07-16"
+      }
+    ]
+  },
+  "goma": {
+    "id": "goma",
+    "fetchedAt": "2026-07-13T19:10:45.728Z",
+    "events": [
+      {
+        "title": "Séminaire Socratique #14",
+        "url": "https://bitdevsgoma.org/2026-07-31-socratic-seminar-14.html",
+        "date": "2026-07-31"
+      }
+    ]
+  },
+  "louisville": {
+    "id": "louisville",
+    "fetchedAt": "2026-07-13T19:10:45.728Z",
+    "events": [
+      {
+        "title": "LouBitDevs Socratic Seminar #20",
+        "url": "https://loubitdevs.org/socratic-seminar-20.html",
+        "date": "2026-07-26"
+      }
+    ]
+  },
+  "nashville": {
+    "id": "nashville",
+    "fetchedAt": "2026-07-13T19:10:45.728Z",
+    "events": [
+      {
+        "title": "NashBitDevs Socratic Seminar #45",
+        "url": "https://nashbitdevs.org/socratic-seminar-45/",
+        "date": "2026-07-14"
+      }
+    ]
+  },
+  "new-york": {
+    "id": "new-york",
+    "fetchedAt": "2026-07-13T19:10:45.728Z",
+    "events": [
+      {
+        "title": "Socratic Seminar 160",
+        "url": "https://bitdevs.org/2026-07-16-socratic-seminar-160",
+        "date": "2026-07-16"
+      }
+    ]
+  },
+  "vancouver": {
+    "id": "vancouver",
+    "fetchedAt": "2026-07-13T19:10:45.728Z",
+    "events": [
+      {
+        "title": "Vancouver Socratic 041",
+        "url": "https://bitdevs.ca/2026-07-28-vancouver-socratic-41",
+        "date": "2026-07-28"
+      }
+    ]
+  }
+}
