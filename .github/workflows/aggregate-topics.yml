@@ -1,7 +1,9 @@
 name: Aggregate topics
 
 # Git-scraping: fetch recent meeting topics from each community's source and
-# auto-commit a fresh src/data/topics.json.
+# publish a fresh topics.json to the unprotected `data` branch. The app fetches
+# it at runtime, so main stays untouched (no protected-branch push) and no
+# rebuild is needed.
 on:
   schedule:
     - cron: '0 6 * * *' # daily at 06:00 UTC
@@ -29,14 +31,17 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: bun run scripts/aggregate-topics.ts
 
-      - name: Commit changes
+      - name: Stage topics for publish
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          if [[ -n "$(git status --porcelain src/data/topics.json)" ]]; then
-            git add src/data/topics.json
-            git commit -m "chore: update meeting topics"
-            git push
-          else
-            echo "No topic changes"
-          fi
+          mkdir -p publish
+          cp src/data/topics.json publish/topics.json
+
+      # Force-push a single commit holding just topics.json to the `data` branch
+      # (created on first run). Unprotected, so no PR/branch-protection friction.
+      - name: Publish to data branch
+        uses: JamesIves/github-pages-deploy-action@d92aa235d04922e8f08b40ce78cc5442fcfbfa2f # v4
+        with:
+          branch: data
+          folder: publish
+          commit-message: 'chore: update meeting topics'
+          single-commit: true
