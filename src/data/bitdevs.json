@@ -28,6 +28,7 @@
   { "id": "kampala", "city": "Kampala", "country": "Uganda", "lat": 0.3136, "lng": 32.5811, "url": "http://bitdevskla.org/" },
   { "id": "kano", "city": "Kano", "country": "Nigeria", "lat": 12.0022, "lng": 8.5167, "url": "https://bitdevskano.org/" },
   { "id": "lagos", "city": "Lagos", "country": "Nigeria", "lat": 6.4561, "lng": 3.3936, "url": "https://www.bitdevslagos.org/" },
+  { "id": "lima", "city": "Lima", "country": "Peru", "lat": -12.0464, "lng": -77.0428, "url": "https://bitdevslima.org/" },
   { "id": "london", "city": "London", "country": "UK", "lat": 51.5074, "lng": -0.1278, "url": "https://londonbitdevs.org/" },
   { "id": "los-angeles", "city": "Los Angeles", "country": "USA", "lat": 34.0522, "lng": -118.2437, "url": "https://bitdevsla.org/" },
   { "id": "louisville", "city": "Louisville", "country": "USA", "lat": 38.2527, "lng": -85.7585, "url": "https://loubitdevs.org/" },
