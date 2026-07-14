@@ -161,7 +161,11 @@ function parseBlock(block: string, baseUrl: string): RawEvent | null {
   const title = stripTags(anchor ? anchor[2] : block).replace(/^»\s*/, '').trim()
   if (!title || title.length > 200) return null
 
+  // A scraped anchor can carry any scheme new URL() accepts (e.g. javascript:),
+  // which would be rendered as a live href. Only trust http(s); baseUrl comes
+  // from bitdevs.json and is already http(s).
   const url = anchor ? absolute(decodeEntities(anchor[1]), baseUrl) : baseUrl
+  if (!/^https?:\/\//i.test(url)) return null
   return { title, url, date: parsed.iso, day: parsed.day }
 }
 
@@ -202,6 +206,12 @@ async function main() {
   const cities = JSON.parse(readFileSync(BITDEVS_PATH, 'utf8')) as BitDev[]
   const fetchedAt = new Date().toISOString()
   const today = Math.floor(Date.now() / MS_PER_DAY)
+  let previous: EventsIndex = {}
+  try {
+    previous = JSON.parse(readFileSync(EVENTS_PATH, 'utf8')) as EventsIndex
+  } catch {
+    // No previous file yet (first run) — nothing to fall back to.
+  }
 
   let done = 0
   const report = (o: Outcome): Outcome => {
@@ -232,10 +242,21 @@ async function main() {
     CONCURRENCY,
   )
 
+  // Rebuild from scratch, but on a genuine fetch error fall back to the last
+  // published entry (a network blip must not erase a community). Skips and
+  // "no upcoming" are real results and are intentionally not carried over.
+  // Carried-over events are pruned to still-future dates so the file never
+  // publishes stale past meetings.
   const index: EventsIndex = {}
   for (const o of outcomes) {
     if (o.events && o.events.length > 0) {
       index[o.city.id] = { id: o.city.id, fetchedAt, events: o.events }
+    } else if (o.error && previous[o.city.id]) {
+      const kept = previous[o.city.id].events.filter((e) => {
+        const p = parseEventDate(e.date)
+        return p !== null && p.day >= today
+      })
+      if (kept.length > 0) index[o.city.id] = { ...previous[o.city.id], events: kept }
     }
   }
 

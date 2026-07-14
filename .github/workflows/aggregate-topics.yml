@@ -31,14 +31,17 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: bun run scripts/aggregate-topics.ts
 
+      # Non-fatal: a failure here must not block the topics publish below. The
+      # topics step above stays fatal, so a topics failure still aborts the run.
       - name: Aggregate events
+        continue-on-error: true
         run: bun run scripts/aggregate-events.ts
 
       - name: Stage data for publish
         run: |
           mkdir -p publish
           cp src/data/topics.json publish/topics.json
-          cp src/data/events.json publish/events.json
+          cp src/data/events.json publish/events.json 2>/dev/null || true
 
       # Force-push a single commit holding topics.json + events.json to the
       # `data` branch (created on first run). Unprotected, so no PR/branch-
