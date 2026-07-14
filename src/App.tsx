@@ -1,21 +1,26 @@
 import { useEffect, useState } from 'react'
 import bitdevsData from './data/bitdevs.json'
 import topicsData from './data/topics.json'
-import type { BitDev, TopicsIndex } from './types'
+import eventsData from './data/events.json'
+import type { BitDev, TopicsIndex, EventsIndex } from './types'
 import TopBar from './components/TopBar'
 import Hero from './components/Hero'
 import WorldMap from './components/WorldMap'
 import TopicsPage from './components/TopicsPage'
+import UpcomingEvents from './components/UpcomingEvents'
 import CityIndex from './components/CityIndex'
 import Footer from './components/Footer'
 
 const cities = bitdevsData as BitDev[]
-// Bundled snapshot: instant first paint and an offline fallback.
+// Bundled snapshots: instant first paint and an offline fallback.
 const seedTopics = topicsData as TopicsIndex
-// Live topics are git-scraped daily onto the unprotected `data` branch and
-// fetched at runtime, so updates ship without touching main or rebuilding.
+const seedEvents = eventsData as EventsIndex
+// Live topics/events are git-scraped daily onto the unprotected `data` branch
+// and fetched at runtime, so updates ship without touching main or rebuilding.
 const TOPICS_URL =
   'https://raw.githubusercontent.com/KyraLabs/bitdevsmap/data/topics.json'
+const EVENTS_URL =
+  'https://raw.githubusercontent.com/KyraLabs/bitdevsmap/data/events.json'
 
 // Guard the fetched payload before it replaces the known-good seed: a corrupted
 // or wrongly-shaped file on the data branch must not crash downstream views.
@@ -30,6 +35,18 @@ function isValidTopics(data: unknown): data is TopicsIndex {
       return typeof c.id === 'string' && Array.isArray(c.topics)
     })
   )
+}
+
+// Events use the same guard shape as topics, but an empty index is legitimate
+// (a week where no community has announced its next meeting), so length is not
+// required — a valid empty payload simply hides the section.
+function isValidEvents(data: unknown): data is EventsIndex {
+  if (typeof data !== 'object' || data === null || Array.isArray(data)) return false
+  return Object.values(data as Record<string, unknown>).every((v) => {
+    if (typeof v !== 'object' || v === null) return false
+    const c = v as { id?: unknown; events?: unknown }
+    return typeof c.id === 'string' && Array.isArray(c.events)
+  })
 }
 
 type Route = 'home' | 'topics'
@@ -53,6 +70,7 @@ export default function App() {
   // Shared highlight: hovering a city card lights up its marker and vice versa.
   const [activeIndex, setActiveIndex] = useState<number | null>(null)
   const [topics, setTopics] = useState<TopicsIndex>(seedTopics)
+  const [events, setEvents] = useState<EventsIndex>(seedEvents)
 
   // Override the bundled seed with the freshly git-scraped topics; on any
   // network/parse/shape error the seed stays in place.
@@ -63,6 +81,20 @@ export default function App() {
       .then((r) => (r.ok ? r.json() : Promise.reject(new Error(String(r.status)))))
       .then((data: unknown) => {
         if (isValidTopics(data)) setTopics(data)
+      })
+      .catch(() => {})
+      .finally(() => clearTimeout(timeout))
+    return () => controller.abort()
+  }, [])
+
+  // Same runtime-override for upcoming events, from the same `data` branch.
+  useEffect(() => {
+    const controller = new AbortController()
+    const timeout = setTimeout(() => controller.abort(), 10_000)
+    fetch(EVENTS_URL, { signal: controller.signal })
+      .then((r) => (r.ok ? r.json() : Promise.reject(new Error(String(r.status)))))
+      .then((data: unknown) => {
+        if (isValidEvents(data)) setEvents(data)
       })
       .catch(() => {})
       .finally(() => clearTimeout(timeout))
@@ -108,6 +140,8 @@ export default function App() {
               </div>
             </div>
           </section>
+
+          <UpcomingEvents cities={cities} events={events} />
 
           <CityIndex cities={cities} activeIndex={activeIndex} onHover={setActiveIndex} />
         </>

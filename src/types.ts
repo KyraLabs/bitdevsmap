@@ -37,3 +37,26 @@ export interface CommunityTopics {
 
 /** Shape of src/data/topics.json: a map from BitDev.id to its aggregated topics. */
 export type TopicsIndex = Record<string, CommunityTopics>
+
+/** A single upcoming meeting scraped from a community's site. */
+export interface NextEvent {
+  /** Human-readable event title (e.g. "Socratic Seminar 72"). */
+  title: string
+  /** Optional link to the event page. */
+  url?: string
+  /** Event date as an ISO calendar day (YYYY-MM-DD). */
+  date: string
+}
+
+/** Upcoming events for one community, keyed by BitDev.id in events.json. */
+export interface CommunityEvents {
+  /** Matches BitDev.id. */
+  id: string
+  /** ISO 8601 timestamp of the last successful fetch. */
+  fetchedAt: string
+  /** Upcoming events (date >= fetch day), soonest first. */
+  events: NextEvent[]
+}
+
+/** Shape of src/data/events.json: a map from BitDev.id to its upcoming events. */
+export type EventsIndex = Record<string, CommunityEvents>

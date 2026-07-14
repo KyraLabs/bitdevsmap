@@ -1,9 +1,9 @@
-name: Aggregate topics
+name: Aggregate data
 
-# Git-scraping: fetch recent meeting topics from each community's source and
-# publish a fresh topics.json to the unprotected `data` branch. The app fetches
-# it at runtime, so main stays untouched (no protected-branch push) and no
-# rebuild is needed.
+# Git-scraping: fetch recent meeting topics and upcoming events from each
+# community's source and publish fresh topics.json + events.json to the
+# unprotected `data` branch. The app fetches them at runtime, so main stays
+# untouched (no protected-branch push) and no rebuild is needed.
 on:
   schedule:
     - cron: '0 6 * * *' # daily at 06:00 UTC
@@ -13,7 +13,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: aggregate-topics
+  group: aggregate-data
   cancel-in-progress: true
 
 jobs:
@@ -31,17 +31,25 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: bun run scripts/aggregate-topics.ts
 
-      - name: Stage topics for publish
+      # Non-fatal: a failure here must not block the topics publish below. The
+      # topics step above stays fatal, so a topics failure still aborts the run.
+      - name: Aggregate events
+        continue-on-error: true
+        run: bun run scripts/aggregate-events.ts
+
+      - name: Stage data for publish
         run: |
           mkdir -p publish
           cp src/data/topics.json publish/topics.json
+          cp src/data/events.json publish/events.json 2>/dev/null || true
 
-      # Force-push a single commit holding just topics.json to the `data` branch
-      # (created on first run). Unprotected, so no PR/branch-protection friction.
+      # Force-push a single commit holding topics.json + events.json to the
+      # `data` branch (created on first run). Unprotected, so no PR/branch-
+      # protection friction.
       - name: Publish to data branch
         uses: JamesIves/github-pages-deploy-action@d92aa235d04922e8f08b40ce78cc5442fcfbfa2f # v4
         with:
           branch: data
           folder: publish
-          commit-message: 'chore: update meeting topics'
+          commit-message: 'chore: update meeting topics and events'
           single-commit: true
