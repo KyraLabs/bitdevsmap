@@ -1,0 +1,95 @@
+{
+  "amsterdam": {
+    "id": "amsterdam",
+    "fetchedAt": "2026-07-24T08:26:52.051Z",
+    "events": [
+      {
+        "title": "BitDevs Rotterdam, September 3, 2026",
+        "url": "https://bitdevsamsterdam.org/2026-09-03-september-bitdevs-rotterdam",
+        "date": "2026-09-03"
+      }
+    ]
+  },
+  "cordoba": {
+    "id": "cordoba",
+    "fetchedAt": "2026-07-24T08:26:52.051Z",
+    "events": [
+      {
+        "title": "Seminario Socrático #12",
+        "url": "https://bitdevscordoba.github.io/socratic-seminar-12/",
+        "date": "2026-07-29"
+      }
+    ]
+  },
+  "goma": {
+    "id": "goma",
+    "fetchedAt": "2026-07-24T08:26:52.051Z",
+    "events": [
+      {
+        "title": "Séminaire Socratique #14",
+        "url": "https://bitdevsgoma.org/2026-07-31-socratic-seminar-14.html",
+        "date": "2026-07-31"
+      }
+    ]
+  },
+  "louisville": {
+    "id": "louisville",
+    "fetchedAt": "2026-07-24T08:26:52.051Z",
+    "events": [
+      {
+        "title": "LouBitDevs Socratic Seminar #20",
+        "url": "https://loubitdevs.org/socratic-seminar-20.html",
+        "date": "2026-07-26"
+      }
+    ]
+  },
+  "nairobi": {
+    "id": "nairobi",
+    "fetchedAt": "2026-07-24T08:26:52.051Z",
+    "events": [
+      {
+        "title": "Socratic Seminar #30",
+        "url": "https://www.bitdevsnbo.org/2026-07-25-socratic-seminar-30.html",
+        "date": "2026-07-25"
+      }
+    ]
+  },
+  "new-york": {
+    "id": "new-york",
+    "fetchedAt": "2026-07-24T08:26:52.051Z",
+    "events": [
+      {
+        "title": "Socratic Seminar 161",
+        "url": "https://bitdevs.org/2026-08-27-socratic-seminar-161",
+        "date": "2026-08-27"
+      }
+    ]
+  },
+  "san-juan": {
+    "id": "san-juan",
+    "fetchedAt": "2026-07-24T08:26:52.051Z",
+    "events": [
+      {
+        "title": "Socratic Seminar 27",
+        "url": "https://sanjuanbitdevs.org/2026-07-29-socratic-seminar-27",
+        "date": "2026-07-29"
+      }
+    ]
+  },
+  "vancouver": {
+    "id": "vancouver",
+    "fetchedAt": "2026-07-24T08:26:52.051Z",
+    "events": [
+      {
+        "title": "Vancouver Socratic 041",
+        "url": "https://bitdevs.ca/2026-07-28-vancouver-socratic-41",
+        "date": "2026-07-28"
+      },
+      {
+        "title": "Vancouver Socratic 042",
+        "url": "https://bitdevs.ca/2026-09-29-vancouver-socratic-42",
+        "date": "2026-09-29"
+      }
+    ]
+  }
+}
