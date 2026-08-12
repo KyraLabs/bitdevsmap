@@ -50,7 +50,7 @@
   { "id": "san-juan", "city": "San Juan", "country": "Puerto Rico", "lat": 18.4655, "lng": -66.1057, "url": "https://sanjuanbitdevs.org/" },
   { "id": "san-salvador", "city": "San Salvador", "country": "El Salvador", "lat": 13.6929, "lng": -89.2182, "url": "https://bitdevelsalvador.com/" },
   { "id": "santiago", "city": "Santiago", "country": "Chile", "lat": -33.4489, "lng": -70.6693, "url": "https://santiagobitdevs.com/" },
-  { "id": "sao-paulo", "city": "São Paulo", "country": "Brazil", "lat": -23.5505, "lng": -46.6333, "url": "https://bitdevsportugues.org" },
+  { "id": "sao-paulo", "city": "São Paulo", "country": "Brazil", "lat": -23.5505, "lng": -46.6333, "url": "https://saopaulobitdevs.org/" },
   { "id": "seattle", "city": "Seattle", "country": "USA", "lat": 47.6062, "lng": -122.3321, "url": "https://github.com/reardencode/seattle_bitdevs" },
   { "id": "sydney", "city": "Sydney", "country": "Australia", "lat": -33.8688, "lng": 151.2093, "url": "https://sydney.bitdevs.com.au/" },
   { "id": "tampa", "city": "Tampa", "country": "USA", "lat": 27.9506, "lng": -82.4572, "url": "https://www.bitcoinbay.foundation/bitdevs" },
