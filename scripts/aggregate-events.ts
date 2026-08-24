@@ -29,6 +29,7 @@ const EVENTS_PATH = join(root, 'src/data/events.json')
 const MAX_EVENTS = 4
 /** Concurrent community fetches. */
 const CONCURRENCY = 12
+const EVENTS_PATHS = ['/en/events', '/pt/events', '/events']
 /** Hosts that never carry the events template (social, meetup, code hosts). */
 const SKIP_HOSTS = [
   'x.com', 'twitter.com', 'mobile.twitter.com', 'nitter.net',
@@ -233,8 +234,20 @@ async function main() {
         return report({ city, skipped: 'non-website' })
       }
       try {
-        const html = await fetchText(city.url)
-        return report({ city, events: extractUpcoming(html, city.url, today) })
+        const homepage = await fetchText(city.url)
+        let upcoming = extractUpcoming(homepage, city.url, today)
+        if (upcoming.length === 0) {
+          for (const path of EVENTS_PATHS) {
+            try {
+              const html = await fetchText(new URL(path, city.url).href)
+              upcoming = extractUpcoming(html, city.url, today)
+              if (upcoming.length > 0) break
+            } catch {
+              // Try the next conventional events-page path.
+            }
+          }
+        }
+        return report({ city, events: upcoming })
       } catch (err) {
         return report({ city, error: (err as Error).message })
       }
