@@ -56,6 +56,7 @@
   { "id": "sydney", "city": "Sydney", "country": "Australia", "lat": -33.8688, "lng": 151.2093, "url": "https://sydney.bitdevs.com.au/" },
   { "id": "tampa", "city": "Tampa", "country": "USA", "lat": 27.9506, "lng": -82.4572, "url": "https://www.bitcoinbay.foundation/bitdevs" },
   { "id": "taipei", "city": "Taipei", "country": "Taiwan", "lat": 25.033, "lng": 121.5654, "url": "https://bitdevs.tw/" },
+  { "id": "toronto", "city": "Toronto", "country": "Canada", "lat": 43.6532, "lng": -79.3832, "url": "https://bitdevs.to/" },
   { "id": "uberlandia", "city": "Uberlândia", "country": "Brazil", "lat": -18.9186, "lng": -48.2772, "url": "https://udibitdevs.org/" },
   { "id": "uyo", "city": "Uyo", "country": "Nigeria", "lat": 5.0333, "lng": 7.9275, "url": "https://bitdevsuyo.org/" },
   { "id": "vancouver", "city": "Vancouver", "country": "Canada", "lat": 49.2827, "lng": -123.1207, "url": "https://bitdevs.ca/" },
