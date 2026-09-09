@@ -10,8 +10,11 @@ A Fedi mini app is a website loaded in Fedi's in-app browser. There is no SDK to
 install, no manifest to publish and no submission to review — Fedi is explicit
 that it does not gatekeep mini apps. What the webview adds is three objects on
 `window`: `webln` for Lightning payments, `nostr` for NIP-07 identity and
-signing, and `fedi` for ecash and app context. All three are optional, and every
-call is gated by a user permission prompt.
+signing, and `fedi` for ecash and app context. All three are optional. The first
+call to one of them raises a permission dialog, which the user can answer once
+and have remembered; operations that move money or sign data then show their own
+confirmation screen on top of that, every time. Either can be refused, so every
+call has to handle a rejected promise.
 
 Nothing in this repository is built specifically for Fedi. The same static build
 that serves the website serves the mini app.
@@ -63,9 +66,10 @@ identity surface, so it calls none of the injected APIs and the user is never
 shown a permission prompt. Whether the Nostr APIs are worth using is tracked in
 [issue #23](https://github.com/KyraLabs/bitdevsmap/issues/23).
 
-Note that Fedi documents the current permission behaviour as deprecated: a future
-release will require explicit user permission for every injected API. Any feature
-built on `webln`, `nostr` or `fedi` has to handle a denial for every call.
+Note that Fedi documents the current behaviour as deprecated: some APIs are still
+callable in production builds without any authorization, and a future release
+will require explicit permission for all of them. A feature built on these APIs
+cannot assume today's looser behaviour.
 
 ## Testing a change before it ships
 

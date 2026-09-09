@@ -165,6 +165,11 @@ export default function WorldMap({ cities, activeIndex, onHover }: Props) {
                 aria-label={`${m.city}, ${m.country} — open site`}
                 onClick={(e) => {
                   if (!coarse) return
+                  // Enter on a focused marker also lands here, reporting no
+                  // click count. Swallowing it would strand keyboard users:
+                  // blur clears the selection, so the strip's link unmounts
+                  // before it can be reached. Let the anchor navigate.
+                  if (e.detail === 0) return
                   // First tap selects; the strip below opens the site.
                   e.preventDefault()
                   e.stopPropagation()
