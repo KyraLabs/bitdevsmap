@@ -9,6 +9,11 @@ import type { BitDev } from '../types'
 const W = 1600
 const H = 815
 
+// A tooltip is 44px tall and rests 11px above its dot. With less room than
+// that the frame's overflow clips it, which at phone width happens to 27 of
+// the 63 markers, so those flip their tooltip under the dot instead.
+const TIP_CLEARANCE = 60
+
 interface PlacedMarker {
   city: string
   country: string
@@ -40,10 +45,24 @@ function useCoarsePointer(): boolean {
 
 export default function WorldMap({ cities, activeIndex, onHover }: Props) {
   const canvasRef = useRef<HTMLCanvasElement>(null)
+  const boxRef = useRef<HTMLDivElement>(null)
   const [markers, setMarkers] = useState<PlacedMarker[]>([])
   const [ready, setReady] = useState(false)
+  const [boxHeight, setBoxHeight] = useState(0)
   const coarse = useCoarsePointer()
   const selected = activeIndex === null ? null : (markers[activeIndex] ?? null)
+
+  // Whether a tooltip fits above its dot depends on the rendered height, not
+  // on the marker's position in the projection box, so it has to be measured.
+  useEffect(() => {
+    const box = boxRef.current
+    if (!box) return
+    const observer = new ResizeObserver(([entry]) => {
+      setBoxHeight(entry.contentRect.height)
+    })
+    observer.observe(box)
+    return () => observer.disconnect()
+  }, [])
 
   useEffect(() => {
     const canvas = canvasRef.current
@@ -124,40 +143,47 @@ export default function WorldMap({ cities, activeIndex, onHover }: Props) {
         className="map-frame"
         onClick={coarse && selected ? () => onHover(null) : undefined}
       >
-        <div className="relative w-full" style={{ aspectRatio: '1600 / 815' }}>
+        <div
+          ref={boxRef}
+          className="relative w-full"
+          style={{ aspectRatio: '1600 / 815' }}
+        >
           <canvas ref={canvasRef} className="absolute inset-0 block h-full w-full" />
 
           {!ready && <div className="map-loading">Loading map…</div>}
 
-          {markers.map((m, i) => (
-            <a
-              key={`${m.city}-${i}`}
-              className={`marker${activeIndex === i ? ' is-active' : ''}`}
-              href={m.url}
-              target="_blank"
-              rel="noopener"
-              style={{ left: `${m.leftPct}%`, top: `${m.topPct}%` }}
-              aria-label={`${m.city}, ${m.country} — open site`}
-              onClick={(e) => {
-                if (!coarse) return
-                // First tap selects; the strip below opens the site.
-                e.preventDefault()
-                e.stopPropagation()
-                onHover(i)
-              }}
-              onMouseEnter={() => onHover(i)}
-              onMouseLeave={() => onHover(null)}
-              onFocus={() => onHover(i)}
-              onBlur={() => onHover(null)}
-            >
-              <span className="ring" style={{ animationDelay: `${0.9 * i}s` }} />
-              <span className="dot" />
-              <span className="tip">
-                {m.city}
-                <i>{m.country}</i>
-              </span>
-            </a>
-          ))}
+          {markers.map((m, i) => {
+            const flipped = boxHeight > 0 && (m.topPct / 100) * boxHeight < TIP_CLEARANCE
+            return (
+              <a
+                key={`${m.city}-${i}`}
+                className={`marker${activeIndex === i ? ' is-active' : ''}${flipped ? ' tip-below' : ''}`}
+                href={m.url}
+                target="_blank"
+                rel="noopener"
+                style={{ left: `${m.leftPct}%`, top: `${m.topPct}%` }}
+                aria-label={`${m.city}, ${m.country} — open site`}
+                onClick={(e) => {
+                  if (!coarse) return
+                  // First tap selects; the strip below opens the site.
+                  e.preventDefault()
+                  e.stopPropagation()
+                  onHover(i)
+                }}
+                onMouseEnter={() => onHover(i)}
+                onMouseLeave={() => onHover(null)}
+                onFocus={() => onHover(i)}
+                onBlur={() => onHover(null)}
+              >
+                <span className="ring" style={{ animationDelay: `${0.9 * i}s` }} />
+                <span className="dot" />
+                <span className="tip">
+                  {m.city}
+                  <i>{m.country}</i>
+                </span>
+              </a>
+            )
+          })}
         </div>
       </div>
 

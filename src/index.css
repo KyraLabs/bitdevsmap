@@ -232,6 +232,22 @@
     opacity: 1;
     transform: translate(-50%, calc(-100% - 11px));
   }
+
+  /* Markers close to the top edge have no room for the tip above them and the
+     frame clips whatever overflows, so the tip and its arrow flip under the
+     dot. WorldMap measures the frame and sets the class. */
+  .marker.tip-below .tip {
+    transform: translate(-50%, 16px);
+  }
+  .marker.tip-below .tip::after {
+    top: -5px;
+    bottom: auto;
+  }
+  .marker.tip-below:hover .tip,
+  .marker.tip-below:focus-visible .tip,
+  .marker.tip-below.is-active .tip {
+    transform: translate(-50%, 11px);
+  }
 }
 
 @keyframes kyra-ping {
