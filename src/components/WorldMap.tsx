@@ -23,10 +23,27 @@ interface Props {
   onHover: (index: number | null) => void
 }
 
+// Touch devices have no hover, so the frame is barely 180px tall and the
+// markers sit within a finger's width of each other. A tap there must reveal
+// the city rather than leave the site: selection replaces hover, and the
+// details strip below the map carries the outbound link.
+function useCoarsePointer(): boolean {
+  const [coarse, setCoarse] = useState(() => window.matchMedia('(hover: none)').matches)
+  useEffect(() => {
+    const query = window.matchMedia('(hover: none)')
+    const onChange = () => setCoarse(query.matches)
+    query.addEventListener('change', onChange)
+    return () => query.removeEventListener('change', onChange)
+  }, [])
+  return coarse
+}
+
 export default function WorldMap({ cities, activeIndex, onHover }: Props) {
   const canvasRef = useRef<HTMLCanvasElement>(null)
   const [markers, setMarkers] = useState<PlacedMarker[]>([])
   const [ready, setReady] = useState(false)
+  const coarse = useCoarsePointer()
+  const selected = activeIndex === null ? null : (markers[activeIndex] ?? null)
 
   useEffect(() => {
     const canvas = canvasRef.current
@@ -102,35 +119,76 @@ export default function WorldMap({ cities, activeIndex, onHover }: Props) {
   }, [cities])
 
   return (
-    <div className="map-frame">
-      <div className="relative w-full" style={{ aspectRatio: '1600 / 815' }}>
-        <canvas ref={canvasRef} className="absolute inset-0 block h-full w-full" />
+    <>
+      <div
+        className="map-frame"
+        onClick={coarse && selected ? () => onHover(null) : undefined}
+      >
+        <div className="relative w-full" style={{ aspectRatio: '1600 / 815' }}>
+          <canvas ref={canvasRef} className="absolute inset-0 block h-full w-full" />
 
-        {!ready && <div className="map-loading">Loading map…</div>}
+          {!ready && <div className="map-loading">Loading map…</div>}
 
-        {markers.map((m, i) => (
-          <a
-            key={`${m.city}-${i}`}
-            className={`marker${activeIndex === i ? ' is-active' : ''}`}
-            href={m.url}
-            target="_blank"
-            rel="noopener"
-            style={{ left: `${m.leftPct}%`, top: `${m.topPct}%` }}
-            aria-label={`${m.city}, ${m.country} — open site`}
-            onMouseEnter={() => onHover(i)}
-            onMouseLeave={() => onHover(null)}
-            onFocus={() => onHover(i)}
-            onBlur={() => onHover(null)}
-          >
-            <span className="ring" style={{ animationDelay: `${0.9 * i}s` }} />
-            <span className="dot" />
-            <span className="tip">
-              {m.city}
-              <i>{m.country}</i>
-            </span>
-          </a>
-        ))}
+          {markers.map((m, i) => (
+            <a
+              key={`${m.city}-${i}`}
+              className={`marker${activeIndex === i ? ' is-active' : ''}`}
+              href={m.url}
+              target="_blank"
+              rel="noopener"
+              style={{ left: `${m.leftPct}%`, top: `${m.topPct}%` }}
+              aria-label={`${m.city}, ${m.country} — open site`}
+              onClick={(e) => {
+                if (!coarse) return
+                // First tap selects; the strip below opens the site.
+                e.preventDefault()
+                e.stopPropagation()
+                onHover(i)
+              }}
+              onMouseEnter={() => onHover(i)}
+              onMouseLeave={() => onHover(null)}
+              onFocus={() => onHover(i)}
+              onBlur={() => onHover(null)}
+            >
+              <span className="ring" style={{ animationDelay: `${0.9 * i}s` }} />
+              <span className="dot" />
+              <span className="tip">
+                {m.city}
+                <i>{m.country}</i>
+              </span>
+            </a>
+          ))}
+        </div>
       </div>
-    </div>
+
+      {coarse && (
+        <div className="mt-[10px] flex min-h-[62px] items-center justify-between gap-4 rounded-[6px] border border-line bg-surface px-[18px] py-[13px]">
+          {selected ? (
+            <>
+              <span className="min-w-0">
+                <span className="block truncate text-base font-bold tracking-[-0.01em] text-strong">
+                  {selected.city}
+                </span>
+                <span className="mt-[3px] block font-mono text-[11px] uppercase tracking-[0.08em] text-muted">
+                  {selected.country}
+                </span>
+              </span>
+              <a
+                href={selected.url}
+                target="_blank"
+                rel="noopener"
+                className="shrink-0 font-mono text-[11px] tracking-[0.06em] text-kyra-orange no-underline"
+              >
+                visit ↗
+              </a>
+            </>
+          ) : (
+            <span className="font-mono text-[11.5px] tracking-[0.04em] text-faint">
+              Tap a marker to see the city
+            </span>
+          )}
+        </div>
+      )}
+    </>
   )
 }
