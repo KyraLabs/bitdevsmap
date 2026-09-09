@@ -1,4 +1,5 @@
 import bitcoinLogo from '../assets/bitcoin-logo.svg'
+import { useIsFediMiniApp } from '../fedi'
 
 const navLink =
   'font-mono text-xs tracking-[0.04em] no-underline transition-colors duration-200'
@@ -8,6 +9,7 @@ interface Props {
 }
 
 export default function TopBar({ route }: Props) {
+  const inFedi = useIsFediMiniApp()
   // Topics is a standalone route with no other entry point, so it stays visible
   // on mobile; Map/Cities are anchors on the (already-visible) home page.
   const linkClass = (active: boolean, alwaysShow = false) =>
@@ -41,14 +43,21 @@ export default function TopBar({ route }: Props) {
           >
             Cities
           </a>
-          <a
-            className={`${navLink} text-kyra-orange`}
-            href="https://bitdevs.org/about"
-            target="_blank"
-            rel="noopener"
-          >
-            What is BitDevs? ↗
-          </a>
+          {/* Inside Fedi this is the only link in the bar that leaves the mini
+              app without the user asking for a community, so it is dropped in
+              favour of the minimal navigation Fedi's guidance calls for. The
+              links to the communities themselves are the point of the map and
+              stay. */}
+          {!inFedi && (
+            <a
+              className={`${navLink} text-kyra-orange`}
+              href="https://bitdevs.org/about"
+              target="_blank"
+              rel="noopener"
+            >
+              What is BitDevs? ↗
+            </a>
+          )}
         </nav>
       </div>
     </header>

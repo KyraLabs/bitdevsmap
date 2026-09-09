@@ -151,6 +151,22 @@
     border: 1.5px solid var(--color-kyra-orange);
     opacity: 0;
   }
+  /* Touch: widen the hit area without growing the dot. A full 44px target
+     would span an eighth of the map at phone width, so 26px is the
+     compromise between a missable dot and a marker that swallows its
+     neighbours. */
+  @media (hover: none) {
+    .marker::after {
+      content: "";
+      position: absolute;
+      left: 0;
+      top: 0;
+      transform: translate(-50%, -50%);
+      width: 26px;
+      height: 26px;
+      border-radius: 50%;
+    }
+  }
   @media (prefers-reduced-motion: no-preference) {
     .marker .ring {
       animation: kyra-ping 2.8s var(--ease) infinite;
@@ -215,6 +231,22 @@
   .marker.is-active .tip {
     opacity: 1;
     transform: translate(-50%, calc(-100% - 11px));
+  }
+
+  /* Markers close to the top edge have no room for the tip above them and the
+     frame clips whatever overflows, so the tip and its arrow flip under the
+     dot. WorldMap measures the frame and sets the class. */
+  .marker.tip-below .tip {
+    transform: translate(-50%, 16px);
+  }
+  .marker.tip-below .tip::after {
+    top: -5px;
+    bottom: auto;
+  }
+  .marker.tip-below:hover .tip,
+  .marker.tip-below:focus-visible .tip,
+  .marker.tip-below.is-active .tip {
+    transform: translate(-50%, 11px);
   }
 }
 

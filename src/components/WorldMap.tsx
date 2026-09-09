@@ -9,6 +9,11 @@ import type { BitDev } from '../types'
 const W = 1600
 const H = 815
 
+// A tooltip is 44px tall and rests 11px above its dot. With less room than
+// that the frame's overflow clips it, which at phone width happens to 27 of
+// the 63 markers, so those flip their tooltip under the dot instead.
+const TIP_CLEARANCE = 60
+
 interface PlacedMarker {
   city: string
   country: string
@@ -23,10 +28,41 @@ interface Props {
   onHover: (index: number | null) => void
 }
 
+// Touch devices have no hover, so the frame is barely 180px tall and the
+// markers sit within a finger's width of each other. A tap there must reveal
+// the city rather than leave the site: selection replaces hover, and the
+// details strip below the map carries the outbound link.
+function useCoarsePointer(): boolean {
+  const [coarse, setCoarse] = useState(() => window.matchMedia('(hover: none)').matches)
+  useEffect(() => {
+    const query = window.matchMedia('(hover: none)')
+    const onChange = () => setCoarse(query.matches)
+    query.addEventListener('change', onChange)
+    return () => query.removeEventListener('change', onChange)
+  }, [])
+  return coarse
+}
+
 export default function WorldMap({ cities, activeIndex, onHover }: Props) {
   const canvasRef = useRef<HTMLCanvasElement>(null)
+  const boxRef = useRef<HTMLDivElement>(null)
   const [markers, setMarkers] = useState<PlacedMarker[]>([])
   const [ready, setReady] = useState(false)
+  const [boxHeight, setBoxHeight] = useState(0)
+  const coarse = useCoarsePointer()
+  const selected = activeIndex === null ? null : (markers[activeIndex] ?? null)
+
+  // Whether a tooltip fits above its dot depends on the rendered height, not
+  // on the marker's position in the projection box, so it has to be measured.
+  useEffect(() => {
+    const box = boxRef.current
+    if (!box) return
+    const observer = new ResizeObserver(([entry]) => {
+      setBoxHeight(entry.contentRect.height)
+    })
+    observer.observe(box)
+    return () => observer.disconnect()
+  }, [])
 
   useEffect(() => {
     const canvas = canvasRef.current
@@ -102,35 +138,88 @@ export default function WorldMap({ cities, activeIndex, onHover }: Props) {
   }, [cities])
 
   return (
-    <div className="map-frame">
-      <div className="relative w-full" style={{ aspectRatio: '1600 / 815' }}>
-        <canvas ref={canvasRef} className="absolute inset-0 block h-full w-full" />
+    <>
+      <div
+        className="map-frame"
+        onClick={coarse && selected ? () => onHover(null) : undefined}
+      >
+        <div
+          ref={boxRef}
+          className="relative w-full"
+          style={{ aspectRatio: '1600 / 815' }}
+        >
+          <canvas ref={canvasRef} className="absolute inset-0 block h-full w-full" />
 
-        {!ready && <div className="map-loading">Loading map…</div>}
+          {!ready && <div className="map-loading">Loading map…</div>}
 
-        {markers.map((m, i) => (
-          <a
-            key={`${m.city}-${i}`}
-            className={`marker${activeIndex === i ? ' is-active' : ''}`}
-            href={m.url}
-            target="_blank"
-            rel="noopener"
-            style={{ left: `${m.leftPct}%`, top: `${m.topPct}%` }}
-            aria-label={`${m.city}, ${m.country} — open site`}
-            onMouseEnter={() => onHover(i)}
-            onMouseLeave={() => onHover(null)}
-            onFocus={() => onHover(i)}
-            onBlur={() => onHover(null)}
-          >
-            <span className="ring" style={{ animationDelay: `${0.9 * i}s` }} />
-            <span className="dot" />
-            <span className="tip">
-              {m.city}
-              <i>{m.country}</i>
-            </span>
-          </a>
-        ))}
+          {markers.map((m, i) => {
+            const flipped = boxHeight > 0 && (m.topPct / 100) * boxHeight < TIP_CLEARANCE
+            return (
+              <a
+                key={`${m.city}-${i}`}
+                className={`marker${activeIndex === i ? ' is-active' : ''}${flipped ? ' tip-below' : ''}`}
+                href={m.url}
+                target="_blank"
+                rel="noopener"
+                style={{ left: `${m.leftPct}%`, top: `${m.topPct}%` }}
+                aria-label={`${m.city}, ${m.country} — open site`}
+                onClick={(e) => {
+                  if (!coarse) return
+                  // Enter on a focused marker also lands here, reporting no
+                  // click count. Swallowing it would strand keyboard users:
+                  // blur clears the selection, so the strip's link unmounts
+                  // before it can be reached. Let the anchor navigate.
+                  if (e.detail === 0) return
+                  // First tap selects; the strip below opens the site.
+                  e.preventDefault()
+                  e.stopPropagation()
+                  onHover(i)
+                }}
+                onMouseEnter={() => onHover(i)}
+                onMouseLeave={() => onHover(null)}
+                onFocus={() => onHover(i)}
+                onBlur={() => onHover(null)}
+              >
+                <span className="ring" style={{ animationDelay: `${0.9 * i}s` }} />
+                <span className="dot" />
+                <span className="tip">
+                  {m.city}
+                  <i>{m.country}</i>
+                </span>
+              </a>
+            )
+          })}
+        </div>
       </div>
-    </div>
+
+      {coarse && (
+        <div className="mt-[10px] flex min-h-[62px] items-center justify-between gap-4 rounded-[6px] border border-line bg-surface px-[18px] py-[13px]">
+          {selected ? (
+            <>
+              <span className="min-w-0">
+                <span className="block truncate text-base font-bold tracking-[-0.01em] text-strong">
+                  {selected.city}
+                </span>
+                <span className="mt-[3px] block font-mono text-[11px] uppercase tracking-[0.08em] text-muted">
+                  {selected.country}
+                </span>
+              </span>
+              <a
+                href={selected.url}
+                target="_blank"
+                rel="noopener"
+                className="shrink-0 font-mono text-[11px] tracking-[0.06em] text-kyra-orange no-underline"
+              >
+                visit ↗
+              </a>
+            </>
+          ) : (
+            <span className="font-mono text-[11.5px] tracking-[0.04em] text-faint">
+              Tap a marker to see the city
+            </span>
+          )}
+        </div>
+      )}
+    </>
   )
 }

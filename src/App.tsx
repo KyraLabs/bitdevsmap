@@ -132,7 +132,9 @@ export default function App() {
                 onHover={setActiveIndex}
               />
               <div className="mt-[14px] flex flex-wrap justify-between gap-x-5 gap-y-[10px] font-mono text-[11.5px] tracking-[0.04em] text-faint">
-                <span>
+                {/* Touch has no hover: there the map's own details strip
+                    carries the equivalent hint. */}
+                <span className="[@media(hover:none)]:hidden">
                   <span className="text-muted">Interaction</span> &nbsp;·&nbsp; hover
                   to see the city, click to open the site
                 </span>

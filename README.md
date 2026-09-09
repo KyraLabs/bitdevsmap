@@ -51,6 +51,13 @@ can be installed to a home screen and keeps working without a connection:
 Service workers only run over HTTPS (or `localhost`) and are not registered by
 the dev server, so use `bun run build && bun run preview` to exercise them.
 
+## Fedi mini app
+
+The same build runs as a mini app inside [Fedi](https://www.fedi.xyz/)'s in-app
+browser, so a Fedi community can open the map from its home screen.
+[`docs/fedi-mini-app.md`](docs/fedi-mini-app.md) has the entry a federation adds
+to its meta config, and what the app changes when it detects the webview.
+
 ## Add your city
 
 There are two ways to get a city onto the map. Pick whichever you are comfortable
@@ -106,7 +113,9 @@ changes are needed.
 .github/
   ISSUE_TEMPLATE/add-city.yml   Guided form for the "add a city" issue
   pull_request_template.md      Checklist shown when opening a PR
-docs/                           Original Claude Design reference (static HTML)
+docs/
+  BitDevs Map.html              Original Claude Design reference (static HTML)
+  fedi-mini-app.md              Running the site as a mini app inside Fedi
 public/
   favicon.svg                   Brand favicon
   pwa-*.png, maskable-*.png     Installable app icons
@@ -116,6 +125,7 @@ src/
   data/bitdevs.json             City data — edit this to add a city
   components/                   TopBar, Hero, WorldMap, CityIndex, Footer
   types.ts                      The BitDev type
+  fedi.ts                       Detection of Fedi's mini app webview
   index.css                     Tailwind theme tokens + map component styles
   App.tsx, main.tsx             App entry points
 ```
