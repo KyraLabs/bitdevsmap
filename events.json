@@ -1,0 +1,83 @@
+{
+  "minneapolis": {
+    "id": "minneapolis",
+    "fetchedAt": "2026-11-07T12:30:50.986Z",
+    "events": [
+      {
+        "title": "Socratic Seminar 44",
+        "url": "https://bitdevsmpls.org/2026-11-17-socratic-seminar-44",
+        "date": "2026-11-17"
+      },
+      {
+        "title": "Socratic Seminar 45",
+        "url": "https://bitdevsmpls.org/2026-12-08-socratic-seminar-45",
+        "date": "2026-12-08"
+      }
+    ]
+  },
+  "nashville": {
+    "id": "nashville",
+    "fetchedAt": "2026-11-07T12:30:50.986Z",
+    "events": [
+      {
+        "title": "NashBitDevs Socratic Seminar #49",
+        "url": "https://nashbitdevs.org/socratic-seminar-49/",
+        "date": "2026-11-10"
+      }
+    ]
+  },
+  "new-york": {
+    "id": "new-york",
+    "fetchedAt": "2026-11-07T12:30:50.986Z",
+    "events": [
+      {
+        "title": "Socratic Seminar 164",
+        "url": "https://bitdevs.org/2026-11-19-socratic-seminar-164",
+        "date": "2026-11-19"
+      }
+    ]
+  },
+  "san-juan": {
+    "id": "san-juan",
+    "fetchedAt": "2026-11-07T12:30:50.986Z",
+    "events": [
+      {
+        "title": "Socratic Seminar 31",
+        "url": "https://sanjuanbitdevs.org/2026-12-02-socratic-seminar-31",
+        "date": "2026-12-02"
+      },
+      {
+        "title": "Socratic Seminar 32",
+        "url": "https://sanjuanbitdevs.org/2027-01-26-socratic-seminar-32",
+        "date": "2027-01-26"
+      }
+    ]
+  },
+  "sao-paulo": {
+    "id": "sao-paulo",
+    "fetchedAt": "2026-11-07T12:30:50.986Z",
+    "events": [
+      {
+        "title": "Seminário Socrático 050",
+        "url": "https://saopaulobitdevs.org/2026-11-26-socratic-seminar-050",
+        "date": "2026-11-26"
+      },
+      {
+        "title": "Seminário Socrático 051",
+        "url": "https://saopaulobitdevs.org/2026-12-17-socratic-seminar-051",
+        "date": "2026-12-17"
+      }
+    ]
+  },
+  "vancouver": {
+    "id": "vancouver",
+    "fetchedAt": "2026-11-07T12:30:50.986Z",
+    "events": [
+      {
+        "title": "Vancouver Socratic 043",
+        "url": "https://bitdevs.ca/2026-11-24-vancouver-socratic-43",
+        "date": "2026-11-24"
+      }
+    ]
+  }
+}
