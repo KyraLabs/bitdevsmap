@@ -1,0 +1,127 @@
+{
+  "amsterdam": {
+    "id": "amsterdam",
+    "fetchedAt": "2026-11-14T13:00:29.839Z",
+    "events": [
+      {
+        "title": "BitDevs Rotterdam, December 3, 2026",
+        "url": "https://bitdevsamsterdam.org/2026-12-03-december-bitdevs-rotterdam",
+        "date": "2026-12-03"
+      }
+    ]
+  },
+  "barcelona": {
+    "id": "barcelona",
+    "fetchedAt": "2026-11-14T13:00:29.839Z",
+    "events": [
+      {
+        "title": "Seminari Socràtic #18",
+        "url": "https://bitdevsbarcelona.org/socratic-seminar-18/",
+        "date": "2026-11-24"
+      }
+    ]
+  },
+  "florianopolis": {
+    "id": "florianopolis",
+    "fetchedAt": "2026-11-14T13:00:29.839Z",
+    "events": [
+      {
+        "title": "Seminário Socrático #37",
+        "url": "https://floripabitdevs.org/2026-12-10-socratic-seminar-37",
+        "date": "2026-12-10"
+      }
+    ]
+  },
+  "minneapolis": {
+    "id": "minneapolis",
+    "fetchedAt": "2026-11-14T13:00:29.839Z",
+    "events": [
+      {
+        "title": "Socratic Seminar 44",
+        "url": "https://bitdevsmpls.org/2026-11-17-socratic-seminar-44",
+        "date": "2026-11-17"
+      },
+      {
+        "title": "Socratic Seminar 45",
+        "url": "https://bitdevsmpls.org/2026-12-08-socratic-seminar-45",
+        "date": "2026-12-08"
+      }
+    ]
+  },
+  "new-york": {
+    "id": "new-york",
+    "fetchedAt": "2026-11-14T13:00:29.839Z",
+    "events": [
+      {
+        "title": "Socratic Seminar 164",
+        "url": "https://bitdevs.org/2026-11-19-socratic-seminar-164",
+        "date": "2026-11-19"
+      }
+    ]
+  },
+  "porto-alegre": {
+    "id": "porto-alegre",
+    "fetchedAt": "2026-11-14T13:00:29.839Z",
+    "events": [
+      {
+        "title": "Seminário Socrático 019",
+        "url": "https://poabitdevs.org/2026-11-25-socratic-seminar-019",
+        "date": "2026-11-25"
+      }
+    ]
+  },
+  "san-juan": {
+    "id": "san-juan",
+    "fetchedAt": "2026-11-14T13:00:29.839Z",
+    "events": [
+      {
+        "title": "Socratic Seminar 31",
+        "url": "https://sanjuanbitdevs.org/2026-12-02-socratic-seminar-31",
+        "date": "2026-12-02"
+      },
+      {
+        "title": "Socratic Seminar 32",
+        "url": "https://sanjuanbitdevs.org/2027-01-26-socratic-seminar-32",
+        "date": "2027-01-26"
+      }
+    ]
+  },
+  "sao-paulo": {
+    "id": "sao-paulo",
+    "fetchedAt": "2026-11-14T13:00:29.839Z",
+    "events": [
+      {
+        "title": "Seminário Socrático 050",
+        "url": "https://saopaulobitdevs.org/2026-11-26-socratic-seminar-050",
+        "date": "2026-11-26"
+      },
+      {
+        "title": "Seminário Socrático 051",
+        "url": "https://saopaulobitdevs.org/2026-12-17-socratic-seminar-051",
+        "date": "2026-12-17"
+      }
+    ]
+  },
+  "toronto": {
+    "id": "toronto",
+    "fetchedAt": "2026-11-14T13:00:29.839Z",
+    "events": [
+      {
+        "title": "Toronto Socratic 003",
+        "url": "https://bitdevs.to/2026-12-toronto-socratic-03",
+        "date": "2026-12-01"
+      }
+    ]
+  },
+  "vancouver": {
+    "id": "vancouver",
+    "fetchedAt": "2026-11-14T13:00:29.839Z",
+    "events": [
+      {
+        "title": "Vancouver Socratic 043",
+        "url": "https://bitdevs.ca/2026-11-24-vancouver-socratic-43",
+        "date": "2026-11-24"
+      }
+    ]
+  }
+}
